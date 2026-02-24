@@ -1,0 +1,123 @@
+.countdown {
+    background: linear-gradient(135deg, #240d0d 0%, #2e1111 50%, #1c0a0a 100%);
+    text-align: center;
+}
+
+.countdown__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.countdown__eyebrow {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FF7849;
+    margin-bottom: 8px;
+}
+
+.countdown__track {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Glass digit cards */
+.countdown__digit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 28px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(24px) saturate(160%);
+    -webkit-backdrop-filter: blur(24px) saturate(160%);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.14),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+    min-width: 110px;
+    margin: 8px;
+    transition: all var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+/* top-edge glow */
+.countdown__digit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(220, 47, 2, 0.6), transparent);
+}
+
+.countdown__digit:hover {
+    border-color: rgba(220, 47, 2, 0.45);
+    box-shadow:
+        0 12px 40px rgba(220, 47, 2, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.09);
+}
+
+.countdown__number {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1;
+    background: var(--gradient-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-variant-numeric: tabular-nums;
+    min-width: 2.5ch;
+    text-align: center;
+}
+
+.countdown__label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.countdown__sep {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 900;
+    color: var(--accent-orange);
+    opacity: 0.5;
+    padding: 0 4px;
+    line-height: 1;
+    align-self: center;
+    animation: blink 1s step-end infinite;
+    margin-top: -20px;
+}
+
+.countdown__date-note {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+@media (max-width: 540px) {
+    .countdown__digit {
+        min-width: 70px;
+        padding: 16px 12px;
+        margin: 4px;
+    }
+
+    .countdown__sep {
+        padding: 0 2px;
+    }
+}

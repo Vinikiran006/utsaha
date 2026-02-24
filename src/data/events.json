@@ -1,0 +1,218 @@
+[
+    {
+        "id": "evt-01",
+        "title": "Battle of Bands",
+        "category": "Cultural",
+        "date": "April 10, 2026",
+        "time": "4:00 PM",
+        "shortDescription": "Unleash your musical talent in this epic rock & pop showdown. Solo artists and bands welcome!",
+        "description": "Battle of Bands is the flagship cultural event of Utsaha Vaibhava. This high-energy competition invites musicians from across colleges to showcase their talent in rock, pop, fusion, and indie genres. Expect an electric crowd, professional sound systems, and an unforgettable night of music!",
+        "rules": [
+            "Each team can have 2–8 members",
+            "Performance duration: 8–12 minutes",
+            "Own instruments must be brought; PA system will be provided",
+            "No pre-recorded tracks (backing tracks allowed for specific instruments only)",
+            "Vulgar or offensive content is strictly prohibited",
+            "Decision of judges is final"
+        ],
+        "eligibility": "Open to all college students with valid ID proof",
+        "prizes": {
+            "first": "₹10,000 + Trophy",
+            "second": "₹6,000 + Medal",
+            "third": "₹3,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Rohan Mehta",
+            "phone": "+91 98765 43210",
+            "email": "rohan.mehta@utsaha.ac.in"
+        },
+        "teamSize": "2–8",
+        "venue": "Main Auditorium",
+        "registrationFee": "₹200 per team"
+    },
+    {
+        "id": "evt-02",
+        "title": "Code Odyssey",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "A 4-hour coding marathon spanning algorithms, data structures, and real-world problem solving.",
+        "description": "Code Odyssey is the ultimate competitive programming challenge at Utsaha Vaibhava. Participants will tackle progressively harder algorithmic questions within a time limit. The event tests speed, accuracy, and creative thinking. Problems span multiple domains including dynamic programming, graph theory, and system design.",
+        "rules": [
+            "Individual participation only",
+            "Duration: 4 hours",
+            "Languages allowed: C, C++, Java, Python",
+            "Internet browsing is strictly prohibited",
+            "Use of AI tools or code generators is not allowed",
+            "All solutions will be tested on hidden test cases"
+        ],
+        "eligibility": "UG/PG students of any engineering branch",
+        "prizes": {
+            "first": "₹8,000 + Certificate",
+            "second": "₹5,000 + Certificate",
+            "third": "₹3,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": 1,
+        "venue": "CS Lab, Block A",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "evt-03",
+        "title": "Nritya Sangam",
+        "category": "Cultural",
+        "date": "April 11, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A classical and contemporary dance competition celebrating India's rich dance heritage.",
+        "description": "Nritya Sangam is a vibrant dance competition that celebrates both classical and contemporary Indian dance forms. From Bharatanatyam to Bollywood fusion, this event is a visual feast of grace, expression, and energy. Groups and soloists are both welcome to perform.",
+        "rules": [
+            "Solo or group (up to 10 members)",
+            "Performance time: 5–10 minutes",
+            "Music must be submitted 48 hours in advance",
+            "Entry in Indian classical or contemporary forms only",
+            "Props and costumes allowed"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹7,000 + Trophy",
+            "second": "₹4,000 + Medal",
+            "third": "₹2,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Ananya Sharma",
+            "phone": "+91 76543 21098",
+            "email": "ananya.sharma@utsaha.ac.in"
+        },
+        "teamSize": "1–10",
+        "venue": "Open Air Theatre",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "evt-04",
+        "title": "Hackathon 24",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "9:00 AM",
+        "shortDescription": "A 24-hour hackathon — build innovative solutions for real-world problems. Mentors and goodies included!",
+        "description": "Hackathon 24 is Utsaha Vaibhava's flagship technical event — a 24-hour non-stop innovation challenge where teams build functional prototypes addressing real-world problems in domains like Healthcare, EdTech, FinTech, and Smart Cities. Industry mentors, cloud credits, and amazing goodies await!",
+        "rules": [
+            "Teams of 2–4 members",
+            "Work must be original and built during the hackathon period",
+            "Teams must present a working prototype at the end",
+            "Use of public APIs and open-source libraries is allowed",
+            "Plagiarism will lead to immediate disqualification",
+            "All domains welcome; bonus for social impact projects"
+        ],
+        "eligibility": "Engineering/Computer Science students",
+        "prizes": {
+            "first": "₹20,000 + Internship Opportunity",
+            "second": "₹12,000",
+            "third": "₹6,000"
+        },
+        "coordinator": {
+            "name": "Arjun Kapoor",
+            "phone": "+91 65432 10987",
+            "email": "arjun.kapoor@utsaha.ac.in"
+        },
+        "teamSize": "2–4",
+        "venue": "Innovation Hub, Block C",
+        "registrationFee": "₹300 per team"
+    },
+    {
+        "id": "evt-05",
+        "title": "Cricket Blitz",
+        "category": "Sports",
+        "date": "April 10, 2026",
+        "time": "8:00 AM",
+        "shortDescription": "A thrilling T10 inter-college cricket tournament on the college's turf ground.",
+        "description": "Cricket Blitz is a fast-paced T10 cricket tournament where college teams compete for glory on the field. With 10-over matches and knockout rounds, the action never stops. Cheer squads, live commentary, and trophies for winners!",
+        "rules": [
+            "11 players per team + 4 substitutes",
+            "T10 format (10 overs per side)",
+            "Tape-ball cricket on turf ground",
+            "LBW rule applicable",
+            "No-ball and wide-ball rules apply",
+            "Tournament committee's decision is final"
+        ],
+        "eligibility": "Male students from any college with valid ID",
+        "prizes": {
+            "first": "Rolling Trophy + ₹5,000",
+            "second": "Runner Trophy + ₹2,500",
+            "mvp": "Man of the Tournament Award"
+        },
+        "coordinator": {
+            "name": "Vikram Rathore",
+            "phone": "+91 54321 09876",
+            "email": "vikram.rathore@utsaha.ac.in"
+        },
+        "teamSize": "11–15",
+        "venue": "College Cricket Ground",
+        "registrationFee": "₹500 per team"
+    },
+    {
+        "id": "evt-06",
+        "title": "Gaming Arena",
+        "category": "Fun & Gaming",
+        "date": "April 11, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "BGMI & Free Fire esports tournament — compete for the Chicken Dinner and cash prizes!",
+        "description": "Gaming Arena is the most electrifying esports event at Utsaha Vaibhava! Compete in BGMI (Battlegrounds Mobile India) and Free Fire squad tournaments for glory and cash prizes. High-end gaming setup, live streaming, and a roaring crowd make this a truly esports-grade experience.",
+        "rules": [
+            "BGMI: 4-player squads; Free Fire: 4-player squads",
+            "Own devices must be brought (iOS/Android)",
+            "Emulators are not allowed",
+            "Accounts must be at least Diamond rank for BGMI",
+            "Hacking or use of mods leads to immediate ban",
+            "Stable internet will be provided"
+        ],
+        "eligibility": "All college students with valid ID",
+        "prizes": {
+            "first": "₹6,000 per squad + Trophy",
+            "second": "₹3,000 per squad",
+            "third": "₹1,500 per squad"
+        },
+        "coordinator": {
+            "name": "Siddharth Rao",
+            "phone": "+91 43210 98765",
+            "email": "siddharth.rao@utsaha.ac.in"
+        },
+        "teamSize": 4,
+        "venue": "Gaming Zone, Student Centre",
+        "registrationFee": "₹200 per squad"
+    },
+    {
+        "id": "evt-07",
+        "title": "Robo Rumble",
+        "category": "Technical",
+        "date": "April 11, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "Design, build, and battle your robot in India's most exciting college robotics competition.",
+        "description": "Robo Rumble is the engineering marvel of Utsaha Vaibhava. Teams design and build autonomous or semi-autonomous robots and compete in an obstacle course and combat arena. This event tests mechanical design, electronics, and programming skills — all in one thrilling package.",
+        "rules": [
+            "Teams of 2–5 members",
+            "Robots must not exceed 25kg in weight",
+            "Robot dimensions: max 40cm x 40cm x 40cm",
+            "No flammable or corrosive substances allowed",
+            "Remote-controlled and autonomous bots both allowed",
+            "Each team gets 2 matches in the arena"
+        ],
+        "eligibility": "Engineering students (any branch)",
+        "prizes": {
+            "first": "₹15,000 + Trophy",
+            "second": "₹8,000 + Medal",
+            "third": "₹4,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Meera Pillai",
+            "phone": "+91 32109 87654",
+            "email": "meera.pillai@utsaha.ac.in"
+        },
+        "teamSize": "2–5",
+        "venue": "Robotics Arena, Block B",
+        "registrationFee": "₹400 per team"
+    }
+]
