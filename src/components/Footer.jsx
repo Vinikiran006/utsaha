@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom'
+import { Instagram, Twitter, Facebook, Linkedin } from 'lucide-react'
 import './Footer.css'
+import logo from '../assets/logo.png'
+
 
 const SOCIAL_LINKS = [
-    { label: 'Instagram', href: '#', icon: '📸' },
-    { label: 'Twitter', href: '#', icon: '🐦' },
-    { label: 'Facebook', href: '#', icon: '📘' },
-    { label: 'LinkedIn', href: '#', icon: '💼' },
+    { label: 'Instagram', href: '#', icon: Instagram },
+    { label: 'Twitter', href: '#', icon: Twitter },
+    { label: 'Facebook', href: '#', icon: Facebook },
+    { label: 'LinkedIn', href: '#', icon: Linkedin },
 ]
 
 const QUICK_LINKS = [
@@ -22,21 +25,21 @@ export default function Footer() {
             <div className="footer__body container">
                 <div className="footer__brand">
                     <div className="footer__logo">
-                        <span className="footer__logo-uv">UV</span>
-                        <div>
-                            <div className="footer__logo-title">Utsaha Vaibhava</div>
-                            <div className="footer__logo-sub">Annual College Fest 2026</div>
-                        </div>
-                    </div>
+    <img src={logo} alt="Utsaha Vaibhava Logo" className="footer__logo-img" />
+    <div>
+        <div className="footer__logo-title">Utsaha Vaibhava</div>
+        <div className="footer__logo-sub">Annual College Fest 2026</div>
+    </div>
+</div>
                     <p className="footer__tagline">
                         Igniting passion, celebrating talent, and creating memories that last a lifetime. April 10 & 11, 2026.
                     </p>
                     <div className="footer__socials">
                         {SOCIAL_LINKS.map((s) => (
-                            <a key={s.label} href={s.href} className="footer__social-btn" title={s.label} aria-label={s.label}>
-                                {s.icon}
-                            </a>
-                        ))}
+    <a key={s.label} href={s.href} className="footer__social-btn">
+        <s.icon size={18} />
+    </a>
+))}
                     </div>
                 </div>
 

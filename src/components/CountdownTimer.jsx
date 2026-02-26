@@ -45,10 +45,10 @@ export default function CountdownTimer() {
             <div className="container countdown__inner">
                 <div className="section-header reveal">
                     <p className="countdown__eyebrow">
-                        ⏳ Get Ready For The Big Day
+                        ⏳ Tick Tock
                     </p>
                     <h2 className="section-title">
-                        Countdown To <span className="gradient-text">Utsaha Vaibhava</span>
+                        Time Is <span className="gradient-text">Running Out</span>
                     </h2>
                     <div className="divider" style={{ margin: '16px auto 0' }} />
                 </div>

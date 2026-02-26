@@ -20,7 +20,7 @@ export default function SponsorSection() {
                 <div className="section-header reveal">
                     <p className="sponsors__eyebrow">🤝 Our Partners</p>
                     <h2 className="section-title">
-                        Our <span className="gradient-text">Sponsors</span>
+                        OUR <span className="gradient-text">SPONSORS</span>
                     </h2>
                     <div className="divider" />
                     <p className="section-subtitle">

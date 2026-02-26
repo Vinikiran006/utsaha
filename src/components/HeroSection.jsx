@@ -34,7 +34,7 @@ export default function HeroSection() {
                 <h1 className="hero__title animate-fadein-delay-2">
                     <span className="hero__title-prefix">Welcome to</span>
                     <span className="hero__title-main">
-                        Utsaha<br />Vaibhava
+                        UTSAHA<br />VAIBHAVA
                     </span>
                 </h1>
 

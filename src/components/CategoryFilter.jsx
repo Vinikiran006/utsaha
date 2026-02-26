@@ -1,13 +1,13 @@
 import './CategoryFilter.css'
 
-const CATEGORIES = ['All', 'Cultural', 'Technical', 'Sports', 'Fun & Gaming']
+const CATEGORIES = ['All', 'Main Stage', 'Cultural', 'Technical', 'Literary']
 
 const CATEGORY_ICONS = {
-    'All': '✨',
-    'Cultural': '🎭',
-    'Technical': '💻',
-    'Sports': '⚽',
-    'Fun & Gaming': '🎮',
+    All: '✨',
+    'Main Stage': '🎤',
+    Cultural: '🎭',
+    Technical: '💻',
+    Literary: '📖',
 }
 
 export default function CategoryFilter({ active, onSelect }) {

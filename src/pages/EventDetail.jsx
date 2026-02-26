@@ -6,10 +6,10 @@ import eventsData from '../data/events.json'
 import './EventDetail.css'
 
 const CATEGORY_COLORS = {
-    Cultural: { bg: '#3d0a0a', accent: '#FF6B6B', icon: '🎭' },
-    Technical: { bg: '#1a0d33', accent: '#a78bfa', icon: '💻' },
-    Sports: { bg: '#0a2a1e', accent: '#34d399', icon: '⚽' },
-    'Fun & Gaming': { bg: '#2d1a00', accent: '#fbbf24', icon: '🎮' },
+    'Main Stage': { bg: '#3d0a0a', accent: '#FF7849', icon: '🎤' },
+    Cultural: { bg: '#3d0a0a', accent: '#E85D04', icon: '🎭' },
+    Technical: { bg: '#370617', accent: '#F48C06', icon: '💻' },
+    Literary: { bg: '#240d0d', accent: '#DC2F02', icon: '📖' },
 }
 
 export default function EventDetail() {
@@ -42,7 +42,7 @@ export default function EventDetail() {
         )
     }
 
-    const catMeta = CATEGORY_COLORS[event.category] || CATEGORY_COLORS.Cultural
+    const catMeta = CATEGORY_COLORS[event.category] || CATEGORY_COLORS['Main Stage']
 
     return (
         <div className="event-detail">
@@ -52,12 +52,17 @@ export default function EventDetail() {
                 style={{ background: `linear-gradient(135deg, ${catMeta.bg}, #1c0a0a 70%)` }}
             >
                 <div className="event-detail__banner-blob" />
+                {event.poster && (
+                    <div className="event-detail__banner-poster">
+                        <img src={event.poster} alt={event.title} />
+                    </div>
+                )}
                 <div className="container event-detail__banner-inner">
                     <button className="event-detail__back" onClick={() => navigate(-1)}>
                         ← Back to Events
                     </button>
                     <div className="event-detail__header-content">
-                        <div className="event-detail__banner-icon">{catMeta.icon}</div>
+                        {/* <div className="event-detail__banner-icon">{catMeta.icon}</div> */}
                         <div>
                             <div className="event-detail__category-tag badge" style={{
                                 background: `${catMeta.accent}18`,

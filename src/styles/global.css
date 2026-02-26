@@ -478,28 +478,28 @@ ul {
 }
 
 /* Category Colors */
-.cat-cultural {
+.cat-mainstage {
   background: rgba(61, 10, 10, 0.7);
-  color: #FF6B6B;
-  border-color: rgba(255, 107, 107, 0.25);
+  color: #FF7849;
+  border-color: rgba(255, 120, 73, 0.3);
+}
+
+.cat-cultural {
+  background: rgba(232, 93, 4, 0.15);
+  color: #FF9A6C;
+  border-color: rgba(232, 93, 4, 0.3);
 }
 
 .cat-technical {
-  background: rgba(26, 13, 51, 0.7);
-  color: #a78bfa;
-  border-color: rgba(167, 139, 250, 0.25);
+  background: rgba(244, 140, 6, 0.15);
+  color: #F48C06;
+  border-color: rgba(244, 140, 6, 0.3);
 }
 
-.cat-sports {
-  background: rgba(10, 42, 30, 0.7);
-  color: #34d399;
-  border-color: rgba(52, 211, 153, 0.25);
-}
-
-.cat-gaming {
-  background: rgba(45, 26, 0, 0.7);
-  color: #fbbf24;
-  border-color: rgba(251, 191, 36, 0.25);
+.cat-literary {
+  background: rgba(220, 47, 2, 0.15);
+  color: #FF6B6B;
+  border-color: rgba(220, 47, 2, 0.3);
 }
 
 /* Loading */

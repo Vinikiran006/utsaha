@@ -2,30 +2,35 @@ import { Link } from 'react-router-dom'
 import './EventCard.css'
 
 const CATEGORY_COLORS = {
+    'Main Stage': 'cat-mainstage',
     Cultural: 'cat-cultural',
     Technical: 'cat-technical',
-    Sports: 'cat-sports',
-    'Fun & Gaming': 'cat-gaming',
+    Literary: 'cat-literary',
 }
 
 const CATEGORY_ICONS = {
+    'Main Stage': '🎤',
     Cultural: '🎭',
     Technical: '💻',
-    Sports: '⚽',
-    'Fun & Gaming': '🎮',
+    Literary: '📖',
 }
 
 export default function EventCard({ event }) {
-    const { id, title, category, date, time, shortDescription, registrationFee, venue } = event
-    const catClass = CATEGORY_COLORS[category] || 'badge-orange'
+    const { id, title, category, date, time, shortDescription, registrationFee, venue, poster } = event
+    const catClass = CATEGORY_COLORS[category] || 'cat-mainstage'
     const catIcon = CATEGORY_ICONS[category] || '🎪'
+    const bgClass = `event-card__bg--${category.toLowerCase().replace(/ /g, '-')}`
 
     return (
         <div className="event-card glass-card">
             <div className="event-card__image-wrap">
-                <div className={`event-card__image-placeholder event-card__bg--${category.toLowerCase().replace(/ & /g, '-')}`}>
-                    <span className="event-card__icon">{catIcon}</span>
-                </div>
+                {poster ? (
+                    <img src={poster} alt={title} className="event-card__image" />
+                ) : (
+                    <div className={`event-card__image-placeholder ${bgClass}`}>
+                        <span className="event-card__icon">{catIcon}</span>
+                    </div>
+                )}
                 <span className={`event-card__category-badge badge ${catClass}`}>
                     {catIcon} {category}
                 </span>
@@ -59,7 +64,7 @@ export default function EventCard({ event }) {
                 </div>
 
                 <Link to={`/events/${id}`} className="btn btn-primary event-card__cta">
-                    View Details & Register →
+                    View Details &amp; Register →
                 </Link>
             </div>
         </div>

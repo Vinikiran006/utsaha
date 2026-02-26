@@ -7,9 +7,17 @@
 
     width: max-content;
 
-    padding: 0; /* remove vertical padding */
+    padding: 0;
+    /* remove vertical padding */
 
-    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar--hidden {
+    transform: translateX(-50%) translateY(-150%);
+    opacity: 0;
+    pointer-events: none;
 }
 
 /* .navbar--scrolled {
@@ -59,6 +67,7 @@
     width: auto;
     object-fit: contain;
 }
+
 .logo-uv {
     width: 44px;
     height: 44px;
@@ -73,18 +82,23 @@
     flex-shrink: 0;
     box-shadow: 0 4px 14px rgba(220, 47, 2, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
+
 .btn-register {
     background: linear-gradient(135deg, #ff6a00, #ff3c00);
     color: white;
 
-    padding: 4px 14px;        /* small height */
-    font-size: 13px;          /* smaller text */
+    padding: 4px 14px;
+    /* small height */
+    font-size: 13px;
+    /* smaller text */
     font-weight: 600;
 
-    border-radius: 18px;      /* pill look */
+    border-radius: 18px;
+    /* pill look */
     border: none;
 
-    height: 32px;             /* force smaller height */
+    height: 32px;
+    /* force smaller height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,22 +144,37 @@
     font-weight: 500;
     color: var(--text-secondary);
     transition: all var(--transition-fast);
+    position: relative;
+}
+
+.navbar__link::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 60%;
+    height: 2px;
+    background: var(--gradient-orange);
+    border-radius: 2px;
+    transition: transform 0.3s ease;
 }
 
 .navbar__link:hover {
     color: #FF7849;
-    background: rgba(220, 47, 2, 0.12);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+}
+
+.navbar__link:hover::after {
+    transform: translateX(-50%) scaleX(1);
 }
 
 .navbar__link--active {
     color: #FF7849;
-    background: rgba(220, 47, 2, 0.15);
     font-weight: 600;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar__link--active::after {
+    transform: translateX(-50%) scaleX(1);
 }
 
 .navbar__actions {
@@ -242,6 +271,7 @@
         display: flex;
     }
 }
+
 @media (max-width: 768px) {
     .navbar {
         width: 92%;

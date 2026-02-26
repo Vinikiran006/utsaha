@@ -43,14 +43,17 @@ export default function Navbar() {
         }
     }
 
+    const isEventsPage = location.pathname === '/events'
+    const hideNavbar = isEventsPage && scrolled
+
     return (
-        <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
+        <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''} ${hideNavbar ? 'navbar--hidden' : ''}`}>
             <div className="navbar__inner container">
                 {/* Logo */}
                 <Link to="/" className="navbar__logo">
-    <img src={logo} alt="Main Logo" className="navbar__logo-img" />
-   
-</Link>
+                    <img src={logo} alt="Main Logo" className="navbar__logo-img" />
+
+                </Link>
 
                 {/* Desktop Nav */}
                 <nav className="navbar__links hide-mobile">

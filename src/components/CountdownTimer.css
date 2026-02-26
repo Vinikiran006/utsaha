@@ -1,6 +1,20 @@
 .countdown {
-    background: linear-gradient(135deg, #240d0d 0%, #2e1111 50%, #1c0a0a 100%);
+    background: linear-gradient(135deg, #240d0d 0%, #370617 40%, #2e1111 70%, #1c0a0a 100%);
+    position: relative;
     text-align: center;
+    overflow: hidden;
+}
+
+.countdown::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(220, 47, 2, 0.15) 0%, transparent 70%);
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
 }
 
 .countdown__inner {

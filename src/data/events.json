@@ -1,19 +1,248 @@
 [
     {
-        "id": "evt-01",
-        "title": "Battle of Bands",
+        "id": "ms-01",
+        "title": "ROAR",
+        "category": "Main Stage",
+        "date": "April 10, 2026",
+        "time": "6:00 PM",
+        "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
+        "description": "ROAR is the thrilling bike auto show fest at BMS Institute of Technology and Management (BMSIT&M), renowned for its competition to find the loudest rev. This high-octane event draws motorcycle enthusiasts and participants eager to showcase their bikes' power and sound.",
+        "rules": [
+            "Entry by valid college ID only",
+            "No professional artists allowed",
+            "Performance time: up to 20 minutes",
+            "Decision of judges is final"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹15,000 + Trophy",
+            "second": "₹8,000 + Medal",
+            "third": "₹4,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Arjun Kapoor",
+            "phone": "+91 98765 43210",
+            "email": "arjun.kapoor@utsaha.ac.in"
+        },
+        "venue": "Main Stage",
+        "registrationFee": "₹300 per team"
+    },
+    {
+        "id": "ms-02",
+        "title": "Fashion Show",
+        "poster":"src/assets/fashion.jpeg",
+        "category": "Main Stage",
+        "date": "April 10, 2026",
+        "time": "8:00 PM",
+        "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
+        "description": "The Fashion Show at Utsaha Vaibhava is the most glamorous event on the main stage. Teams create stunning outfits around a theme and walk the runway with flair and attitude. Judges evaluate creativity, coordination, confidence, and presentation.",
+        "rules": [
+            "Teams of 5–15 members",
+            "Theme will be revealed 1 week before the event",
+            "Outfits must be self-made or customised",
+            "Walk time: 5–8 minutes per team",
+            "No offensive or indecent attire allowed"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹12,000 + Best Designer Trophy",
+            "second": "₹7,000 + Medal",
+            "third": "₹3,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": "5–15",
+        "venue": "Main Stage",
+        "registrationFee": "₹400 per team"
+    },
+    {
+        "id": "ms-03",
+        "title": "DJ Night",
+        "poster":"src/assets/dj.jpeg",
+        "category": "Main Stage",
+        "date": "April 11, 2026",
+        "time": "7:00 PM",
+        "shortDescription": "Dance till midnight — a high-energy DJ night with professional DJs, laser lights and epic drops.",
+        "description": "DJ Night is the ultimate party closer for Utsaha Vaibhava 2026. Professional DJs will take over the main stage with chart-topping mixes, festival anthems, and non-stop beats. Lasers, fog machines, and a crowd-fuelled atmosphere guarantee a night nobody will forget.",
+        "rules": [
+            "Open entry for registered college students",
+            "No alcohol or prohibited substances allowed on campus",
+            "Follow security instructions at all times"
+        ],
+        "eligibility": "Open to all registered attendees",
+        "prizes": {},
+        "coordinator": {
+            "name": "Siddharth Rao",
+            "phone": "+91 76543 21098",
+            "email": "siddharth.rao@utsaha.ac.in"
+        },
+        "teamSize": "Individual",
+        "venue": "Main Stage Grounds",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "ms-04",
+        "title": "Let's Nach",
+        "category": "Main Stage",
+        "date": "April 10, 2026",
+        "time": "5:00 PM",
+        "shortDescription": "A mass flash-mob dance event where everyone joins in — no experience needed, just pure energy!",
+        "description": "Let's Nach is an inclusive, high-energy flash mob dance event on the main stage. A specially choreographed routine is taught on the spot and everyone dances together. Whether you have two left feet or professional training, this is for YOU. Pure joy, pure energy!",
+        "rules": [
+            "Open to all — no registration needed",
+            "Follow choreographers' instructions",
+            "Appropriate attire required"
+        ],
+        "eligibility": "Open to everyone",
+        "prizes": {
+            "best": "Surprise gifts for standout dancers"
+        },
+        "coordinator": {
+            "name": "Ananya Sharma",
+            "phone": "+91 65432 10987",
+            "email": "ananya.sharma@utsaha.ac.in"
+        },
+        "teamSize": "Individual",
+        "venue": "Main Stage",
+        "registrationFee": "Free"
+    },
+    {
+        "id": "cul-01",
+        "title": "Western Solo Dance",
+        "poster":"src/assets/solo.jpg",
         "category": "Cultural",
         "date": "April 10, 2026",
-        "time": "4:00 PM",
-        "shortDescription": "Unleash your musical talent in this epic rock & pop showdown. Solo artists and bands welcome!",
-        "description": "Battle of Bands is the flagship cultural event of Utsaha Vaibhava. This high-energy competition invites musicians from across colleges to showcase their talent in rock, pop, fusion, and indie genres. Expect an electric crowd, professional sound systems, and an unforgettable night of music!",
+        "time": "10:00 AM",
+        "shortDescription": "Show off your solo western dance skills — from hip-hop to contemporary, own the stage.",
+        "description": "Western Solo Dance is your chance to shine individually on the Utsaha stage. Perform any western style — hip-hop, contemporary, freestyle, popping — and let your personality speak through every move. Judging is based on technique, expression, and stage presence.",
+        "rules": [
+            "Solo performance only",
+            "Duration: 2–4 minutes",
+            "Music must be submitted 24 hours in advance",
+            "Western dance forms only"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹5,000 + Trophy",
+            "second": "₹3,000 + Medal",
+            "third": "₹1,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Ananya Sharma",
+            "phone": "+91 65432 10987",
+            "email": "ananya.sharma@utsaha.ac.in"
+        },
+        "teamSize": "1",
+        "venue": "Open Air Theatre",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "cul-02",
+        "title": "Duet Dance",
+        "poster":"src/assets/duet.jpg",
+        "category": "Cultural",
+        "date": "April 10, 2026",
+        "time": "12:00 PM",
+        "shortDescription": "Two dancers, one stage, endless chemistry — showcase your sync and style in this duet spectacular.",
+        "description": "Duet Dance at Utsaha Vaibhava brings pairs together for a captivating performance. Any dance form is welcome. The judges will look for synchronisation, chemistry, technical skill, and artistic expression. Mixed-gender and same-gender duets both welcome.",
+        "rules": [
+            "Exactly 2 members per team",
+            "Duration: 3–5 minutes",
+            "Music must be submitted 24 hours prior",
+            "Any dance form accepted"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹6,000 + Trophy",
+            "second": "₹3,500 + Medal",
+            "third": "₹2,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Ananya Sharma",
+            "phone": "+91 65432 10987",
+            "email": "ananya.sharma@utsaha.ac.in"
+        },
+        "teamSize": "2",
+        "venue": "Open Air Theatre",
+        "registrationFee": "₹150 per pair"
+    },
+    {
+        "id": "cul-03",
+        "title": "Nritya",
+        "category": "Cultural",
+        "date": "April 11, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A group dance competition celebrating classical and folk traditions of India.",
+        "description": "Nritya is a vibrant group dance competition celebrating India's rich classical and folk dance heritage — Bharatanatyam, Kathak, Kuchipudi, Odissi, folk, and more. Groups perform with full costumes and musical accompaniment for an authentic cultural experience.",
+        "rules": [
+            "Group of 3–15 members",
+            "Duration: 5–10 minutes",
+            "Music must be submitted 48 hours prior",
+            "Classical or folk forms only",
+            "Props and costumes allowed"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹8,000 + Trophy",
+            "second": "₹5,000 + Medal",
+            "third": "₹2,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Rohan Mehta",
+            "phone": "+91 98765 43210",
+            "email": "rohan.mehta@utsaha.ac.in"
+        },
+        "teamSize": "3–15",
+        "venue": "Open Air Theatre",
+        "registrationFee": "₹200 per team"
+    },
+    {
+        "id": "cul-04",
+        "title": "Adaptune",
+        "category": "Cultural",
+        "date": "April 10, 2026",
+        "time": "3:00 PM",
+        "shortDescription": "Adapt a Bollywood or pop song into a completely new musical style — surprise both judges and audience!",
+        "description": "Adaptune challenges performers to take a well-known song and reimagine it in a completely different genre, tempo, or instrumentation. A jazz rendition of a Bollywood hit? Metal cover of a folk song? Anything goes — creativity is king here!",
+        "rules": [
+            "Solo or group (up to 6 members)",
+            "Duration: 3–5 minutes",
+            "Original composition required around an existing melody",
+            "Karaoke tracks not allowed",
+            "All instruments must be self-arranged"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹6,000 + Trophy",
+            "second": "₹3,500 + Medal",
+            "third": "₹2,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": "1–6",
+        "venue": "Mini Auditorium",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "cul-05",
+        "title": "Battle of Bands",
+        "category": "Cultural",
+        "date": "April 11, 2026",
+        "time": "5:00 PM",
+        "shortDescription": "Unleash your musical talent in this epic rock & pop showdown. Bands and duos welcome!",
+        "description": "Battle of Bands is the flagship cultural music event of Utsaha Vaibhava. This high-energy competition invites musicians from across colleges to showcase their talent in rock, pop, fusion, and indie genres. Expect an electric crowd, professional sound systems, and an unforgettable night of music!",
         "rules": [
             "Each team can have 2–8 members",
             "Performance duration: 8–12 minutes",
             "Own instruments must be brought; PA system will be provided",
             "No pre-recorded tracks (backing tracks allowed for specific instruments only)",
-            "Vulgar or offensive content is strictly prohibited",
-            "Decision of judges is final"
+            "Vulgar or offensive content is strictly prohibited"
         ],
         "eligibility": "Open to all college students with valid ID proof",
         "prizes": {
@@ -31,188 +260,554 @@
         "registrationFee": "₹200 per team"
     },
     {
-        "id": "evt-02",
-        "title": "Code Odyssey",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "A 4-hour coding marathon spanning algorithms, data structures, and real-world problem solving.",
-        "description": "Code Odyssey is the ultimate competitive programming challenge at Utsaha Vaibhava. Participants will tackle progressively harder algorithmic questions within a time limit. The event tests speed, accuracy, and creative thinking. Problems span multiple domains including dynamic programming, graph theory, and system design.",
-        "rules": [
-            "Individual participation only",
-            "Duration: 4 hours",
-            "Languages allowed: C, C++, Java, Python",
-            "Internet browsing is strictly prohibited",
-            "Use of AI tools or code generators is not allowed",
-            "All solutions will be tested on hidden test cases"
-        ],
-        "eligibility": "UG/PG students of any engineering branch",
-        "prizes": {
-            "first": "₹8,000 + Certificate",
-            "second": "₹5,000 + Certificate",
-            "third": "₹3,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": 1,
-        "venue": "CS Lab, Block A",
-        "registrationFee": "₹100 per person"
-    },
-    {
-        "id": "evt-03",
-        "title": "Nritya Sangam",
+        "id": "cul-06",
+        "title": "Western Winds",
         "category": "Cultural",
-        "date": "April 11, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A classical and contemporary dance competition celebrating India's rich dance heritage.",
-        "description": "Nritya Sangam is a vibrant dance competition that celebrates both classical and contemporary Indian dance forms. From Bharatanatyam to Bollywood fusion, this event is a visual feast of grace, expression, and energy. Groups and soloists are both welcome to perform.",
+        "date": "April 10, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "A group western dance competition — choreograph your squad's best moves and set the stage ablaze.",
+        "description": "Western Winds is the premier group western dance event at Utsaha Vaibhava. Teams bring their most creative hip-hop, contemporary, or freestyle routines to the stage. Synchronisation, stage energy, costume, and musicality all count toward your score.",
         "rules": [
-            "Solo or group (up to 10 members)",
-            "Performance time: 5–10 minutes",
+            "Groups of 6–20 members",
+            "Duration: 5–10 minutes",
             "Music must be submitted 48 hours in advance",
-            "Entry in Indian classical or contemporary forms only",
-            "Props and costumes allowed"
+            "Western styles only (hip-hop, contemporary, freestyle, locking, breaking)"
         ],
         "eligibility": "Open to all college students",
         "prizes": {
-            "first": "₹7,000 + Trophy",
-            "second": "₹4,000 + Medal",
-            "third": "₹2,000 + Certificate"
+            "first": "₹10,000 + Trophy",
+            "second": "₹6,000 + Medal",
+            "third": "₹3,000 + Certificate"
         },
         "coordinator": {
             "name": "Ananya Sharma",
-            "phone": "+91 76543 21098",
+            "phone": "+91 65432 10987",
             "email": "ananya.sharma@utsaha.ac.in"
         },
-        "teamSize": "1–10",
+        "teamSize": "6–20",
         "venue": "Open Air Theatre",
-        "registrationFee": "₹150 per team"
-    },
-    {
-        "id": "evt-04",
-        "title": "Hackathon 24",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "9:00 AM",
-        "shortDescription": "A 24-hour hackathon — build innovative solutions for real-world problems. Mentors and goodies included!",
-        "description": "Hackathon 24 is Utsaha Vaibhava's flagship technical event — a 24-hour non-stop innovation challenge where teams build functional prototypes addressing real-world problems in domains like Healthcare, EdTech, FinTech, and Smart Cities. Industry mentors, cloud credits, and amazing goodies await!",
-        "rules": [
-            "Teams of 2–4 members",
-            "Work must be original and built during the hackathon period",
-            "Teams must present a working prototype at the end",
-            "Use of public APIs and open-source libraries is allowed",
-            "Plagiarism will lead to immediate disqualification",
-            "All domains welcome; bonus for social impact projects"
-        ],
-        "eligibility": "Engineering/Computer Science students",
-        "prizes": {
-            "first": "₹20,000 + Internship Opportunity",
-            "second": "₹12,000",
-            "third": "₹6,000"
-        },
-        "coordinator": {
-            "name": "Arjun Kapoor",
-            "phone": "+91 65432 10987",
-            "email": "arjun.kapoor@utsaha.ac.in"
-        },
-        "teamSize": "2–4",
-        "venue": "Innovation Hub, Block C",
         "registrationFee": "₹300 per team"
     },
     {
-        "id": "evt-05",
-        "title": "Cricket Blitz",
-        "category": "Sports",
-        "date": "April 10, 2026",
-        "time": "8:00 AM",
-        "shortDescription": "A thrilling T10 inter-college cricket tournament on the college's turf ground.",
-        "description": "Cricket Blitz is a fast-paced T10 cricket tournament where college teams compete for glory on the field. With 10-over matches and knockout rounds, the action never stops. Cheer squads, live commentary, and trophies for winners!",
+        "id": "cul-07",
+        "title": "Rhythm Riot",
+        "category": "Cultural",
+        "date": "April 11, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "A percussion and rhythm battle — drums, djembes, beatboxing, anything rhythmic goes!",
+        "description": "Rhythm Riot is a unique event celebrating the art of percussion and rhythm. From drum kits to djembes, beatboxing to body percussion, teams compete to create the most intensely rhythmic performance. No melody required — just beat, groove, and energy!",
         "rules": [
-            "11 players per team + 4 substitutes",
-            "T10 format (10 overs per side)",
-            "Tape-ball cricket on turf ground",
-            "LBW rule applicable",
-            "No-ball and wide-ball rules apply",
-            "Tournament committee's decision is final"
+            "Groups of 2–8 members",
+            "Duration: 4–7 minutes",
+            "Only percussion or rhythm-based instruments allowed",
+            "Electronic amplification allowed for beatboxers",
+            "Props allowed"
         ],
-        "eligibility": "Male students from any college with valid ID",
+        "eligibility": "Open to all college students",
         "prizes": {
-            "first": "Rolling Trophy + ₹5,000",
-            "second": "Runner Trophy + ₹2,500",
-            "mvp": "Man of the Tournament Award"
+            "first": "₹6,000 + Trophy",
+            "second": "₹3,500 + Medal",
+            "third": "₹2,000 + Certificate"
         },
         "coordinator": {
             "name": "Vikram Rathore",
             "phone": "+91 54321 09876",
             "email": "vikram.rathore@utsaha.ac.in"
         },
-        "teamSize": "11–15",
-        "venue": "College Cricket Ground",
-        "registrationFee": "₹500 per team"
+        "teamSize": "2–8",
+        "venue": "Amphitheatre",
+        "registrationFee": "₹150 per team"
     },
     {
-        "id": "evt-06",
-        "title": "Gaming Arena",
-        "category": "Fun & Gaming",
+        "id": "cul-08",
+        "title": "Dance Duel",
+        "category": "Cultural",
         "date": "April 11, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "BGMI & Free Fire esports tournament — compete for the Chicken Dinner and cash prizes!",
-        "description": "Gaming Arena is the most electrifying esports event at Utsaha Vaibhava! Compete in BGMI (Battlegrounds Mobile India) and Free Fire squad tournaments for glory and cash prizes. High-end gaming setup, live streaming, and a roaring crowd make this a truly esports-grade experience.",
+        "time": "3:00 PM",
+        "shortDescription": "A head-to-head freestyle dance battle — one-on-one rounds, crowd cheering, the floor is yours.",
+        "description": "Dance Duel is a freestyle 1v1 dance battle with knockout rounds. Participants face off in timed rounds where a DJ spins live and dancers freestyle to whatever plays. Judges and the crowd pick the winner. No choreography, just raw talent and vibes!",
         "rules": [
-            "BGMI: 4-player squads; Free Fire: 4-player squads",
-            "Own devices must be brought (iOS/Android)",
-            "Emulators are not allowed",
-            "Accounts must be at least Diamond rank for BGMI",
-            "Hacking or use of mods leads to immediate ban",
-            "Stable internet will be provided"
+            "Individual participation only",
+            "Knockout format — 1v1 rounds",
+            "Each round: 60 seconds per player",
+            "Music chosen by the DJ on the spot",
+            "Any western style welcome"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹5,000 + Battle Crown",
+            "second": "₹3,000 + Medal",
+            "third": "₹1,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Ananya Sharma",
+            "phone": "+91 65432 10987",
+            "email": "ananya.sharma@utsaha.ac.in"
+        },
+        "teamSize": "1",
+        "venue": "Open Air Stage",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "cul-09",
+        "title": "Runway Rush",
+        "category": "Cultural",
+        "date": "April 10, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A fun rapid-fire fashion challenge — recreate a look with recycled or given materials in 30 minutes!",
+        "description": "Runway Rush is the fast-paced, creative fashion event at Utsaha Vaibhava. Teams are given a bag of materials and 30 minutes to create an outfit from scratch. A 2-minute walk on the runway caps it off. Creativity, teamwork, and quick thinking are the keys to victory!",
+        "rules": [
+            "Teams of 2–4 members (1 model required)",
+            "Materials provided on the spot",
+            "Design & creation time: 30 minutes",
+            "Runway walk: 2 minutes",
+            "Safety pins, tape, and basic tools provided"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹5,000 + Best Design Trophy",
+            "second": "₹3,000 + Medal",
+            "third": "₹1,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": "2–4",
+        "venue": "Fashion Studio, Block D",
+        "registrationFee": "₹200 per team"
+    },
+    {
+        "id": "tech-01",
+        "title": "Valorant",
+        "poster":"src/assets/valo.jpg",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "5v5 tactical shooter tournament — strategise, aim, and outsmart rival teams for the Day 1 championship.",
+        "description": "Valorant I is the Day 1 tactical shooter showdown at Utsaha Vaibhava. Teams of 5 go head-to-head in bracket matches on the APJ Abdul Kalam Lab LAN setup. Best strategy, sharpest aim, and tightest teamwork wins.",
+        "rules": [
+            "5 players per team",
+            "Own PCs/laptops must be brought",
+            "Tournament bracket format",
+            "All official Valorant agents allowed",
+            "No hacks, mods, or external software",
+            "Internet provided on campus LAN"
         ],
         "eligibility": "All college students with valid ID",
         "prizes": {
-            "first": "₹6,000 per squad + Trophy",
-            "second": "₹3,000 per squad",
-            "third": "₹1,500 per squad"
+            "first": "₹8,000 per team + Trophy",
+            "second": "₹5,000 per team",
+            "third": "₹2,500 per team"
         },
         "coordinator": {
             "name": "Siddharth Rao",
             "phone": "+91 43210 98765",
             "email": "siddharth.rao@utsaha.ac.in"
         },
-        "teamSize": 4,
-        "venue": "Gaming Zone, Student Centre",
-        "registrationFee": "₹200 per squad"
+        "teamSize": "5",
+        "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
+        "registrationFee": "₹500 per team"
     },
     {
-        "id": "evt-07",
-        "title": "Robo Rumble",
+        "id": "tech-02",
+        "title": "BGMI",
+        "poster":"src/assets/bgmi.png", 
         "category": "Technical",
-        "date": "April 11, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "Design, build, and battle your robot in India's most exciting college robotics competition.",
-        "description": "Robo Rumble is the engineering marvel of Utsaha Vaibhava. Teams design and build autonomous or semi-autonomous robots and compete in an obstacle course and combat arena. This event tests mechanical design, electronics, and programming skills — all in one thrilling package.",
+        "date": "April 10, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "The BGMI squad tournament — fight for the Chicken Dinner and claim the esports crown!",
+        "description": "BGMI (Battlegrounds Mobile India) Tournament at Utsaha Vaibhava is a 4-player squad competition across multiple rounds. Teams compete on mobile devices for the highest kill count and survival rank to claim glory.",
         "rules": [
-            "Teams of 2–5 members",
-            "Robots must not exceed 25kg in weight",
-            "Robot dimensions: max 40cm x 40cm x 40cm",
-            "No flammable or corrosive substances allowed",
-            "Remote-controlled and autonomous bots both allowed",
-            "Each team gets 2 matches in the arena"
+            "4-player squads",
+            "Own iOS/Android devices must be brought",
+            "Emulators strictly not allowed",
+            "Hacking or mods leads to immediate disqualification",
+            "Stable campus Wi-Fi provided"
         ],
-        "eligibility": "Engineering students (any branch)",
+        "eligibility": "All college students with valid ID",
         "prizes": {
-            "first": "₹15,000 + Trophy",
-            "second": "₹8,000 + Medal",
-            "third": "₹4,000 + Certificate"
+            "first": "₹7,000 per squad + Trophy",
+            "second": "₹4,000 per squad",
+            "third": "₹2,000 per squad"
+        },
+        "coordinator": {
+            "name": "Siddharth Rao",
+            "phone": "+91 43210 98765",
+            "email": "siddharth.rao@utsaha.ac.in"
+        },
+        "teamSize": "4",
+        "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
+        "registrationFee": "₹300 per squad"
+    },
+    {
+        "id": "tech-03",
+        "title": "Smash Karts",
+        "poster":"src/assets/smash.jpg",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "Race and battle in this browser-based kart arena — up to 10 batches competing on Day 1!",
+        "description": "Smash Karts Day 1 at Utsaha Vaibhava is a browser-based kart battle event held near the Food Stalls. Up to 10 batches will be run through the day. Fast reflexes and smart power-up use are the keys to glory.",
+        "rules": [
+            "Individual participation",
+            "Laptop/PC with a mouse required",
+            "Browser: Chrome or Firefox",
+            "No extensions or plugins allowed during gameplay",
+            "Room link shared before each round",
+            "Maximum 10 batches — first come, first served"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹3,000 + Trophy",
+            "second": "₹2,000 + Medal",
+            "third": "₹1,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Arjun Kapoor",
+            "phone": "+91 65432 10987",
+            "email": "arjun.kapoor@utsaha.ac.in"
+        },
+        "teamSize": "1",
+        "venue": "Near Food Stalls, BMSIT&M",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "tech-04",
+        "title": "Stumble Guys",
+        "poster":"src/assets/stumble.jpg",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "12:00 PM",
+        "shortDescription": "Survive crazy obstacles and outlast opponents — up to 10 batches of pure chaos on Day 1!",
+        "description": "Stumble Guys at Utsaha Vaibhava is a fun, chaotic mobile gaming event. Up to 10 batches battle through obstacle courses on their own devices. The last bean standing in each batch advances. Pure chaos, pure fun!",
+        "rules": [
+            "Individual participation",
+            "Own mobile device required",
+            "Participants must have Stumble Guys installed and updated",
+            "Emulators not allowed",
+            "Random room codes shared before each round",
+            "Maximum 10 batches — register early"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹3,000 + Trophy",
+            "second": "₹2,000 + Medal",
+            "third": "₹1,000 + Certificate"
         },
         "coordinator": {
             "name": "Meera Pillai",
             "phone": "+91 32109 87654",
             "email": "meera.pillai@utsaha.ac.in"
         },
-        "teamSize": "2–5",
-        "venue": "Robotics Arena, Block B",
-        "registrationFee": "₹400 per team"
+        "teamSize": "1",
+        "venue": "Lab Block, Room 403",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "tech-06",
+        "title": "Clash Royale 1V1",
+        "poster":"src/assets/clash.jpg",
+        "category": "Technical",
+        "date": "April 10, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "One-on-one Clash Royale duels — build your deck, outplay your opponent, and climb to glory!",
+        "description": "Clash Royale 1V1 at Utsaha Vaibhava is a head-to-head mobile strategy tournament. Players face off in single-elimination rounds near the Food Stalls. Deck-building skill, timing, and adaptability are your weapons.",
+        "rules": [
+            "Individual participation",
+            "Own mobile device required",
+            "Standard Clash Royale rules apply",
+            "No hacks or third-party apps",
+            "Tournament room codes shared by coordinators"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹4,000 + Trophy",
+            "second": "₹2,500 + Medal",
+            "third": "₹1,200 + Certificate"
+        },
+        "coordinator": {
+            "name": "Meera Pillai",
+            "phone": "+91 32109 87654",
+            "email": "meera.pillai@utsaha.ac.in"
+        },
+        "teamSize": "1",
+        "venue": "Near Food Stalls, BMSIT&M",
+        "registrationFee": "₹100 per person"
+    },
+    {
+        "id": "tech-07",
+        "title": "Clash Royale 2V2",
+        "poster":"src/assets/clash.jpg",
+        "category": "Technical",
+        "date": "April 11, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "Two-player Clash Royale team battles — coordinate decks, sync strategies, and dominate the arena!",
+        "description": "Clash Royale 2V2 at Utsaha Vaibhava pairs two players together for coordinated mobile strategy battles. Teams must sync their decks and tactics to outmanoeuvre rival pairs. A test of communication as much as gaming skill.",
+        "rules": [
+            "Teams of 2 players",
+            "Own mobile devices required",
+            "Standard Clash Royale 2V2 rules apply",
+            "No hacks or third-party apps",
+            "Tournament room codes shared by coordinators"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹5,000 per team + Trophy",
+            "second": "₹3,000 per team + Medal",
+            "third": "₹1,500 per team + Certificate"
+        },
+        "coordinator": {
+            "name": "Meera Pillai",
+            "phone": "+91 32109 87654",
+            "email": "meera.pillai@utsaha.ac.in"
+        },
+        "teamSize": "2",
+        "venue": "Classroom",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "tech-09",
+        "title": "TECH TRIALS: MULTIVERSE HEIST",
+        "poster":"src/assets/tech.jpeg",
+        "category": "Technical",
+        "date": "April 11, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "A cybersecurity CTF challenge — find hidden flags across web, crypto, forensics, and more!",
+        "description": "Capture the Flag (CTF) at Utsaha Vaibhava is a hands-on cybersecurity competition. Teams solve challenges spanning web exploitation, cryptography, reverse engineering, forensics, and OSINT to capture hidden flags and rack up points. The highest score wins.",
+        "rules": [
+            "Teams of 1–3 members",
+            "Duration: 3 hours",
+            "Own laptops required",
+            "No attacking other teams' infrastructure",
+            "All tools must be pre-installed before the event",
+            "Coordinators' decision on flag validity is final"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹6,000 + Trophy",
+            "second": "₹4,000 + Medal",
+            "third": "₹2,000 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": "1–3",
+        "venue": "Lab",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "tech-10",
+        "title": "Free Fire",
+        "poster":"src/assets/free.jpg",
+        "category": "Technical",
+        "date": "April 11, 2026",
+        "time": "12:00 PM",
+        "shortDescription": "Battle royale action on mobile — squad up, survive, and be the last team standing!",
+        "description": "Free Fire at Utsaha Vaibhava is a 4-player squad battle royale tournament. Teams fight across multiple rounds on their own devices at the Aryabhatta Lab. High kill count and final standing determine the victors.",
+        "rules": [
+            "4-player squads",
+            "Own mobile devices required",
+            "Emulators not allowed",
+            "No hacks or mods",
+            "Tournament room codes shared by coordinators"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹6,000 per squad + Trophy",
+            "second": "₹3,500 per squad + Medal",
+            "third": "₹1,500 per squad + Certificate"
+        },
+        "coordinator": {
+            "name": "Siddharth Rao",
+            "phone": "+91 43210 98765",
+            "email": "siddharth.rao@utsaha.ac.in"
+        },
+        "teamSize": "4",
+        "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
+        "registrationFee": "₹300 per squad"
+    },
+    {
+        "id": "tech-11",
+        "title": "Tech Treasure Hunt",
+        "poster":"src/assets/treas.jpg",
+        "category": "Technical",
+        "date": "April 11, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A campus-wide tech-themed treasure hunt — decode clues, solve puzzles, and race to the finish!",
+        "description": "Tech Treasure Hunt at Utsaha Vaibhava challenges teams to crack a series of technology-themed clues hidden across the campus. Combining logic, teamwork, and speed, teams race to find each checkpoint and ultimately the final treasure. The first team to complete all clues wins.",
+        "rules": [
+            "Teams of 2–4 members",
+            "Clues revealed at the Auditorium at the start",
+            "No tampering with clues left for other teams",
+            "Mobile phones allowed only for clue solving",
+            "Coordinators' decision on clue interpretation is final"
+        ],
+        "eligibility": "All college students",
+        "prizes": {
+            "first": "₹5,000 per team + Trophy",
+            "second": "₹3,000 per team + Medal",
+            "third": "₹1,500 per team + Certificate"
+        },
+        "coordinator": {
+            "name": "Rohan Mehta",
+            "phone": "+91 98765 43210",
+            "email": "rohan.mehta@utsaha.ac.in"
+        },
+        "teamSize": "2–4",
+        "venue": "Auditorium, Lab Block 2nd Floor",
+        "registrationFee": "₹200 per team"
+    },
+    {
+        "id": "lit-01",
+        "title": "Verbal Vendetta",
+        "category": "Literary",
+        "date": "April 10, 2026",
+        "time": "10:00 AM",
+        "shortDescription": "A fast-talking debate and argument showdown — argue, rebut, and outwit your opponents.",
+        "description": "Verbal Vendetta is the ultimate debate battle at Utsaha Vaibhava. Teams are assigned positions on controversial topics and must argue their case convincingly within strict time limits. Rebuttals, cross-questioning, and closing arguments determine who wins the verbal duel.",
+        "rules": [
+            "Teams of 2 members",
+            "Topic will be revealed 15 minutes before each round",
+            "Each speaker gets 3 minutes to present",
+            "Rebuttal time: 2 minutes per team",
+            "English only"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹5,000 + Best Debater Trophy",
+            "second": "₹3,000 + Medal",
+            "third": "₹1,500 + Certificate"
+        },
+        "coordinator": {
+            "name": "Vikram Rathore",
+            "phone": "+91 54321 09876",
+            "email": "vikram.rathore@utsaha.ac.in"
+        },
+        "teamSize": "2",
+        "venue": "Seminar Hall, Block B",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "lit-02",
+        "title": "Words of Wisdom",
+        "category": "Literary",
+        "date": "April 10, 2026",
+        "time": "12:00 PM",
+        "shortDescription": "A creative writing competition — weave words into stories, poems, or essays that leave an impact.",
+        "description": "Words of Wisdom is the creative writing event of Utsaha Vaibhava. Participants craft compelling short stories, poems, or essays on a given prompt within the allotted time. Judges evaluate originality, language, and emotional impact.",
+        "rules": [
+            "Individual participation",
+            "Time limit: 90 minutes",
+            "Prompt revealed at the start",
+            "Word count: 600–1000 words (prose) or 20–40 lines (poem)",
+            "Handwritten or typed on provided paper"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹4,000 + Best Writer Award",
+            "second": "₹2,500 + Medal",
+            "third": "₹1,200 + Certificate"
+        },
+        "coordinator": {
+            "name": "Rohan Mehta",
+            "phone": "+91 98765 43210",
+            "email": "rohan.mehta@utsaha.ac.in"
+        },
+        "teamSize": "1",
+        "venue": "Seminar Hall, Block B",
+        "registrationFee": "₹80 per person"
+    },
+    {
+        "id": "lit-03",
+        "title": "Shok-Sabha",
+        "category": "Literary",
+        "date": "April 11, 2026",
+        "time": "11:00 AM",
+        "shortDescription": "A mock parliament event — draft bills, raise motions, and debate policy like seasoned MPs.",
+        "description": "Shok-Sabha is a mock parliament simulation where participants play roles of MPs from different political parties. Bills are introduced, motions raised, and heated debates ensue — all following parliamentary rules of procedure. Oratory, wit, and political strategy are your tools.",
+        "rules": [
+            "Teams of 3–5 members (representing a party)",
+            "Each team plays a pre-assigned political party",
+            "Agenda shared 1 hour before the event",
+            "Parliamentary decorum must be maintained",
+            "The Speaker's decision is final"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹6,000 + Best Party Trophy",
+            "second": "₹3,500 + Medal",
+            "best_speaker": "Best Speaker Award + ₹1,500"
+        },
+        "coordinator": {
+            "name": "Vikram Rathore",
+            "phone": "+91 54321 09876",
+            "email": "vikram.rathore@utsaha.ac.in"
+        },
+        "teamSize": "3–5",
+        "venue": "Main Seminar Hall",
+        "registrationFee": "₹200 per team"
+    },
+    {
+        "id": "lit-04",
+        "title": "Movie Mania",
+        "category": "Literary",
+        "date": "April 10, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A film trivia and quiz event — how deep does your cinematic knowledge go?",
+        "description": "Movie Mania is the ultimate cinema quiz at Utsaha Vaibhava. Rounds cover Bollywood, Hollywood, regional cinema, directors, dialogues, OSTs, and behind-the-scenes trivia. Multiple rounds of increasing difficulty will whittle down teams until only the real cinephiles remain.",
+        "rules": [
+            "Teams of 2–3 members",
+            "Multiple rounds: written, audio, visual",
+            "No phones or smart devices during rounds",
+            "Judgement of quizmasters is final"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹4,000 + Cine Champion Trophy",
+            "second": "₹2,500 + Medal",
+            "third": "₹1,200 + Certificate"
+        },
+        "coordinator": {
+            "name": "Priya Nair",
+            "phone": "+91 87654 32109",
+            "email": "priya.nair@utsaha.ac.in"
+        },
+        "teamSize": "2–3",
+        "venue": "Seminar Hall, Block B",
+        "registrationFee": "₹150 per team"
+    },
+    {
+        "id": "lit-05",
+        "title": "Air Crash",
+        "category": "Literary",
+        "date": "April 11, 2026",
+        "time": "2:00 PM",
+        "shortDescription": "A survival roleplay activity — you crashed, you're stranded; strategise, prioritise, and stay alive.",
+        "description": "Air Crash is a team activity and group dynamics event inspired by survival scenarios. Teams are presented with a desert island or crash scenario and must collectively rank survival items, assign roles, and defend their decisions before a panel of judges. Critical thinking, group dynamics, and communication are all tested.",
+        "rules": [
+            "Teams of 4–6 members",
+            "Scenario revealed at the start",
+            "Teams have 30 minutes to discuss and rank items",
+            "10-minute group presentation to judges",
+            "No internet or reference material allowed"
+        ],
+        "eligibility": "Open to all college students",
+        "prizes": {
+            "first": "₹4,000 + Survivor Trophy",
+            "second": "₹2,500 + Medal",
+            "third": "₹1,200 + Certificate"
+        },
+        "coordinator": {
+            "name": "Rohan Mehta",
+            "phone": "+91 98765 43210",
+            "email": "rohan.mehta@utsaha.ac.in"
+        },
+        "teamSize": "4–6",
+        "venue": "Activity Hall, Block C",
+        "registrationFee": "₹200 per team"
     }
 ]

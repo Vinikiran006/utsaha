@@ -9,16 +9,17 @@ import eventsData from '../data/events.json'
 import './Home.css'
 
 const CATEGORY_CARDS = [
-    { name: 'Cultural', icon: '🎭', desc: 'Music, dance, drama & arts', count: 2 },
-    { name: 'Technical', icon: '💻', desc: 'Coding, hackathons & robotics',  count: 3 },
-    { name: 'Sports', icon: '⚽', desc: 'Cricket, athletics & team sports',  count: 1 },
-    { name: 'Fun & Gaming', icon: '🎮', desc: 'Esports, gaming & fun events', count: 1 },
+    { name: 'Main Stage', icon: '🎤', desc: 'Grand performances, fashion & DJ nights' },
+    { name: 'Cultural', icon: '🎭', desc: 'Dance, music & artistic expression' },
+    { name: 'Technical', icon: '💻', desc: 'Esports, coding & speed challenges' },
+    { name: 'Literary', icon: '📖', desc: 'Debates, writing, quizzes & roleplay' },
 ]
 
 export default function Home() {
     useScrollReveal()
 
     const featuredEvents = eventsData.slice(0, 3)
+    const totalEvents = eventsData.length
 
     return (
         <div className="home">
@@ -29,21 +30,21 @@ export default function Home() {
             <section className="about section" id="about">
                 <div className="container about__inner">
                     <div className="about__content reveal-left">
-                        <p className="about__eyebrow">🌟 Who We Are</p>
+                        <p className="about__eyebrow">🌟 The Story</p>
                         <h2 className="section-title">
-                            About <span className="gradient-text">Utsaha Vaibhava</span>
+                            THE FEST THAT <span className="gradient-text">HITS DIFFERENT</span>
                         </h2>
                         <div className="divider" style={{ margin: '16px 0' }} />
                         <p className="about__text">
-                            <strong>Utsaha Vaibhava</strong> is the flagship annual college fest — a vibrant celebration of creativity, talent, and the spirit of youth. Every year, students from across the region come together for two unforgettable days of music, technology, sports, and entertainment.
+                            <strong>Utsaha Vaibhava</strong> is the flagship annual celebration of BMS Institute of Technology and Management — where creativity, engineering, sports, and music collide in one electrifying two-day experience.
                         </p>
                         <p className="about__text">
-                            From electrifying performances and intense coding marathons to epic cricket matches and esports showdowns — Utsaha Vaibhava is where passion meets celebration.
+                            From electrifying Battle of Bands to 24-hour hackathons, from cricket blitz to esports showdowns — this is where passion meets competition and memories are made for life.
                         </p>
                         <div className="about__highlights">
                             {[
-                                { icon: '🏆', text: '₹4L+ in prizes' },
-                                { icon: '🎪', text: '30+ events across all domains' },
+                                { icon: '🏆', text: '₹4L+ in total prizes' },
+                                { icon: '🎪', text: '30+ events all domains' },
                                 { icon: '🎓', text: 'Inter-college participation' },
                                 { icon: '📅', text: '2 days, April 10 & 11' },
                             ].map((h) => (
@@ -69,7 +70,8 @@ export default function Home() {
                                     <span className="tag">Main Stage</span>
                                     <span className="tag">Cultural</span>
                                     <span className="tag">Technical</span>
-                                    <span className="tag">Literary</span>
+                                    <span className="tag">Sports</span>
+                                    <span className="tag">Gaming</span>
                                 </div>
                                 <div className="about__fest-card-stat">
                                     <div>
@@ -96,25 +98,27 @@ export default function Home() {
                 <div className="container">
                     <div className="section-header reveal">
                         <p className="categories__eyebrow">🎪 What's In Store</p>
-                        <h2 className="section-title">Event <span className="gradient-text">Categories</span></h2>
+                        <h2 className="section-title">EVENT <span className="gradient-text">CATEGORIES</span></h2>
                         <div className="divider" />
                         <p className="section-subtitle">Four exciting categories, something for everyone!</p>
                     </div>
 
                     <div className="categories__grid ">
-                        {CATEGORY_CARDS.map((cat, i) => (
-                            <Link
-                                key={cat.name}
-                                to={`/events?cat=${encodeURIComponent(cat.name)}`}
-                                className={`category-card reveal ${i % 2 === 0 ? '' : 'reveal-right'}`}
-                                // style={{ '--cat-color': cat.color, '--cat-accent': cat.accent }}
-                            >
-                                <div className="category-card__icon">{cat.icon}</div>
-                                <h3 className="category-card__name">{cat.name}</h3>
-                                <p className="category-card__desc">{cat.desc}</p>
-                                <div className="category-card__count">{cat.count} events →</div>
-                            </Link>
-                        ))}
+                        {CATEGORY_CARDS.map((cat, i) => {
+                            const count = eventsData.filter(e => e.category === cat.name).length
+                            return (
+                                <Link
+                                    key={cat.name}
+                                    to={`/events?cat=${encodeURIComponent(cat.name)}`}
+                                    className={`category-card reveal ${i % 2 === 0 ? '' : 'reveal-right'}`}
+                                >
+                                    <div className="category-card__icon">{cat.icon}</div>
+                                    <h3 className="category-card__name">{cat.name}</h3>
+                                    <p className="category-card__desc">{cat.desc}</p>
+                                    <div className="category-card__count">{count} events →</div>
+                                </Link>
+                            )
+                        })}
                     </div>
                 </div>
             </section>
@@ -123,8 +127,8 @@ export default function Home() {
             <section className="featured-events section">
                 <div className="container">
                     <div className="section-header reveal">
-                        <p className="featured__eyebrow">⭐ Don't Miss</p>
-                        <h2 className="section-title">Featured <span className="gradient-text">Events</span></h2>
+                        <p className="featured__eyebrow">🎯 The Lineup</p>
+                        <h2 className="section-title">THIS YEAR'S <span className="gradient-text">EVENTS</span></h2>
                         <div className="divider" />
                         <p className="section-subtitle">Some of our most exciting events this year</p>
                     </div>
@@ -139,9 +143,24 @@ export default function Home() {
 
                     <div className="featured-events__more reveal">
                         <Link to="/events" className="btn btn-outline">
-                            View All 7 Events →
+                            View All {totalEvents} Events →
                         </Link>
                     </div>
+                </div>
+            </section>
+
+            {/* CTA Section */}
+            <section className="cta-section section">
+                <div className="container cta-section__inner reveal">
+                    <h2 className="cta-section__title">
+                        ARE YOU <span className="gradient-text">READY?</span>
+                    </h2>
+                    <p className="cta-section__desc">
+                        Utsaha Vaibhava 2026 is happening April 10 & 11. Don't miss the biggest college fest of the year. Register your team and claim your glory.
+                    </p>
+                    <Link to="/events" className="btn btn-primary cta-section__btn">
+                        🏕️ Register Your Team
+                    </Link>
                 </div>
             </section>
 
