@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
 import './Navbar.css'
+import logo from '../assets/logo.png'
+import uv from '../assets/uv.png'
 
 const navLinks = [
     { label: 'Home', to: '/' },
@@ -46,12 +48,9 @@ export default function Navbar() {
             <div className="navbar__inner container">
                 {/* Logo */}
                 <Link to="/" className="navbar__logo">
-                    <span className="logo-uv">UV</span>
-                    <span className="logo-text">
-                        <span className="logo-title">Utsaha Vaibhava</span>
-                        <span className="logo-tagline">Annual College Fest</span>
-                    </span>
-                </Link>
+    <img src={logo} alt="Main Logo" className="navbar__logo-img" />
+   
+</Link>
 
                 {/* Desktop Nav */}
                 <nav className="navbar__links hide-mobile">
@@ -82,7 +81,7 @@ export default function Navbar() {
 
                 {/* CTA */}
                 <div className="navbar__actions hide-mobile">
-                    <Link to="/events" className="btn btn-primary btn-sm">
+                    <Link to="/events" className="btn-register">
                         Register Now
                     </Link>
                 </div>

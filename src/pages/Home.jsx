@@ -42,8 +42,8 @@ export default function Home() {
                         </p>
                         <div className="about__highlights">
                             {[
-                                { icon: '🏆', text: '₹60K+ in prizes' },
-                                { icon: '🎪', text: '7+ events across all domains' },
+                                { icon: '🏆', text: '₹4L+ in prizes' },
+                                { icon: '🎪', text: '30+ events across all domains' },
                                 { icon: '🎓', text: 'Inter-college participation' },
                                 { icon: '📅', text: '2 days, April 10 & 11' },
                             ].map((h) => (
@@ -66,18 +66,18 @@ export default function Home() {
                                 <div className="about__fest-card-title">Utsaha Vaibhava 2026</div>
                                 <div className="about__fest-card-date">April 10 & 11</div>
                                 <div className="about__fest-card-tags">
+                                    <span className="tag">Main Stage</span>
                                     <span className="tag">Cultural</span>
                                     <span className="tag">Technical</span>
-                                    <span className="tag">Sports</span>
-                                    <span className="tag">Gaming</span>
+                                    <span className="tag">Literary</span>
                                 </div>
                                 <div className="about__fest-card-stat">
                                     <div>
-                                        <div className="about__card-statnum">7+</div>
+                                        <div className="about__card-statnum">30+</div>
                                         <div className="about__card-statlabel">Events</div>
                                     </div>
                                     <div>
-                                        <div className="about__card-statnum">₹60K</div>
+                                        <div className="about__card-statnum">₹4L+</div>
                                         <div className="about__card-statlabel">Prizes</div>
                                     </div>
                                     <div>

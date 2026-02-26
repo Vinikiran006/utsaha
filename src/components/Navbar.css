@@ -27,7 +27,7 @@
     justify-content: space-between;
     gap: 60px;
 
-    padding: 20px 42px;
+    padding: 32px 42px;
 
     border-radius: 999px;
 
@@ -46,10 +46,19 @@
 .navbar__logo {
     display: flex;
     align-items: center;
-    gap: 12px;
-    text-decoration: none;
+    gap: 0px;
 }
 
+.navbar__logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.navbar__fest-img {
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+}
 .logo-uv {
     width: 44px;
     height: 44px;
@@ -63,6 +72,28 @@
     color: white;
     flex-shrink: 0;
     box-shadow: 0 4px 14px rgba(220, 47, 2, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.btn-register {
+    background: linear-gradient(135deg, #ff6a00, #ff3c00);
+    color: white;
+
+    padding: 4px 14px;        /* small height */
+    font-size: 13px;          /* smaller text */
+    font-weight: 600;
+
+    border-radius: 18px;      /* pill look */
+    border: none;
+
+    height: 32px;             /* force smaller height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s ease;
+}
+
+.btn-register:hover {
+    transform: scale(1.05);
 }
 
 .logo-text {

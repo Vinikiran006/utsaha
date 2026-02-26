@@ -58,9 +58,9 @@ export default function HeroSection() {
                 {/* Stats Row */}
                 <div className="hero__stats animate-fadein-delay-5">
                     {[
-                        { number: '7+', label: 'Events' },
-                        { number: '4', label: 'Categories' },
-                        { number: '₹60K+', label: 'in Prizes' },
+                        { number: '30+', label: 'Events' },
+                        { number: '7', label: 'Categories' },
+                        { number: '₹4L+', label: 'in Prizes' },
                         { number: '2', label: 'Days of Fun' },
                     ].map((stat) => (
                         <div key={stat.label} className="hero__stat">
