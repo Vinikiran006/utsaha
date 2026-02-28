@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../public/images/logo.png'
-import uv from '../public/images/uv.png'
 
 const navLinks = [
     { label: 'Home', to: '/' },
@@ -51,7 +49,7 @@ export default function Navbar() {
             <div className="navbar__inner container">
                 {/* Logo */}
                 <Link to="/" className="navbar__logo">
-                    <img src={logo} alt="Main Logo" className="navbar__logo-img" />
+                    <img src="/images/logo.png" alt="Main Logo" className="navbar__logo-img" />
 
                 </Link>
 
