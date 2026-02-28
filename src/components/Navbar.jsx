@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../assets/logo.png'
-import uv from '../assets/uv.png'
+import logo from '../public/images/logo.png'
+import uv from '../public/images/uv.png'
 
 const navLinks = [
     { label: 'Home', to: '/' },
