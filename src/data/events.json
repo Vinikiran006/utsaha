@@ -30,7 +30,7 @@
     {
         "id": "ms-02",
         "title": "Fashion Show",
-        "poster": "src/assets/fashion.jpeg",
+        "poster": "public/images/fashion.jpeg",
         "category": "Main Stage",
         "date": "April 10, 2026",
         "time": "8:00 PM",
@@ -61,7 +61,7 @@
     {
         "id": "ms-03",
         "title": "DJ Night",
-        "poster": "src/assets/dj.jpeg",
+        "poster": "public/images/dj.jpeg",
         "category": "Main Stage",
         "date": "April 11, 2026",
         "time": "7:00 PM",
@@ -112,7 +112,7 @@
     {
         "id": "cul-01",
         "title": "Western Solo Dance",
-        "poster": "src/assets/solo.jpg",
+        "poster": "public/images/solo.jpg",
         "category": "Cultural",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -142,7 +142,7 @@
     {
         "id": "cul-02",
         "title": "Duet Dance",
-        "poster": "src/assets/duet.jpg",
+        "poster": "public/images/duet.jpg",
         "category": "Cultural",
         "date": "April 10, 2026",
         "time": "12:00 PM",
@@ -381,7 +381,7 @@
     {
         "id": "tech-01",
         "title": "Valorant",
-        "poster": "src/assets/valo.jpg",
+        "poster": "public/images/valo.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -464,7 +464,7 @@
     {
         "id": "tech-02",
         "title": "BGMI",
-        "poster": "src/assets/bgmi.png",
+        "poster": "public/images/bgmi.png",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "11:00 AM",
@@ -546,7 +546,7 @@
     {
         "id": "tech-03",
         "title": "Smash Karts",
-        "poster": "src/assets/smash.jpg",
+        "poster": "public/images/smash.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -601,7 +601,7 @@
     {
         "id": "tech-04",
         "title": "Stumble Guys",
-        "poster": "src/assets/stumble.jpg",
+        "poster": "public/images/stumble.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "12:00 PM",
@@ -656,7 +656,7 @@
     {
         "id": "tech-06",
         "title": "Clash Royale 1V1",
-        "poster": "src/assets/clash.jpg",
+        "poster": "public/images/clash.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "11:00 AM",
@@ -710,7 +710,7 @@
     {
         "id": "tech-07",
         "title": "Clash Royale 2V2",
-        "poster": "src/assets/clash.jpg",
+        "poster": "public/images/clash.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "10:00 AM",
@@ -778,7 +778,7 @@
     {
         "id": "tech-09",
         "title": "TECH TRIALS: MULTIVERSE HEIST",
-        "poster": "src/assets/tech.jpeg",
+        "poster": "public/images/tech.jpeg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "11:00 AM",
@@ -882,7 +882,7 @@
     {
         "id": "tech-10",
         "title": "Free Fire",
-        "poster": "src/assets/free.jpg",
+        "poster": "public/images/free.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "12:00 PM",
@@ -964,7 +964,7 @@
     {
         "id": "tech-11",
         "title": "Tech Treasure Hunt",
-        "poster": "src/assets/treas.jpg",
+        "poster": "public/images/treas.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "2:00 PM",
