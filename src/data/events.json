@@ -408,7 +408,7 @@
         },
         "teamSize": "5",
         "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
-        "registrationFee": "₹500 per team",
+        "registrationFee": "₹650 per team",
         "registrationFields": [
             {
                 "name": "teamName",
@@ -418,88 +418,46 @@
                 "placeholder": "Enter your team name"
             },
             {
-                "name": "member1Name",
-                "label": "Member 1 (Leader) Name",
+                "name": "leaderName",
+                "label": "Team Leader Name",
                 "type": "text",
                 "required": true,
-                "placeholder": "Team leader's full name"
+                "placeholder": "Leader's full name"
             },
             {
-                "name": "member1Phone",
-                "label": "Member 1 (Leader) Phone",
+                "name": "leaderPhone",
+                "label": "Phone Number",
                 "type": "tel",
                 "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member1Email",
-                "label": "Member 1 (Leader) Email",
-                "type": "email",
-                "required": true,
-                "placeholder": "leader@example.com"
+                "placeholder": "10-digit phone number"
             },
             {
                 "name": "member2Name",
-                "label": "Member 2 Name",
+                "label": "Teammate 2 Name",
                 "type": "text",
                 "required": true,
                 "placeholder": "Full name"
-            },
-            {
-                "name": "member2Phone",
-                "label": "Member 2 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
             },
             {
                 "name": "member3Name",
-                "label": "Member 3 Name",
+                "label": "Teammate 3 Name",
                 "type": "text",
                 "required": true,
                 "placeholder": "Full name"
-            },
-            {
-                "name": "member3Phone",
-                "label": "Member 3 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
             },
             {
                 "name": "member4Name",
-                "label": "Member 4 Name",
+                "label": "Teammate 4 Name",
                 "type": "text",
                 "required": true,
                 "placeholder": "Full name"
-            },
-            {
-                "name": "member4Phone",
-                "label": "Member 4 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
             },
             {
                 "name": "member5Name",
-                "label": "Member 5 Name",
+                "label": "Teammate 5 Name",
                 "type": "text",
                 "required": true,
                 "placeholder": "Full name"
-            },
-            {
-                "name": "member5Phone",
-                "label": "Member 5 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
             }
         ]
     },
@@ -532,7 +490,7 @@
         },
         "teamSize": "4",
         "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹300 per squad",
+        "registrationFee": "₹400 per squad",
         "registrationFields": [
             {
                 "name": "teamName",
@@ -615,7 +573,7 @@
         },
         "teamSize": "1",
         "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹100 per person",
+        "registrationFee": "₹50 per person",
         "registrationFields": [
             {
                 "name": "participantName",
@@ -670,7 +628,7 @@
         },
         "teamSize": "1",
         "venue": "Lab Block, Room 403",
-        "registrationFee": "₹100 per person",
+        "registrationFee": "₹60 per person",
         "registrationFields": [
             {
                 "name": "participantName",
@@ -724,7 +682,7 @@
         },
         "teamSize": "1",
         "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹100 per person",
+        "registrationFee": "₹50 per person",
         "registrationFields": [
             {
                 "name": "participantName",
@@ -778,7 +736,7 @@
         },
         "teamSize": "2",
         "venue": "Classroom",
-        "registrationFee": "₹150 per team",
+        "registrationFee": "₹100 per team",
         "registrationFields": [
             {
                 "name": "participant1Name",
@@ -845,9 +803,9 @@
             "phone": "+91 87654 32109",
             "email": "priya.nair@utsaha.ac.in"
         },
-        "teamSize": "1–3",
+        "teamSize": "4",
         "venue": "Lab",
-        "registrationFee": "₹150 per team",
+        "registrationFee": "₹400 per team",
         "registrationFields": [
             {
                 "name": "teamName",
@@ -950,7 +908,7 @@
         },
         "teamSize": "4",
         "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹300 per squad",
+        "registrationFee": "₹200 per squad",
         "registrationFields": [
             {
                 "name": "teamName",
@@ -1032,7 +990,7 @@
         },
         "teamSize": "2–4",
         "venue": "Auditorium, Lab Block 2nd Floor",
-        "registrationFee": "₹200 per team",
+        "registrationFee": "₹400 per team",
         "registrationFields": [
             {
                 "name": "teamName",

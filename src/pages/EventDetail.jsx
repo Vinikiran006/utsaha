@@ -52,11 +52,11 @@ export default function EventDetail() {
                 style={{ background: `linear-gradient(135deg, ${catMeta.bg}, #1c0a0a 70%)` }}
             >
                 <div className="event-detail__banner-blob" />
-                {event.poster && (
+                {/* {event.poster && (
                     <div className="event-detail__banner-poster">
                         <img src={event.poster} alt={event.title} />
                     </div>
-                )}
+                )} */}
                 <div className="container event-detail__banner-inner">
                     <button className="event-detail__back" onClick={() => navigate(-1)}>
                         ← Back to Events
