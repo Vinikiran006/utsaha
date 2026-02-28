@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Instagram, Twitter, Facebook, Linkedin } from 'lucide-react'
 import './Footer.css'
-import logo from '../assets/logo.png'
 
 
 const SOCIAL_LINKS = [
@@ -25,7 +24,7 @@ export default function Footer() {
             <div className="footer__body container">
                 <div className="footer__brand">
                     <div className="footer__logo">
-    <img src={logo} alt="Utsaha Vaibhava Logo" className="footer__logo-img" />
+    <img src="/images/logo.png" alt="Utsaha Vaibhava Logo" className="footer__logo-img" />
     <div>
         <div className="footer__logo-title">Utsaha Vaibhava</div>
         <div className="footer__logo-sub">Annual College Fest 2026</div>
