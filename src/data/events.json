@@ -30,7 +30,7 @@
     {
         "id": "ms-02",
         "title": "Fashion Show",
-        "poster":"src/assets/fashion.jpeg",
+        "poster": "src/assets/fashion.jpeg",
         "category": "Main Stage",
         "date": "April 10, 2026",
         "time": "8:00 PM",
@@ -61,7 +61,7 @@
     {
         "id": "ms-03",
         "title": "DJ Night",
-        "poster":"src/assets/dj.jpeg",
+        "poster": "src/assets/dj.jpeg",
         "category": "Main Stage",
         "date": "April 11, 2026",
         "time": "7:00 PM",
@@ -112,7 +112,7 @@
     {
         "id": "cul-01",
         "title": "Western Solo Dance",
-        "poster":"src/assets/solo.jpg",
+        "poster": "src/assets/solo.jpg",
         "category": "Cultural",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -142,7 +142,7 @@
     {
         "id": "cul-02",
         "title": "Duet Dance",
-        "poster":"src/assets/duet.jpg",
+        "poster": "src/assets/duet.jpg",
         "category": "Cultural",
         "date": "April 10, 2026",
         "time": "12:00 PM",
@@ -381,7 +381,7 @@
     {
         "id": "tech-01",
         "title": "Valorant",
-        "poster":"src/assets/valo.jpg",
+        "poster": "src/assets/valo.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -408,12 +408,105 @@
         },
         "teamSize": "5",
         "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
-        "registrationFee": "₹500 per team"
+        "registrationFee": "₹500 per team",
+        "registrationFields": [
+            {
+                "name": "teamName",
+                "label": "Team Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your team name"
+            },
+            {
+                "name": "member1Name",
+                "label": "Member 1 (Leader) Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Team leader's full name"
+            },
+            {
+                "name": "member1Phone",
+                "label": "Member 1 (Leader) Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member1Email",
+                "label": "Member 1 (Leader) Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "leader@example.com"
+            },
+            {
+                "name": "member2Name",
+                "label": "Member 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member2Phone",
+                "label": "Member 2 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member3Name",
+                "label": "Member 3 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member3Phone",
+                "label": "Member 3 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member4Name",
+                "label": "Member 4 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member4Phone",
+                "label": "Member 4 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member5Name",
+                "label": "Member 5 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member5Phone",
+                "label": "Member 5 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-02",
         "title": "BGMI",
-        "poster":"src/assets/bgmi.png", 
+        "poster": "src/assets/bgmi.png",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "11:00 AM",
@@ -439,12 +532,63 @@
         },
         "teamSize": "4",
         "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹300 per squad"
+        "registrationFee": "₹300 per squad",
+        "registrationFields": [
+            {
+                "name": "teamName",
+                "label": "Team Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your team name"
+            },
+            {
+                "name": "leaderName",
+                "label": "Team Leader Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Leader's full name"
+            },
+            {
+                "name": "leaderPhone",
+                "label": "Team Leader Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "teammate2",
+                "label": "Teammate 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "teammate3",
+                "label": "Teammate 3 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "teammate4",
+                "label": "Teammate 4 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-03",
         "title": "Smash Karts",
-        "poster":"src/assets/smash.jpg",
+        "poster": "src/assets/smash.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "10:00 AM",
@@ -471,12 +615,35 @@
         },
         "teamSize": "1",
         "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹100 per person"
+        "registrationFee": "₹100 per person",
+        "registrationFields": [
+            {
+                "name": "participantName",
+                "label": "Participant Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your full name"
+            },
+            {
+                "name": "participantPhone",
+                "label": "Phone Number",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-04",
         "title": "Stumble Guys",
-        "poster":"src/assets/stumble.jpg",
+        "poster": "src/assets/stumble.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "12:00 PM",
@@ -503,12 +670,35 @@
         },
         "teamSize": "1",
         "venue": "Lab Block, Room 403",
-        "registrationFee": "₹100 per person"
+        "registrationFee": "₹100 per person",
+        "registrationFields": [
+            {
+                "name": "participantName",
+                "label": "Participant Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your full name"
+            },
+            {
+                "name": "participantPhone",
+                "label": "Phone Number",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-06",
         "title": "Clash Royale 1V1",
-        "poster":"src/assets/clash.jpg",
+        "poster": "src/assets/clash.jpg",
         "category": "Technical",
         "date": "April 10, 2026",
         "time": "11:00 AM",
@@ -534,12 +724,35 @@
         },
         "teamSize": "1",
         "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹100 per person"
+        "registrationFee": "₹100 per person",
+        "registrationFields": [
+            {
+                "name": "participantName",
+                "label": "Participant Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your full name"
+            },
+            {
+                "name": "participantPhone",
+                "label": "Phone Number",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-07",
         "title": "Clash Royale 2V2",
-        "poster":"src/assets/clash.jpg",
+        "poster": "src/assets/clash.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "10:00 AM",
@@ -565,12 +778,49 @@
         },
         "teamSize": "2",
         "venue": "Classroom",
-        "registrationFee": "₹150 per team"
+        "registrationFee": "₹150 per team",
+        "registrationFields": [
+            {
+                "name": "participant1Name",
+                "label": "Participant 1 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "participant1Phone",
+                "label": "Participant 1 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "participant2Name",
+                "label": "Participant 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "participant2Phone",
+                "label": "Participant 2 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-09",
         "title": "TECH TRIALS: MULTIVERSE HEIST",
-        "poster":"src/assets/tech.jpeg",
+        "poster": "src/assets/tech.jpeg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "11:00 AM",
@@ -597,12 +847,84 @@
         },
         "teamSize": "1–3",
         "venue": "Lab",
-        "registrationFee": "₹150 per team"
+        "registrationFee": "₹150 per team",
+        "registrationFields": [
+            {
+                "name": "teamName",
+                "label": "Team Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your team name"
+            },
+            {
+                "name": "member1Name",
+                "label": "Member 1 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member1Phone",
+                "label": "Member 1 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member2Name",
+                "label": "Member 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member2Phone",
+                "label": "Member 2 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member3Name",
+                "label": "Member 3 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member3Phone",
+                "label": "Member 3 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member4Name",
+                "label": "Member 4 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member4Phone",
+                "label": "Member 4 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-10",
         "title": "Free Fire",
-        "poster":"src/assets/free.jpg",
+        "poster": "src/assets/free.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "12:00 PM",
@@ -628,12 +950,63 @@
         },
         "teamSize": "4",
         "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹300 per squad"
+        "registrationFee": "₹300 per squad",
+        "registrationFields": [
+            {
+                "name": "teamName",
+                "label": "Team Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your team name"
+            },
+            {
+                "name": "leaderName",
+                "label": "Team Leader Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Leader's full name"
+            },
+            {
+                "name": "leaderPhone",
+                "label": "Team Leader Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "teammate2",
+                "label": "Teammate 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "teammate3",
+                "label": "Teammate 3 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "teammate4",
+                "label": "Teammate 4 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "tech-11",
         "title": "Tech Treasure Hunt",
-        "poster":"src/assets/treas.jpg",
+        "poster": "src/assets/treas.jpg",
         "category": "Technical",
         "date": "April 11, 2026",
         "time": "2:00 PM",
@@ -659,7 +1032,79 @@
         },
         "teamSize": "2–4",
         "venue": "Auditorium, Lab Block 2nd Floor",
-        "registrationFee": "₹200 per team"
+        "registrationFee": "₹200 per team",
+        "registrationFields": [
+            {
+                "name": "teamName",
+                "label": "Team Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter your team name"
+            },
+            {
+                "name": "member1Name",
+                "label": "Member 1 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member1Phone",
+                "label": "Member 1 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member2Name",
+                "label": "Member 2 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member2Phone",
+                "label": "Member 2 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member3Name",
+                "label": "Member 3 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member3Phone",
+                "label": "Member 3 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "member4Name",
+                "label": "Member 4 Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Full name"
+            },
+            {
+                "name": "member4Phone",
+                "label": "Member 4 Phone",
+                "type": "tel",
+                "required": true,
+                "placeholder": "10-digit number"
+            },
+            {
+                "name": "utrNumber",
+                "label": "UTR Number (Payment)",
+                "type": "text",
+                "required": true,
+                "placeholder": "Enter UTR / transaction reference"
+            }
+        ]
     },
     {
         "id": "lit-01",
