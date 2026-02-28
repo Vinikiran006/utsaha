@@ -73,6 +73,7 @@
   .reg-payment {
     position: relative;
     top: 0;
+    order: -1;
   }
 }
 .reg-form__input {
