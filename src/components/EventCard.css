@@ -146,3 +146,41 @@
     font-size: 0.9rem;
     padding: 12px 20px;
 }
+@media (max-width: 768px) {
+
+  /* Stack image on top */
+  .ev-card {
+    flex-direction: column !important;
+  }
+
+  /* Make poster full width */
+  .ev-card__poster-col {
+    width: 100% !important;
+    height: 220px;        /* adjust if needed */
+  }
+
+  /* Make image fill container */
+  .ev-card__poster-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Content full width */
+  .ev-card__content {
+    width: 100% !important;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .ev-card {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .ev-card__poster-col {
+    border-radius: 20px 20px 0 0;
+  }
+
+}
