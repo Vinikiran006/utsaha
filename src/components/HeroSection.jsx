@@ -72,12 +72,7 @@ export default function HeroSection() {
             </div>
 
             {/* Scroll indicator */}
-            <div className="hero__scroll-hint">
-                <div className="hero__scroll-mouse">
-                    <div className="hero__scroll-wheel" />
-                </div>
-                <span>Scroll to explore</span>
-            </div>
+            
         </section>
     )
 }
