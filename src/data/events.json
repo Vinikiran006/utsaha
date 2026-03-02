@@ -6,12 +6,26 @@
         "date": "April 10, 2026",
         "time": "6:00 PM",
         "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
-        "description": "ROAR is the thrilling bike auto show fest at BMS Institute of Technology and Management (BMSIT&M), renowned for its competition to find the loudest rev. This high-octane event draws motorcycle enthusiasts and participants eager to showcase their bikes' power and sound.",
+        "description": "ROAR is the thrilling bike auto show fest hosted at BMS Institute of Technology and Management (BMSIT&M), renowned for its electrifying competition to find the loudest rev. This high-octane event brings together motorcycle enthusiasts eager to showcase the power, performance, and sound of their machines. Feel the adrenaline as engines thunder across the venue, creating an atmosphere charged with energy and excitement. Celebrating engineering excellence and the spirit of the biking community, ROAR blends fierce revving battles with camaraderie, making it one of the most anticipated highlights of the college’s annual fest.",
         "rules": [
-            "Entry by valid college ID only",
-            "No professional artists allowed",
-            "Performance time: up to 20 minutes",
-            "Decision of judges is final"
+            "Only bikes above 300cc are allowed inside the college.",
+    "Participation is limited to 150 spots on a first-come, first-served basis.",
+    "Contestants must assemble 30 minutes prior for on-spot registrations.",
+    "Valid ID proof (Driver’s License/Aadhar Card) must be shown at the entrance.",
+    "If multiple exhaust outlets are present, each will be tested and the highest reading recorded.",
+    "Tests will be conducted with the gearbox in neutral.",
+    "Using kill/ignition switches to create artificial pops and bangs is strictly prohibited.",
+    "Bikes without exhausts are not allowed to participate.",
+    "Pillion riders are not permitted; only one person per vehicle is allowed in the ROAR arena.",
+    "Bikers must strictly follow volunteer guidelines and instructions.",
+    "Only bikes registered for the ROAR event will be granted access to the arena.",
+    "Engines must remain off while another participant is competing.",
+    "Participants are allowed only one opportunity to rev their engine.",
+    "The decibel reading recorded by the Organizing Committee is final.",
+    "Registration stickers must be clearly displayed on the participant's T-shirt.",
+    "Refreshments can be collected from counters upon showing the registration sticker.",
+    "Abusive language, obscenity, smoking, and substance consumption are strictly prohibited.",
+    "The decisions of the Organizing Committee are final and binding."
         ],
         "eligibility": "Open to all college students",
         "prizes": {
@@ -20,12 +34,11 @@
             "third": "₹4,000 + Certificate"
         },
         "coordinator": {
-            "name": "Arjun Kapoor",
-            "phone": "+91 98765 43210",
-            "email": "arjun.kapoor@utsaha.ac.in"
+            "name": "GYAN",
+            "phone": "+91 9686676666"
         },
         "venue": "Main Stage",
-        "registrationFee": "₹300 per team"
+        "registrationFee": "₹300 onwards (varies by bike category)"
     },
     {
         "id": "ms-02",
@@ -35,13 +48,27 @@
         "date": "April 10, 2026",
         "time": "8:00 PM",
         "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
-        "description": "The Fashion Show at Utsaha Vaibhava is the most glamorous event on the main stage. Teams create stunning outfits around a theme and walk the runway with flair and attitude. Judges evaluate creativity, coordination, confidence, and presentation.",
+        "description": "Step into a world of elegance and sophistication at the Fashion Show — a premier event of Utsaha Vaibhava. This spectacular showcase promises an evening of glamour, creativity, and artistic expression, designed to captivate the audience and celebrate the true spirit of fashion. Witness stunning ensembles, powerful stage presence, and thematic storytelling as teams bring their concepts to life with confidence and flair. From innovative designs to mesmerizing runway walks, every performance will embody originality and refined style. Join us for an unforgettable celebration where fashion takes center stage — a night of artistry, diversity, and bold creative expression that no fashion enthusiast should miss.",
+        "judgingCriteria": [
+  "Innovation and originality",
+  "Costume creativity",
+  "Walk and on-stage attitude",
+  "Choice of music",
+  "Stage setup and props"
+],
         "rules": [
-            "Teams of 5–15 members",
-            "Theme will be revealed 1 week before the event",
-            "Outfits must be self-made or customised",
-            "Walk time: 5–8 minutes per team",
-            "No offensive or indecent attire allowed"
+           "Fashion show is open to college students only.",
+    "Team size: 16 participants (maximum 14 on stage + 2 backstage crew).",
+    "Stage time: 10 minutes (8 minutes performance + 2 minutes narration and stage setup).",
+    "Exceeding the time limit by 2 minutes or more will result in disqualification.",
+    "All team members must carry a valid college ID on the day of the event.",
+    "Vulgarity of any kind will lead to disqualification; consult organizers regarding stunts or costumes if unsure.",
+    "The decision of the organizer is final in the event of any dispute.",
+    "Teams must inform and consult with organizers regarding all stage props prior to the event.",
+    "Audio tracks must be submitted in MP3 format via CD/pen drive before the event.",
+    "Teams wishing to control light and sound must inform the coordinator one day before the event.",
+    "The decision of the judges is final and cannot be questioned.",
+    "Misbehavior, including influence-related incidents, will lead to instant disqualification and removal from the premises."
         ],
         "eligibility": "Open to all college students",
         "prizes": {
@@ -59,325 +86,329 @@
         "registrationFee": "₹400 per team"
     },
     {
-        "id": "ms-03",
-        "title": "DJ Night",
-        "poster": "/images/dj.jpeg",
-        "category": "Main Stage",
-        "date": "April 11, 2026",
-        "time": "7:00 PM",
-        "shortDescription": "Dance till midnight — a high-energy DJ night with professional DJs, laser lights and epic drops.",
-        "description": "DJ Night is the ultimate party closer for Utsaha Vaibhava 2026. Professional DJs will take over the main stage with chart-topping mixes, festival anthems, and non-stop beats. Lasers, fog machines, and a crowd-fuelled atmosphere guarantee a night nobody will forget.",
-        "rules": [
-            "Open entry for registered college students",
-            "No alcohol or prohibited substances allowed on campus",
-            "Follow security instructions at all times"
-        ],
-        "eligibility": "Open to all registered attendees",
-        "prizes": {},
-        "coordinator": {
-            "name": "Siddharth Rao",
-            "phone": "+91 76543 21098",
-            "email": "siddharth.rao@utsaha.ac.in"
-        },
-        "teamSize": "Individual",
-        "venue": "Main Stage Grounds",
-        "registrationFee": "₹100 per person"
-    },
-    {
-        "id": "ms-04",
-        "title": "Let's Nach",
-        "category": "Main Stage",
-        "date": "April 10, 2026",
-        "time": "5:00 PM",
-        "shortDescription": "A mass flash-mob dance event where everyone joins in — no experience needed, just pure energy!",
-        "description": "Let's Nach is an inclusive, high-energy flash mob dance event on the main stage. A specially choreographed routine is taught on the spot and everyone dances together. Whether you have two left feet or professional training, this is for YOU. Pure joy, pure energy!",
-        "rules": [
-            "Open to all — no registration needed",
-            "Follow choreographers' instructions",
-            "Appropriate attire required"
-        ],
-        "eligibility": "Open to everyone",
-        "prizes": {
-            "best": "Surprise gifts for standout dancers"
-        },
-        "coordinator": {
-            "name": "Ananya Sharma",
-            "phone": "+91 65432 10987",
-            "email": "ananya.sharma@utsaha.ac.in"
-        },
-        "teamSize": "Individual",
-        "venue": "Main Stage",
-        "registrationFee": "Free"
-    },
-    {
-        "id": "cul-01",
-        "title": "Western Solo Dance",
-        "poster": "/images/solo.jpg",
-        "category": "Cultural",
-        "date": "April 10, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "Show off your solo western dance skills — from hip-hop to contemporary, own the stage.",
-        "description": "Western Solo Dance is your chance to shine individually on the Utsaha stage. Perform any western style — hip-hop, contemporary, freestyle, popping — and let your personality speak through every move. Judging is based on technique, expression, and stage presence.",
-        "rules": [
-            "Solo performance only",
-            "Duration: 2–4 minutes",
-            "Music must be submitted 24 hours in advance",
-            "Western dance forms only"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹5,000 + Trophy",
-            "second": "₹3,000 + Medal",
-            "third": "₹1,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Ananya Sharma",
-            "phone": "+91 65432 10987",
-            "email": "ananya.sharma@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Open Air Theatre",
-        "registrationFee": "₹100 per person"
-    },
-    {
-        "id": "cul-02",
-        "title": "Duet Dance",
-        "poster": "/images/duet.jpg",
-        "category": "Cultural",
-        "date": "April 10, 2026",
-        "time": "12:00 PM",
-        "shortDescription": "Two dancers, one stage, endless chemistry — showcase your sync and style in this duet spectacular.",
-        "description": "Duet Dance at Utsaha Vaibhava brings pairs together for a captivating performance. Any dance form is welcome. The judges will look for synchronisation, chemistry, technical skill, and artistic expression. Mixed-gender and same-gender duets both welcome.",
-        "rules": [
-            "Exactly 2 members per team",
-            "Duration: 3–5 minutes",
-            "Music must be submitted 24 hours prior",
-            "Any dance form accepted"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹6,000 + Trophy",
-            "second": "₹3,500 + Medal",
-            "third": "₹2,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Ananya Sharma",
-            "phone": "+91 65432 10987",
-            "email": "ananya.sharma@utsaha.ac.in"
-        },
-        "teamSize": "2",
-        "venue": "Open Air Theatre",
-        "registrationFee": "₹150 per pair"
-    },
-    {
-        "id": "cul-03",
-        "title": "Nritya",
-        "category": "Cultural",
-        "date": "April 11, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A group dance competition celebrating classical and folk traditions of India.",
-        "description": "Nritya is a vibrant group dance competition celebrating India's rich classical and folk dance heritage — Bharatanatyam, Kathak, Kuchipudi, Odissi, folk, and more. Groups perform with full costumes and musical accompaniment for an authentic cultural experience.",
-        "rules": [
-            "Group of 3–15 members",
-            "Duration: 5–10 minutes",
-            "Music must be submitted 48 hours prior",
-            "Classical or folk forms only",
-            "Props and costumes allowed"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹8,000 + Trophy",
-            "second": "₹5,000 + Medal",
-            "third": "₹2,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Rohan Mehta",
-            "phone": "+91 98765 43210",
-            "email": "rohan.mehta@utsaha.ac.in"
-        },
-        "teamSize": "3–15",
-        "venue": "Open Air Theatre",
-        "registrationFee": "₹200 per team"
-    },
-    {
-        "id": "cul-04",
-        "title": "Adaptune",
-        "category": "Cultural",
-        "date": "April 10, 2026",
-        "time": "3:00 PM",
-        "shortDescription": "Adapt a Bollywood or pop song into a completely new musical style — surprise both judges and audience!",
-        "description": "Adaptune challenges performers to take a well-known song and reimagine it in a completely different genre, tempo, or instrumentation. A jazz rendition of a Bollywood hit? Metal cover of a folk song? Anything goes — creativity is king here!",
-        "rules": [
-            "Solo or group (up to 6 members)",
-            "Duration: 3–5 minutes",
-            "Original composition required around an existing melody",
-            "Karaoke tracks not allowed",
-            "All instruments must be self-arranged"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹6,000 + Trophy",
-            "second": "₹3,500 + Medal",
-            "third": "₹2,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": "1–6",
-        "venue": "Mini Auditorium",
-        "registrationFee": "₹150 per team"
-    },
-    {
-        "id": "cul-05",
-        "title": "Battle of Bands",
-        "category": "Cultural",
-        "date": "April 11, 2026",
-        "time": "5:00 PM",
-        "shortDescription": "Unleash your musical talent in this epic rock & pop showdown. Bands and duos welcome!",
-        "description": "Battle of Bands is the flagship cultural music event of Utsaha Vaibhava. This high-energy competition invites musicians from across colleges to showcase their talent in rock, pop, fusion, and indie genres. Expect an electric crowd, professional sound systems, and an unforgettable night of music!",
-        "rules": [
-            "Each team can have 2–8 members",
-            "Performance duration: 8–12 minutes",
-            "Own instruments must be brought; PA system will be provided",
-            "No pre-recorded tracks (backing tracks allowed for specific instruments only)",
-            "Vulgar or offensive content is strictly prohibited"
-        ],
-        "eligibility": "Open to all college students with valid ID proof",
-        "prizes": {
-            "first": "₹10,000 + Trophy",
-            "second": "₹6,000 + Medal",
-            "third": "₹3,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Rohan Mehta",
-            "phone": "+91 98765 43210",
-            "email": "rohan.mehta@utsaha.ac.in"
-        },
-        "teamSize": "2–8",
-        "venue": "Main Auditorium",
-        "registrationFee": "₹200 per team"
-    },
-    {
-        "id": "cul-06",
-        "title": "Western Winds",
-        "category": "Cultural",
-        "date": "April 10, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "A group western dance competition — choreograph your squad's best moves and set the stage ablaze.",
-        "description": "Western Winds is the premier group western dance event at Utsaha Vaibhava. Teams bring their most creative hip-hop, contemporary, or freestyle routines to the stage. Synchronisation, stage energy, costume, and musicality all count toward your score.",
-        "rules": [
-            "Groups of 6–20 members",
-            "Duration: 5–10 minutes",
-            "Music must be submitted 48 hours in advance",
-            "Western styles only (hip-hop, contemporary, freestyle, locking, breaking)"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹10,000 + Trophy",
-            "second": "₹6,000 + Medal",
-            "third": "₹3,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Ananya Sharma",
-            "phone": "+91 65432 10987",
-            "email": "ananya.sharma@utsaha.ac.in"
-        },
-        "teamSize": "6–20",
-        "venue": "Open Air Theatre",
-        "registrationFee": "₹300 per team"
-    },
-    {
-        "id": "cul-07",
-        "title": "Rhythm Riot",
-        "category": "Cultural",
-        "date": "April 11, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "A percussion and rhythm battle — drums, djembes, beatboxing, anything rhythmic goes!",
-        "description": "Rhythm Riot is a unique event celebrating the art of percussion and rhythm. From drum kits to djembes, beatboxing to body percussion, teams compete to create the most intensely rhythmic performance. No melody required — just beat, groove, and energy!",
-        "rules": [
-            "Groups of 2–8 members",
-            "Duration: 4–7 minutes",
-            "Only percussion or rhythm-based instruments allowed",
-            "Electronic amplification allowed for beatboxers",
-            "Props allowed"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹6,000 + Trophy",
-            "second": "₹3,500 + Medal",
-            "third": "₹2,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Vikram Rathore",
-            "phone": "+91 54321 09876",
-            "email": "vikram.rathore@utsaha.ac.in"
-        },
-        "teamSize": "2–8",
-        "venue": "Amphitheatre",
-        "registrationFee": "₹150 per team"
-    },
-    {
-        "id": "cul-08",
-        "title": "Dance Duel",
-        "category": "Cultural",
-        "date": "April 11, 2026",
-        "time": "3:00 PM",
-        "shortDescription": "A head-to-head freestyle dance battle — one-on-one rounds, crowd cheering, the floor is yours.",
-        "description": "Dance Duel is a freestyle 1v1 dance battle with knockout rounds. Participants face off in timed rounds where a DJ spins live and dancers freestyle to whatever plays. Judges and the crowd pick the winner. No choreography, just raw talent and vibes!",
-        "rules": [
-            "Individual participation only",
-            "Knockout format — 1v1 rounds",
-            "Each round: 60 seconds per player",
-            "Music chosen by the DJ on the spot",
-            "Any western style welcome"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹5,000 + Battle Crown",
-            "second": "₹3,000 + Medal",
-            "third": "₹1,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Ananya Sharma",
-            "phone": "+91 65432 10987",
-            "email": "ananya.sharma@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Open Air Stage",
-        "registrationFee": "₹100 per person"
-    },
-    {
-        "id": "cul-09",
-        "title": "Runway Rush",
-        "category": "Cultural",
-        "date": "April 10, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A fun rapid-fire fashion challenge — recreate a look with recycled or given materials in 30 minutes!",
-        "description": "Runway Rush is the fast-paced, creative fashion event at Utsaha Vaibhava. Teams are given a bag of materials and 30 minutes to create an outfit from scratch. A 2-minute walk on the runway caps it off. Creativity, teamwork, and quick thinking are the keys to victory!",
-        "rules": [
-            "Teams of 2–4 members (1 model required)",
-            "Materials provided on the spot",
-            "Design & creation time: 30 minutes",
-            "Runway walk: 2 minutes",
-            "Safety pins, tape, and basic tools provided"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹5,000 + Best Design Trophy",
-            "second": "₹3,000 + Medal",
-            "third": "₹1,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": "2–4",
-        "venue": "Fashion Studio, Block D",
-        "registrationFee": "₹200 per team"
-    },
+    "id": "cul-01",
+    "title": "Battle of Bands",
+    "poster": "/images/battle.jpg",
+    "category": "Cultural",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "An electrifying clash of musical talent across genres.",
+    "description": "Prepare for an exhilarating clash of musical talent at the Battle of the Bands! Bands representing a spectrum of genres including rock, pop, metal, jazz, and more will take the stage to compete in a thrilling showcase of originality and skill. It's a high-energy event where each band strives to leave a lasting impression on the audience and judges alike.",
+    "rules": [
+      "Team size: 5–10 members.",
+    "Duration: 8+3 minutes (8 minutes for performance, 3 minutes for mic setup).",
+    "No recorded tracks allowed; all music must be live.",
+    "Any genre or fusion of multiple genres is permitted.",
+    "Original compositions will receive higher weightage in scoring.",
+    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
+    "A drum kit will be provided at the venue.",
+    "Acapella performances are not allowed.",
+    "The judge's decision will be final and binding."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹5,000", "second": "₹3,000" },
+    "coordinator": { "names": ["Sumakrishna", "Chinmay G"], "phones": [] },
+    "teamSize": "5–10",
+    "venue": "Main Stage",
+    "registrationFee": "₹650 per team"
+  },
+  {
+    "id": "cul-02",
+    "title": "Instrumenta",
+    "poster": "/images/soloi.jpeg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "A solo instrumental competition celebrating musical finesse.",
+    "description": "Prepare for an exhilarating clash of musical talent at the Battle of Bands! Bands representing a spectrum of genres including rock, pop, metal, jazz, and more will take the stage to compete in a thrilling show case of originality and skill. It's a high-energy event where each band strives to leave a lasting impression on the audience and judges alike.",
+    "rules": [
+    "Team size: 5–10 members.",
+    "Duration: 8+3 minutes (8 minutes for performance, 3 minutes for mic setup).",
+    "No recorded tracks allowed; all music must be live.",
+    "Any genre or fusion of multiple genres is permitted.",
+    "Original compositions will receive higher weightage in scoring.",
+    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
+    "A drum kit will be provided at the venue.",
+    "Acapella performances are not allowed.",
+    "The judge's decision will be final and binding."
+  ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,000", "second": "₹1,000" },
+    "coordinator": { "names": ["Mahesh Kashyap Yogish", "Rachitha Thunga"], "phones": [] },
+    "teamSize": "Individual",
+    "venue": "TBA",
+    "registrationFee": "₹150"   
+  },
+  {
+    "id": "cul-03",
+    "title": "Raaga",
+    "poster": "/images/solosin.jpeg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "Classical solo singing competition celebrating Indian music.",
+    "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
+    "rules": [
+      "Participants can choose from various categories including classical, Bollywood, devotional, or regional folk songs.",
+    "Songs can be in any Indian language or classical form.",
+    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocal performance.",
+    "The track must not contain any singing, chorus, or harmonies.",
+    "Duration: 3+1 minutes.",
+    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
+    "Karaoke tracks must be submitted beforehand in MP3 format only."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹1,500", "second": "₹1,000" },
+    "coordinator": { "names": ["M D Akhil", "Nischal A"], "phones": [] },
+    "teamSize": "Individual",
+    "venue": "TBA",
+    "registrationFee": "₹150"
+  },
+  {
+    "id": "cul-04",
+    "title": "Crescendo",
+    "poster": "/images/wesolo.jpg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "Western solo singing competition.",
+    "description": "Unleash your vocal prowess and captivate the audience with your favorite Western tunes in the Western Solo Singing Competition! This event celebrates the diverse genres of Western music, welcoming talented singers to showcase their unique style, interpretation, and musical talent.",
+    "rules": [
+      "Participants can choose from various Western genres including pop, rock, jazz, blues, country, soul, R&B, and more.",
+    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocal performance.",
+    "The karaoke track must not contain any singing, chorus, or harmonies.",
+    "The track must be submitted beforehand to the event coordinators in MP3 format only.",
+    "Duration: 3+1 minutes.",
+    "Songs must not have any demeaning lyrics; violation results in immediate disqualification."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹1,500", "second": "₹1,000" },
+    "coordinator": { "names": ["Mallikarjun Katagi", "Dhivii Suresh"], "phones": [] },
+    "teamSize": "Individual",
+    "venue": "TBA",
+    "registrationFee": "₹150"
+  },
+  {
+    "id": "cul-05",
+    "title": "Rhythm Riot",
+    "category": "Cultural",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "An electrifying percussion and rhythm battle.",
+    "description": "Get ready for The Ultimate Music Quiz — a thrilling 3-round team challenge that tests your musical knowledge! From identifying tunes and decoding lyrics to cracking exciting trivia, each round brings fresh twists and surprises. Team up, think fast, and prove that you are the ultimate music maestros!",
+    "rules": [
+      "Team size: 2–3 members.",
+    "The event consists of 3 rounds, with eliminations at each stage.",
+    "Questions cover music trivia, song identification, lyrics completion, and audio challenges.",
+    "Each team will have a fixed time to answer each question.",
+    "Buzzer rounds included; questions may be multiple-choice or open-ended.",
+    "No mobile phones or external help allowed.",
+    "Any misconduct or rule violation may lead to disqualification.",
+    "The quizmaster's decision is final in case of disputes."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,000", "second": "₹1,000" },
+    "coordinator": { "names": ["Nikhath Fathima", "Medha Deshpande"], "phones": [] },
+    "teamSize": "2–8",
+    "venue": "TBA",
+    "registrationFee": "₹200 per team"
+  },
+  {
+    "id": "cul-06",
+    "title": "Poise and Pulse",
+    "poster": "/images/duet.jpg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "A duet dance competition celebrating synchronisation and chemistry.",
+    "description": "Join us for an exciting Duet Dance Competition where pairs of dancers showcase their talent and teamwork. Judged on technique, synchronization, musicality, creativity, and expression, this event welcomes participants of all skill levels. Experience stunning lifts, partnered spins, and intricate footwork as each duet delivers a dynamic and captivating performance. Watch dancers move in perfect harmony to create truly unforgettable moments.",
+    "rules": [
+      "Time limit: 4+1 minutes; negative points for exceeding the limit.",
+    "Team size: 2 participants (M&M, F&F, or M&F).",
+    "No specific theme or dance forms are required.",
+    "Any form of vulgarity will lead to immediate disqualification.",
+    "The judges' decision will be final."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,500", "second": "₹1,500" },
+    "coordinator": { "names": ["Manal Gupta", "Abhishek N"], "phones": [] },
+    "teamSize": "2",
+    "venue": "TBA",
+    "registrationFee": "₹300 per team"
+  },
+  {
+    "id": "cul-07",
+    "title": "Naach-os",
+    "poster": "/images/group.jpg",
+    "category": "Cultural",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "A vibrant group dance competition.",
+    "description": "Unlock the rhythm of innovation and be part of an extraordinary spectacle at the Group Dance Competition. We invite colleges from far and wide to showcase their most innovative choreography, boundless creativity, and unwavering passion on our stage. Bring your energy, coordination, and storytelling to life as your team delivers a performance that captivates the audience and leaves a lasting impression.",
+    "rules": [
+      "Team size: 5–15 participants.",
+    "Time limit: 4+1 minutes.",
+    "Any form of vulgarity will lead to disqualification.",
+    "Music can be of any genre, including contemporary, Bollywood, lyrical, or Western.",
+    "Props are allowed, but inflammable or hazardous objects are strictly prohibited on stage.",
+    "The judges' decision will be final and no arguments will be entertained."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹8,000", "second": "₹4,000" },
+    "coordinator": { "names": ["Sushruth Kumar", "Tavish Gowda P"], "phones": [] },
+    "teamSize": "3–15",
+    "venue": "TBA",
+    "registrationFee": "₹800 per team"
+  },
+  {
+    "id": "cul-08",
+    "title": "Versa-Tile",
+    "poster": "/images/versa.jpg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "Reimagine songs into entirely new musical styles.",
+    "description": "This is an on-the-spot dance event that challenges participants to showcase their improvisational skills and move effortlessly with the rhythm of the music. Feel the energy, embrace the beat, and let your creativity flow as you dance your way to victory in this thrilling competition.",
+    "rules": [
+      "The event coordinator will play music of any genre.",
+    "Requests to change the music will not be entertained.",
+    "Multiple rounds may be included at the judge's discretion.",
+    "Any form of vulgarity will lead to disqualification.",
+    "The judges' decision will be final; no arguments will be entertained."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,000", "second": "₹1,000" },
+    "coordinator": { "names": ["Gagan HS", "Janani Pradeep"], "phones": [] },
+    "teamSize": "1–6",
+    "venue": "TBA",
+    "registrationFee": "₹200"
+  },
+  {
+    "id": "cul-09",
+    "title": "Laasya Lehar",
+    "poster": "/images/laasya.jpg",
+    "category": "Cultural",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "A classical solo dance competition celebrating tradition and grace.",
+    "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
+    "rules": [
+      "Participants can choose from various categories including classical (Hindustani/Carnatic), Bollywood, devotional, or regional folk.",
+    "Songs can be in any Indian language or classical form.",
+    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocals.",
+    "The track must not contain any backing vocals, chorus, or harmonies.",
+    "Karaoke tracks must be submitted beforehand in MP3 format only.",
+    "Duration: 3+1 minutes.",
+    "Demeaning lyrics are strictly prohibited and will result in immediate disqualification."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,000", "second": "₹1,000" },
+    "coordinator": { "names": ["Dharani Krishna Sahithi", "Rohan Jojee"], "phones": [] },
+    "teamSize": "Individual",
+    "venue": "TBA",
+    "registrationFee": "₹175"
+  },
+  {
+    "id": "cul-10",
+    "title": "Street Code",
+    "poster": "/images/street.jpg",
+    "category": "Cultural",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "An urban street-style dance competition.",
+    "description": "Dancing is the language of the soul. Set your spirit free, let the music take control, and allow your story to unfold through movement. Bring your high-energy, flashy moves and fierce competitive spirit to the stage. From old-school beats to modern hits, show us who truly has the best moves across the ages of music.",
+    "rules": [
+      "1 vs 1 breaking dance battle.",
+    "The number of rounds will be determined by the judge based on participant turnout.",
+    "Use of vulgar language or gestures will lead to immediate disqualification.",
+    "Dancers must perform to different genres of music as played by the DJ.",
+    "Judges will assess performance quality, musicality, dance technique, and the performer's personality."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹5,000", "second": "₹3,000" },
+    "coordinator": { "names": ["Divyashree G", "Poorvi V Nandargi"], "phones": [] },
+    "teamSize": "1–8",
+    "venue": "TBA",
+    "registrationFee": "₹350"
+  },
+  {
+    "id": "cul-11",
+    "title": "Freestyle Fever",
+    "poster": "/images/wester.jpg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "Western solo dance competition.",
+    "description": "Get ready to groove at our Solo Western Dance Competition! Showcase your moves in an electrifying celebration of rhythm and style — from high-energy hip-hop to smooth jazz and contemporary beats. Whether you're a seasoned performer or stepping onto the stage for the first time, this is your moment to shine. Lace up your dancing shoes and set the stage on fire!",
+    "rules": [
+      "Time limit: 3+1 minutes.",
+    "Dance style must be strictly Western.",
+    "Music can be of any genre.",
+    "Any form of vulgarity will lead to disqualification.",
+    "Props are allowed, but inflammable or hazardous objects are strictly prohibited on stage.",
+    "The judges' decision will be final; no arguments will be entertained.",
+    "Songs must not have any demeaning lyrics; violation results in immediate disqualification."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹2,000", "second": "₹1,000" },
+    "coordinator": { "names": ["Pavan Kumar SR", "Sacheth Kumr P N"], "phones": [] },
+    "teamSize": "Individual",
+    "venue": "TBA",
+    "registrationFee": "₹175"
+  },
+  {
+    "id": "cul-12",
+    "title": "Reel Riot",
+    "poster": "/images/reel.jpg",
+    "category": "Cultural",
+    "date": "Before April 11, 2026",
+    "time": "Online Submission",
+    "shortDescription": "An Instagram reel competition.",
+    "description": "Reel Riot is an electrifying dance reel competition where participants create a dynamic short performance based on a surprise theme. Whether performing solo or as a duo (maximum 2 members per team), this is your chance to showcase your rhythm, creativity, and on-camera presence. With limited time to conceptualize, choreograph, shoot, and edit, every beat counts. Precision, expressions, coordination, and originality will take center stage as you battle it out to create the most captivating reel.",
+    "rules": [
+      "Participation is open to solo performers and duos only (maximum 2 members per team).",
+    "Reels must strictly follow the announced theme.",
+    "The duration of the reel must be between 30 to 60 seconds.",
+    "Entries must be submitted before the deadline; late submissions will not be accepted.",
+    "The performance must be dance-focused; inappropriate content will lead to disqualification.",
+    "Basic editing is allowed, but excessive effects that overshadow the dance may affect judging.",
+    "Judging criteria: choreography, creativity, expressions, synchronization (for duos), theme relevance, and overall impact.",
+    "The judges' decision will be final and binding."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹1,500", "second": "₹1,000" },
+    "coordinator": { "names": ["Prajwal V", "Rithisha Patil"], "phones": [] },
+    "venue": "Online",
+    "registrationFee": "₹150",
+    "teamSize": "Individual"
+  },
+  {
+    "id": "cul-13",
+    "title": "Runway Rush",
+    "poster": "/images/fashion.jpg",
+    "category": "Cultural",
+    "date": "April 10, 2026",
+    "time": "TBA",
+    "shortDescription": "A rapid-fire fashion design challenge.",
+    "description": "Unleash your creativity at Runway Rush, where fashion meets spontaneity! Bring your own materials, craft a unique outfit on the spot, and transform your vision into a stunning runway look. With limited time and limitless imagination, design with flair, walk with confidence, and dazzle the audience with your originality and style.",
+    "rules": [
+      "Participation is open to individuals or pairs.",
+    "Contestants must bring their own materials; pre-made outfits are strictly prohibited.",
+    "Outfits must be designed and assembled on the spot within the fixed time limit.",
+    "Creations should be innovative, stylish, and wearable; bonus points for theme adherence.",
+    "Participants must showcase their creation on the runway; posture and confidence will be judged.",
+    "Only registered participants are permitted to design and style the outfit.",
+    "Judging criteria: originality, design execution, runway presence, and overall impact.",
+    "Any misconduct or rule violation may lead to disqualification.",
+    "The judge's verdict is final in all cases."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": { "first": "₹3,000", "second": "₹1,500" },
+    "coordinator": { "names": ["Tejas Gowda L", "Nidhi Rajesh Hegde"], "phones": [] },
+    "teamSize": "2–4",
+    "venue": "TBA",
+    "registrationFee": "₹300"
+  },
     {
         "id": "tech-01",
         "title": "Valorant",
@@ -1065,152 +1096,174 @@
         ]
     },
     {
-        "id": "lit-01",
-        "title": "Verbal Vendetta",
-        "category": "Literary",
-        "date": "April 10, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "A fast-talking debate and argument showdown — argue, rebut, and outwit your opponents.",
-        "description": "Verbal Vendetta is the ultimate debate battle at Utsaha Vaibhava. Teams are assigned positions on controversial topics and must argue their case convincingly within strict time limits. Rebuttals, cross-questioning, and closing arguments determine who wins the verbal duel.",
-        "rules": [
-            "Teams of 2 members",
-            "Topic will be revealed 15 minutes before each round",
-            "Each speaker gets 3 minutes to present",
-            "Rebuttal time: 2 minutes per team",
-            "English only"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹5,000 + Best Debater Trophy",
-            "second": "₹3,000 + Medal",
-            "third": "₹1,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Vikram Rathore",
-            "phone": "+91 54321 09876",
-            "email": "vikram.rathore@utsaha.ac.in"
-        },
-        "teamSize": "2",
-        "venue": "Seminar Hall, Block B",
-        "registrationFee": "₹150 per team"
+    "id": "lit-01",
+    "title": "CineVerse",
+    "poster": "/images/reel.jpg",
+    "category": "Literary",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "A short film competition showcasing storytelling, direction and cinematic excellence.",
+    "description": "CineVerse is a contest for filmmakers to showcase their storytelling and cinematic skills through original short films. Films will be judged on story, direction, performances, technical quality, and overall impact.",
+    "rules": [
+      "Participants can be from any educational institution",
+      "Duration must be minimum 7 minutes and maximum 10 minutes",
+      "Any language is allowed; English subtitles are mandatory",
+      "Film content must be original; plagiarism leads to disqualification",
+      "No vulgar, offensive, or harmful content allowed"
+    ],
+    "eligibility": "Open to all students",
+    "prizes": {
+      "first": "₹10,000",
+      "second": "₹6,000"
     },
-    {
-        "id": "lit-02",
-        "title": "Words of Wisdom",
-        "category": "Literary",
-        "date": "April 10, 2026",
-        "time": "12:00 PM",
-        "shortDescription": "A creative writing competition — weave words into stories, poems, or essays that leave an impact.",
-        "description": "Words of Wisdom is the creative writing event of Utsaha Vaibhava. Participants craft compelling short stories, poems, or essays on a given prompt within the allotted time. Judges evaluate originality, language, and emotional impact.",
-        "rules": [
-            "Individual participation",
-            "Time limit: 90 minutes",
-            "Prompt revealed at the start",
-            "Word count: 600–1000 words (prose) or 20–40 lines (poem)",
-            "Handwritten or typed on provided paper"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹4,000 + Best Writer Award",
-            "second": "₹2,500 + Medal",
-            "third": "₹1,200 + Certificate"
-        },
-        "coordinator": {
-            "name": "Rohan Mehta",
-            "phone": "+91 98765 43210",
-            "email": "rohan.mehta@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Seminar Hall, Block B",
-        "registrationFee": "₹80 per person"
+    "coordinator": {
+      "names": ["Sulaiman", "Maneesha", "Deepa Shree"],
+      "phones": ["9885748474", "8197058255", "+91 63643 22247"]
     },
-    {
-        "id": "lit-03",
-        "title": "Shok-Sabha",
-        "category": "Literary",
-        "date": "April 11, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "A mock parliament event — draft bills, raise motions, and debate policy like seasoned MPs.",
-        "description": "Shok-Sabha is a mock parliament simulation where participants play roles of MPs from different political parties. Bills are introduced, motions raised, and heated debates ensue — all following parliamentary rules of procedure. Oratory, wit, and political strategy are your tools.",
-        "rules": [
-            "Teams of 3–5 members (representing a party)",
-            "Each team plays a pre-assigned political party",
-            "Agenda shared 1 hour before the event",
-            "Parliamentary decorum must be maintained",
-            "The Speaker's decision is final"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹6,000 + Best Party Trophy",
-            "second": "₹3,500 + Medal",
-            "best_speaker": "Best Speaker Award + ₹1,500"
-        },
-        "coordinator": {
-            "name": "Vikram Rathore",
-            "phone": "+91 54321 09876",
-            "email": "vikram.rathore@utsaha.ac.in"
-        },
-        "teamSize": "3–5",
-        "venue": "Main Seminar Hall",
-        "registrationFee": "₹200 per team"
+    "venue": "Sir MV Block",
+    "registrationFee": "₹450",
+    "teamSize": "Individual / Team"
+  },
+  {
+    "id": "lit-02",
+    "title": "Verbal Vendetta",
+    "poster": "/images/debate.jpg",
+    "category": "Literary",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "A formal intellectual face-off debating clarity, logic and rebuttal skills.",
+    "description": "Verbal Vendetta is a formal intellectual debate where participants argue for or against a given topic. Judgement will be based on clarity of thought, logical reasoning, rebuttal skills, and confidence in public speaking.",
+    "rules": [
+      "Topic will be given before the round",
+      "Participants must argue respectfully",
+      "Judging based on clarity, rebuttal, logic, and confidence",
+      "Judges' decision will be final"
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {},
+    "coordinator": {
+      "names": ["Palak", "Dhanush"],
+      "phones": ["+91 91625 02254", "+91 63052 62743"]
     },
-    {
-        "id": "lit-04",
-        "title": "Movie Mania",
-        "category": "Literary",
-        "date": "April 10, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A film trivia and quiz event — how deep does your cinematic knowledge go?",
-        "description": "Movie Mania is the ultimate cinema quiz at Utsaha Vaibhava. Rounds cover Bollywood, Hollywood, regional cinema, directors, dialogues, OSTs, and behind-the-scenes trivia. Multiple rounds of increasing difficulty will whittle down teams until only the real cinephiles remain.",
-        "rules": [
-            "Teams of 2–3 members",
-            "Multiple rounds: written, audio, visual",
-            "No phones or smart devices during rounds",
-            "Judgement of quizmasters is final"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹4,000 + Cine Champion Trophy",
-            "second": "₹2,500 + Medal",
-            "third": "₹1,200 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": "2–3",
-        "venue": "Seminar Hall, Block B",
-        "registrationFee": "₹150 per team"
+    "venue": "Sir MV Block",
+    "registrationFee": "₹150",
+    "teamSize": "Individual / Team"
+  },
+  {
+    "id": "lit-03",
+    "title": "Flip Fiction",
+    "poster": "/images/story.jpg",
+    "category": "Literary",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "Rewrite a story into a completely different genre and perform it live.",
+    "description": "Participants are given a familiar story or scenario and must rewrite and perform it in a completely different genre. The challenge evaluates creativity, genre understanding, and narrative innovation.",
+    "rules": [
+      "Team size: Minimum 3 and maximum 5",
+      "A new genre will be assigned on the spot",
+      "10 minutes to compose and 3–5 minutes to perform",
+      "No mobile phones, internet, or external help allowed",
+      "Performance must clearly reflect assigned genre"
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,200"
     },
-    {
-        "id": "lit-05",
-        "title": "Air Crash",
-        "category": "Literary",
-        "date": "April 11, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A survival roleplay activity — you crashed, you're stranded; strategise, prioritise, and stay alive.",
-        "description": "Air Crash is a team activity and group dynamics event inspired by survival scenarios. Teams are presented with a desert island or crash scenario and must collectively rank survival items, assign roles, and defend their decisions before a panel of judges. Critical thinking, group dynamics, and communication are all tested.",
-        "rules": [
-            "Teams of 4–6 members",
-            "Scenario revealed at the start",
-            "Teams have 30 minutes to discuss and rank items",
-            "10-minute group presentation to judges",
-            "No internet or reference material allowed"
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹4,000 + Survivor Trophy",
-            "second": "₹2,500 + Medal",
-            "third": "₹1,200 + Certificate"
-        },
-        "coordinator": {
-            "name": "Rohan Mehta",
-            "phone": "+91 98765 43210",
-            "email": "rohan.mehta@utsaha.ac.in"
-        },
-        "teamSize": "4–6",
-        "venue": "Activity Hall, Block C",
-        "registrationFee": "₹200 per team"
-    }
+    "coordinator": {
+      "names": ["Mansi", "Sulaiman"],
+      "phones": ["+91 74111 01975", "9885748474"]
+    },
+    "venue": "Sir MV Block",
+    "registrationFee": "₹150",
+    "teamSize": "3–5"
+  },
+  {
+    "id": "lit-04",
+    "title": "LOL Sabha",
+    "poster": "/images/stand.jpg",
+    "category": "Literary",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "A high-energy stand-up comedy event celebrating originality and stage presence.",
+    "description": "LOL Sabha is a stand-up comedy competition where participants perform original solo acts centered on humor, satire, or relatable experiences.",
+    "rules": [
+      "Solo performance only",
+      "2–5 minutes performance time",
+      "Original content preferred; no copying from famous comedians",
+      "No offensive content related to religion, caste, racism, politics or personal attacks",
+      "Limited or clean comedy preferred",
+      "Background music allowed if provided by participant"
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {
+      "first": "₹4,000",
+      "second": "₹2,500"
+    },
+    "coordinator": {
+      "names": ["Abrar", "Mariam"],
+      "phones": ["8660493138", "+91 72595 50522"]
+    },
+    "venue": "Sir MV Block",
+    "registrationFee": "₹200",
+    "teamSize": "Individual"
+  },
+  {
+    "id": "lit-05",
+    "title": "Reel Rush",
+    "poster": "/images/reel.jpg",
+    "category": "Literary",
+    "date": "Before April 11, 2026",
+    "time": "Online Submission",
+    "shortDescription": "Create and post a themed Instagram reel and compete on creativity and engagement.",
+    "description": "Reel Rush is an online creative challenge where participants produce short Instagram reels based on the theme 'If My Week Was a Film'. Reels must be posted on public Instagram accounts tagging the official fest page.",
+    "rules": [
+      "Theme: 'If My Week Was a Film'",
+      "Duration: 15–60 seconds",
+      "Vertical format (9:16)",
+      "Original content only",
+      "Must tag official fest page",
+      "Outro provided by organizers must be added",
+      "Must be appropriate for college audience"
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {},
+    "coordinator": {
+      "names": ["Nikitha", "Sinchana"],
+      "phones": ["+91 94809 15120", "+91 74838 21824"]
+    },
+    "venue": "Online",
+    "registrationFee": "Free",
+    "teamSize": "Individual"
+  },
+  {
+    "id": "lit-06",
+    "title": "Rang-e-Shayari",
+    "poster": "/images/rang.jpg",
+    "category": "Literary",
+    "date": "April 11, 2026",
+    "time": "TBA",
+    "shortDescription": "An expressive poetry event celebrating original shayari and powerful stage delivery.",
+    "description": "Rang-e-Shayari is an expressive poetry event where participants present original or self-written shayari on stage.",
+    "rules": [
+      "Languages allowed: Hindi, Kannada, English or mix",
+      "Topic will be given on the spot",
+      "6 minutes to compose and 2 minutes to present",
+      "No offensive or vulgar content allowed",
+      "Mobile phones not allowed during performance",
+      "Judging based on delivery, creativity, confidence, audience engagement"
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {
+      "first": "₹2,500",
+      "second": "₹1,500"
+    },
+    "coordinator": {
+      "names": ["Likith", "Poorvi"],
+      "phones": ["9059384272", "+91 93805 73794"]
+    },
+    "venue": "Sir MV Block",
+    "registrationFee": "₹150",
+    "teamSize": "Individual"
+  }
 ]

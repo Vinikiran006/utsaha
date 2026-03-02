@@ -53,6 +53,8 @@ export default function Navbar() {
 
                 </Link>
 
+<span className="navbar__center-title">UV'26</span>
+
                 {/* Desktop Nav */}
                 <nav className="navbar__links hide-mobile">
                     {navLinks.map((link) =>

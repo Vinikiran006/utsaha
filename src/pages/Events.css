@@ -115,7 +115,7 @@
 /* ── Sticky Tab Nav ── */
 .ep-nav {
     position: sticky;
-    top: 64px;
+    top: 0;
     z-index: 90;
     background: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(24px) saturate(150%);

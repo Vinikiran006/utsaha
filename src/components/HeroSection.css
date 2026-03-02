@@ -262,14 +262,15 @@
 
 @keyframes heroShimmer {
     0% {
-        background-position: 0% center;
+        background-position: 0% 50%;
     }
-
+    50% {
+        background-position: 100% 50%;
+    }
     100% {
-        background-position: -200% center;
+        background-position: 0% 50%;
     }
 }
-
 /* Tagline */
 .hero__tagline {
     font-size: clamp(1rem, 2vw, 1.2rem);

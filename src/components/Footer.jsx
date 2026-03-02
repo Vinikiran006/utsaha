@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
-import { Instagram, Twitter, Facebook, Linkedin } from 'lucide-react'
+import { Instagram, MapPin, Youtube } from 'lucide-react'
 import './Footer.css'
 
 
 const SOCIAL_LINKS = [
-    { label: 'Instagram', href: '#', icon: Instagram },
-    { label: 'Twitter', href: '#', icon: Twitter },
-    { label: 'Facebook', href: '#', icon: Facebook },
-    { label: 'LinkedIn', href: '#', icon: Linkedin },
+    { label: 'Instagram', href: 'https://www.instagram.com/utsaha.vaibhava/reels/?hl=en', icon: Instagram },
+    { label: 'YouTube', href: 'https://www.youtube.com/@utsahavaibhava', icon: Youtube },
+    { label: 'Location', href: 'https://maps.app.goo.gl/538TRURGG8dRFSEg9', icon: MapPin },
 ]
 
 const QUICK_LINKS = [
@@ -35,7 +34,13 @@ export default function Footer() {
                     </p>
                     <div className="footer__socials">
                         {SOCIAL_LINKS.map((s) => (
-    <a key={s.label} href={s.href} className="footer__social-btn">
+     <a
+        key={s.label}
+        href={s.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="footer__social-btn"
+    >
         <s.icon size={18} />
     </a>
 ))}
@@ -66,7 +71,7 @@ export default function Footer() {
                         </div>
                         <div className="footer__contact-item">
                             <span className="footer__contact-icon">✉️</span>
-                            <span>hello@utsahavaibhava.in</span>
+                            <span>utsahavaibhava26@bmsit.in</span>
                         </div>
                     </div>
                 </div>

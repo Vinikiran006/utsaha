@@ -116,7 +116,7 @@
     display: grid;
     grid-template-columns: 1fr 340px;
     gap: 40px;
-    padding-top: 48px;
+    padding-top: 60px;
     padding-bottom: 80px;
     align-items: start;
 }
@@ -130,6 +130,7 @@
 /* Section blocks */
 .ed-section {
     display: block;
+    margin-top: 40px;
 }
 
 .ed-section__title {
@@ -254,6 +255,22 @@
 
 .ed-prize-card__medal {
     font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+/* 🥇 Gold */
+.ed-prize-card--gold .ed-prize-card__medal {
+    color: #F4B400;
+}
+
+/* 🥈 Silver */
+.ed-prize-card--silver .ed-prize-card__medal {
+    color: #C0C0C0;
+}
+
+/* 🥉 Bronze */
+.ed-prize-card--bronze .ed-prize-card__medal {
+    color: #CD7F32;
 }
 
 .ed-prize-card__label {
@@ -270,6 +287,18 @@
     color: var(--text-primary);
 }
 
+/* Optional: subtle tint for amount */
+.ed-prize-card--gold .ed-prize-card__amount {
+    color: #F4B400;
+}
+
+.ed-prize-card--silver .ed-prize-card__amount {
+    color: #E0E0E0;
+}
+
+.ed-prize-card--bronze .ed-prize-card__amount {
+    color: #E85D04;
+}
 /* Registration section */
 .ed-reg-section {
     background: rgba(220, 47, 2, 0.04);
@@ -360,10 +389,27 @@
 }
 
 /* Coordinator */
-.ed-coordinator {
+.ed-coordinator-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 12px;
+}
+
+.ed-coordinator-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 14px;
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    background: rgba(255, 120, 73, 0.08);
+    border: 1px solid rgba(255, 120, 73, 0.18);
+    transition: all var(--transition-fast);
+}
+
+.ed-coordinator-item:hover {
+    background: rgba(255, 120, 73, 0.14);
+    border-color: rgba(255, 120, 73, 0.35);
 }
 
 .ed-coordinator__avatar {
@@ -436,4 +482,7 @@
     .ed-reg-section {
         padding: 20px;
     }
+}
+.event-detail {
+    padding-bottom: 50px;  /* creates space before footer */
 }
