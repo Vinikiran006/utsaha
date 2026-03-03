@@ -2,7 +2,7 @@
     {
         "id": "ms-01",
         "title": "ROAR",
-        "category": "Main Stage",
+        "category": "Main Events",
         "date": "April 10, 2026",
         "time": "6:00 PM",
         "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
@@ -44,7 +44,7 @@
         "id": "ms-02",
         "title": "Fashion Show",
         "poster": "/images/fashion.jpeg",
-        "category": "Main Stage",
+        "category": "Main Events",
         "date": "April 10, 2026",
         "time": "8:00 PM",
         "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
@@ -1233,7 +1233,7 @@
       "phones": ["+91 94809 15120", "+91 74838 21824"]
     },
     "venue": "Online",
-    "registrationFee": "Free",
+    "registrationFee": "₹200",
     "teamSize": "Individual"
   },
   {

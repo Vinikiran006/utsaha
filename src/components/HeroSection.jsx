@@ -27,7 +27,7 @@ export default function HeroSection() {
                 {/* Badge */}
                 <div className="hero__badge animate-fadein-delay-1">
                     <span className="hero__badge-dot" />
-                    Annual College Fest 2026 &nbsp;·&nbsp; April 10 & 11
+                    Annual College Fest 2026
                 </div>
 
                 {/* Headline */}
@@ -36,6 +36,9 @@ export default function HeroSection() {
                     <span className="hero__title-main">
                         UTSAHA<br />VAIBHAVA
                     </span>
+                    <span className="hero__fest-date">
+        April 10 & 11, 2026
+    </span>
                 </h1>
 
                 {/* Tagline */}

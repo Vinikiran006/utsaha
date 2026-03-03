@@ -225,7 +225,137 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+/* ===============================
+   Headliner Hype Section
+================================= */
 
+.headliners {
+  padding: 110px 0;
+  background: linear-gradient(
+    160deg,
+    #140202 0%,
+    #1d0505 50%,
+    #120202 100%
+  );
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.headliners__intro {
+  margin-bottom: 70px;
+}
+
+.headliners__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.headliners__subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* Grid */
+.headliners__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}
+
+/* Card */
+.headliner-card {
+  position: relative;
+  height: 380px;
+  border-radius: 22px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+
+  background: linear-gradient(
+    145deg,
+    rgba(60, 15, 15, 0.9),
+    rgba(25, 5, 5, 0.95)
+  );
+
+  border: 1px solid rgba(255, 80, 0, 0.18);
+  transition: all 0.4s ease;
+}
+
+/* Pulsing glow */
+.headliner-card__glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 80, 0, 0.35),
+    transparent 65%
+  );
+  animation: pulseGlow 3.5s infinite ease-in-out;
+  opacity: 0.5;
+}
+
+@keyframes pulseGlow {
+  0% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+  100% { opacity: 0.3; transform: scale(1); }
+}
+
+.headliner-card__content {
+  position: relative;
+  z-index: 2;
+}
+
+.headliner-card__day {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.headliner-card__mystery {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  margin: 12px 0;
+
+  color: #ff6a00;
+  text-shadow: 0 0 20px rgba(255, 80, 0, 0.6);
+}
+
+.headliner-card__tagline {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 12px;
+}
+
+.headliner-card__reveal {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* Hover effect */
+.headliner-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255, 80, 0, 0.4);
+  box-shadow: 0 25px 70px rgba(255, 60, 0, 0.35);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .headliners__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .headliner-card {
+    height: 320px;
+  }
+}
 .category-card {
     display: flex;
     flex-direction: column;

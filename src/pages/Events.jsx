@@ -4,12 +4,12 @@ import { useScrollReveal } from '../hooks/useScrollReveal'
 import eventsData from '../data/events.json'
 import './Events.css'
 
-const CATEGORIES = ['Main Stage', 'Cultural', 'Technical', 'Literary']
+const CATEGORIES = ['Main Events', 'Cultural', 'Technical', 'Literary']
 
 const CATEGORY_META = {
-    'Main Stage': {
+    'Main Events': {
         icon: '🎤',
-        label: 'Main Stage',
+        label: 'Main Events',
         tagline: 'Grand performances, fashion & DJ nights',
         accent: '#FF7849',
         accentRgb: '255,120,73',
@@ -38,7 +38,7 @@ const CATEGORY_META = {
 }
 
 const CATEGORY_COLORS = {
-    'Main Stage': 'cat-mainstage',
+    'Main Events': 'cat-mainstage',
     Cultural: 'cat-cultural',
     Technical: 'cat-technical',
     Literary: 'cat-literary',

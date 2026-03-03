@@ -9,7 +9,7 @@ import eventsData from '../data/events.json'
 import './Home.css'
 
 const CATEGORY_CARDS = [
-    { name: 'Main Stage', icon: '🎤', desc: 'Grand performances, fashion & DJ nights' },
+    { name: 'Main Events', icon: '🎤', desc: 'Grand performances, fashion & DJ nights' },
     { name: 'Cultural', icon: '🎭', desc: 'Dance, music & artistic expression' },
     { name: 'Technical', icon: '💻', desc: 'Esports, coding & speed challenges' },
     { name: 'Literary', icon: '📖', desc: 'Debates, writing, quizzes & roleplay' },
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="home">
             <HeroSection />
             <CountdownTimer />
-
+            
             {/* About Section */}
             <section className="about section" id="about">
                 <div className="container about__inner">
@@ -67,7 +67,7 @@ export default function Home() {
                                 <div className="about__fest-card-title">Utsaha Vaibhava 2026</div>
                                 <div className="about__fest-card-date">April 10 & 11</div>
                                 <div className="about__fest-card-tags">
-                                    <span className="tag">Main Stage</span>
+                                    <span className="tag">Main Events</span>
                                     <span className="tag">Cultural</span>
                                     <span className="tag">Technical</span>
                                     <span className="tag">Sports</span>
@@ -92,7 +92,49 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+<section className="headliners">
+  <div className="container">
 
+    <div className="headliners__intro">
+      <h2 className="headliners__title">
+        Something <span className="gradient-text">Massive</span> Is Coming
+      </h2>
+      <p className="headliners__subtitle">
+        Two days. Two icons. The reveal is near.
+      </p>
+    </div>
+
+    <div className="headliners__grid">
+
+      {/* DAY 1 */}
+      <div className="headliner-card headliner-card--day1">
+        <div className="headliner-card__glow" />
+        <div className="headliner-card__content">
+          <span className="headliner-card__day">DAY 1 • April 10</span>
+          <h3 className="headliner-card__mystery">???</h3>
+          <p className="headliner-card__tagline">
+            The energy will shake the stage.
+          </p>
+          <span className="headliner-card__reveal">Artist Reveal Soon</span>
+        </div>
+      </div>
+
+      {/* DAY 2 */}
+      <div className="headliner-card headliner-card--day2">
+        <div className="headliner-card__glow" />
+        <div className="headliner-card__content">
+          <span className="headliner-card__day">DAY 2 • April 11</span>
+          <h3 className="headliner-card__mystery">???</h3>
+          <p className="headliner-card__tagline">
+            A night that will echo forever.
+          </p>
+          <span className="headliner-card__reveal">Stay Tuned</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
             {/* Categories Section */}
             <section className="categories section">
                 <div className="container">

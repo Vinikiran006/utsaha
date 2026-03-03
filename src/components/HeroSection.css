@@ -259,7 +259,23 @@
     word-break: normal;
     overflow-wrap: normal;
 }
+.hero__fest-date {
+    display: block;
+    margin-top: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--accent-color); /* or use white if needed */
+    text-align: center;
+}
 
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .hero__fest-date {
+        font-size: 1.1rem;
+        margin-top: 12px;
+    }
+}
 @keyframes heroShimmer {
     0% {
         background-position: 0% 50%;
