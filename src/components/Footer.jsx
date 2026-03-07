@@ -67,11 +67,11 @@ export default function Footer() {
                         </div>
                         <div className="footer__contact-item">
                             <span className="footer__contact-icon">📞</span>
-                            <span>+91 98765 00000</span>
+                            <span>+91 8296098776&nbsp;&nbsp;|&nbsp;&nbsp;+91 8861955780</span>
                         </div>
                         <div className="footer__contact-item">
                             <span className="footer__contact-icon">✉️</span>
-                            <span>utsahavaibhava26@bmsit.in</span>
+                            <span>utsaha2023@bmsit.in</span>
                         </div>
                     </div>
                 </div>

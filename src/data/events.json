@@ -110,7 +110,52 @@
     "coordinator": { "names": ["Sumakrishna", "Chinmay G"], "phones": [] },
     "teamSize": "5–10",
     "venue": "Main Stage",
-    "registrationFee": "₹650 per team"
+    "registrationFee": "₹650 per team",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamName",
+"label": "Team Name",
+"type": "text",
+"required": true
+},
+{
+"name": "totalMembers",
+"label": "Total Number of Members",
+"type": "number",
+"required": true
+},
+
+{
+"name": "teamHeadName",
+"label": "Team Head Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamHeadPhone",
+"label": "Team Head WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "teamHeadEmail",
+"label": "Team Head Email",
+"type": "email",
+"required": true
+},
+{
+"name": "teamHeadAltPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false
+}
+]
   },
   {
     "id": "cul-02",
@@ -137,7 +182,44 @@
     "coordinator": { "names": ["Mahesh Kashyap Yogish", "Rachitha Thunga"], "phones": [] },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹150"   
+    "registrationFee": "₹150" ,  
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-03",
@@ -162,7 +244,44 @@
     "coordinator": { "names": ["M D Akhil", "Nischal A"], "phones": [] },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹150"
+    "registrationFee": "₹150",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-04",
@@ -186,7 +305,44 @@
     "coordinator": { "names": ["Mallikarjun Katagi", "Dhivii Suresh"], "phones": [] },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹150"
+    "registrationFee": "₹150",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-05",
@@ -211,7 +367,52 @@
     "coordinator": { "names": ["Nikhath Fathima", "Medha Deshpande"], "phones": [] },
     "teamSize": "2–8",
     "venue": "TBA",
-    "registrationFee": "₹200 per team"
+    "registrationFee": "₹200 per team",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamName",
+"label": "Team Name",
+"type": "text",
+"required": true
+},
+{
+"name": "totalMembers",
+"label": "Total Number of Members",
+"type": "number",
+"required": true
+},
+
+{
+"name": "teamHeadName",
+"label": "Team Head Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamHeadPhone",
+"label": "Team Head WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "teamHeadEmail",
+"label": "Team Head Email",
+"type": "email",
+"required": true
+},
+{
+"name": "teamHeadAltPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false
+}
+]
   },
   {
     "id": "cul-06",
@@ -234,7 +435,59 @@
     "coordinator": { "names": ["Manal Gupta", "Abhishek N"], "phones": [] },
     "teamSize": "2",
     "venue": "TBA",
-    "registrationFee": "₹300 per team"
+    "registrationFee": "₹300 per team",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamName",
+"label": "Team Name",
+"type": "text",
+"required": true
+},
+
+{
+"name": "member1Name",
+"label": "Member 1 Name",
+"type": "text",
+"required": true
+},
+{
+"name": "member1Phone",
+"label": "Member 1 WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "member1Email",
+"label": "Member 1 Email",
+"type": "email",
+"required": true
+},
+
+{
+"name": "member2Name",
+"label": "Member 2 Name",
+"type": "text",
+"required": true
+},
+{
+"name": "member2Phone",
+"label": "Member 2 WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "member2Email",
+"label": "Member 2 Email",
+"type": "email",
+"required": true
+}
+]
   },
   {
     "id": "cul-07",
@@ -258,7 +511,52 @@
     "coordinator": { "names": ["Sushruth Kumar", "Tavish Gowda P"], "phones": [] },
     "teamSize": "3–15",
     "venue": "TBA",
-    "registrationFee": "₹800 per team"
+    "registrationFee": "₹800 per team",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamName",
+"label": "Team Name",
+"type": "text",
+"required": true
+},
+{
+"name": "totalMembers",
+"label": "Total Number of Members",
+"type": "number",
+"required": true
+},
+
+{
+"name": "teamHeadName",
+"label": "Team Head Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamHeadPhone",
+"label": "Team Head WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "teamHeadEmail",
+"label": "Team Head Email",
+"type": "email",
+"required": true
+},
+{
+"name": "teamHeadAltPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false
+}
+]
   },
   {
     "id": "cul-08",
@@ -281,7 +579,44 @@
     "coordinator": { "names": ["Gagan HS", "Janani Pradeep"], "phones": [] },
     "teamSize": "1–6",
     "venue": "TBA",
-    "registrationFee": "₹200"
+    "registrationFee": "₹200",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-09",
@@ -306,7 +641,44 @@
     "coordinator": { "names": ["Dharani Krishna Sahithi", "Rohan Jojee"], "phones": [] },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹175"
+    "registrationFee": "₹175",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-10",
@@ -329,7 +701,44 @@
     "coordinator": { "names": ["Divyashree G", "Poorvi V Nandargi"], "phones": [] },
     "teamSize": "1–8",
     "venue": "TBA",
-    "registrationFee": "₹350"
+    "registrationFee": "₹350",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-11",
@@ -354,7 +763,44 @@
     "coordinator": { "names": ["Pavan Kumar SR", "Sacheth Kumr P N"], "phones": [] },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹175"
+    "registrationFee": "₹175",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
   {
     "id": "cul-12",
@@ -380,7 +826,46 @@
     "coordinator": { "names": ["Prajwal V", "Rithisha Patil"], "phones": [] },
     "venue": "Online",
     "registrationFee": "₹150",
-    "teamSize": "Individual"
+    "teamSize": "Individual",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true
+},
+{
+"name": "teamName",
+"label": "Team Name",
+"type": "text",
+"required": true
+},
+
+{
+"name": "member1Name",
+"label": "Participant Name",
+"type": "text",
+"required": true
+},
+{
+"name": "member1Phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true
+},
+{
+"name": "member1Email",
+"label": "Email",
+"type": "email",
+"required": true
+},
+{
+"name": "member1AltPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false
+}
+]
   },
   {
     "id": "cul-13",
@@ -407,7 +892,44 @@
     "coordinator": { "names": ["Tejas Gowda L", "Nidhi Rajesh Hegde"], "phones": [] },
     "teamSize": "2–4",
     "venue": "TBA",
-    "registrationFee": "₹300"
+    "registrationFee": "₹300",
+    "registrationFields": [
+{
+"name": "collegeName",
+"label": "College Name",
+"type": "text",
+"required": true,
+"placeholder": "Enter your college name"
+},
+{
+"name": "participantName",
+"label": "Participant Name",
+"type": "text",
+"required": true,
+"placeholder": "Full name"
+},
+{
+"name": "phone",
+"label": "WhatsApp Number",
+"type": "tel",
+"required": true,
+"placeholder": "10 digit WhatsApp number"
+},
+{
+"name": "email",
+"label": "Email ID",
+"type": "email",
+"required": true,
+"placeholder": "Enter email"
+},
+{
+"name": "altPhone",
+"label": "Alternate WhatsApp Number",
+"type": "tel",
+"required": false,
+"placeholder": "Optional"
+}
+]
   },
     {
         "id": "tech-01",
@@ -605,61 +1127,6 @@
         "teamSize": "1",
         "venue": "Near Food Stalls, BMSIT&M",
         "registrationFee": "₹50 per person",
-        "registrationFields": [
-            {
-                "name": "participantName",
-                "label": "Participant Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your full name"
-            },
-            {
-                "name": "participantPhone",
-                "label": "Phone Number",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
-    },
-    {
-        "id": "tech-04",
-        "title": "Stumble Guys",
-        "poster": "/images/stumble.jpg",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "12:00 PM",
-        "shortDescription": "Survive crazy obstacles and outlast opponents — up to 10 batches of pure chaos on Day 1!",
-        "description": "Stumble Guys at Utsaha Vaibhava is a fun, chaotic mobile gaming event. Up to 10 batches battle through obstacle courses on their own devices. The last bean standing in each batch advances. Pure chaos, pure fun!",
-        "rules": [
-            "Individual participation",
-            "Own mobile device required",
-            "Participants must have Stumble Guys installed and updated",
-            "Emulators not allowed",
-            "Random room codes shared before each round",
-            "Maximum 10 batches — register early"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹3,000 + Trophy",
-            "second": "₹2,000 + Medal",
-            "third": "₹1,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Meera Pillai",
-            "phone": "+91 32109 87654",
-            "email": "meera.pillai@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Lab Block, Room 403",
-        "registrationFee": "₹60 per person",
         "registrationFields": [
             {
                 "name": "participantName",
@@ -1117,7 +1584,7 @@
       "second": "₹6,000"
     },
     "coordinator": {
-      "names": ["Sulaiman", "Maneesha", "Deepa Shree"],
+      "names": ["Sulaiman", "Maneesha", "Deepashree"],
       "phones": ["9885748474", "8197058255", "+91 63643 22247"]
     },
     "venue": "Sir MV Block",
@@ -1234,7 +1701,7 @@
     },
     "venue": "Online",
     "registrationFee": "₹200",
-    "teamSize": "Individual"
+    "teamSize": "Individual / Team"
   },
   {
     "id": "lit-06",
