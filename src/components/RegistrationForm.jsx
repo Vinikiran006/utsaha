@@ -74,6 +74,12 @@ export default function RegistrationForm({ event }) {
   const [submitError, setSubmitError] = useState("");
   const [selectedFee, setSelectedFee] = useState(null);
 
+  const resetForm = () => {
+  setForm(buildInitialState());
+  setErrors({});
+  setSelectedFee(null);
+};
+
   // ── Payment Amount Logic ──────────────────────────
   const baseAmount = event.registrationFee
     ? event.registrationFee.replace(/[^0-9]/g, "")
@@ -342,12 +348,13 @@ export default function RegistrationForm({ event }) {
 
       {submitted && (
         <SuccessModal
-          eventTitle={event.title}
-          name={
-            hasCustomFields ? Object.values(form)[0] : form.fullName
-          }
-          onClose={() => setSubmitted(false)}
-        />
+  eventTitle={event.title}
+  name={hasCustomFields ? Object.values(form)[0] : form.fullName}
+  onClose={() => {
+    setSubmitted(false);
+    resetForm();
+  }}
+/>
       )}
     </>
   );
