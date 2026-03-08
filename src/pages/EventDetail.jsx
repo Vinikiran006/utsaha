@@ -115,36 +115,37 @@ export default function EventDetail() {
 
                     {/* Prizes */}
                     <section className="ed-section reveal">
-    <h2 className="ed-section__title">🏆 Prize Details</h2>
+  <h2 className="ed-section__title">🏆 Prize Details</h2>
 
-    <div className="ed-prizes">
+  <div className="ed-prizes">
 
-        {event.prizes.first && (
-            <div className="ed-prize-card ed-prize-card--gold">
-                <div className="ed-prize-card__medal">🥇</div>
-                <div className="ed-prize-card__label">1st Place</div>
-                <div className="ed-prize-card__amount">{event.prizes.first}</div>
-            </div>
-        )}
+    {event.prizes?.first && (
+      <div className="ed-prize-card ed-prize-card--gold">
+        <div className="ed-prize-card__medal">🥇</div>
+        <div className="ed-prize-card__label">1st Place</div>
+        <div className="ed-prize-card__amount">{event.prizes.first}</div>
+      </div>
+    )}
 
-        {event.prizes.second && (
-            <div className="ed-prize-card ed-prize-card--silver">
-                <div className="ed-prize-card__medal">🥈</div>
-                <div className="ed-prize-card__label">2nd Place</div>
-                <div className="ed-prize-card__amount">{event.prizes.second}</div>
-            </div>
-        )}
+    {event.prizes?.second && (
+      <div className="ed-prize-card ed-prize-card--silver">
+        <div className="ed-prize-card__medal">🥈</div>
+        <div className="ed-prize-card__label">2nd Place</div>
+        <div className="ed-prize-card__amount">{event.prizes.second}</div>
+      </div>
+    )}
 
-        {event.prizes.third && (
-            <div className="ed-prize-card ed-prize-card--bronze">
-                <div className="ed-prize-card__medal">🥉</div>
-                <div className="ed-prize-card__label">3rd Place</div>
-                <div className="ed-prize-card__amount">{event.prizes.third}</div>
-            </div>
-        )}
+    {event.prizes?.third && (
+      <div className="ed-prize-card ed-prize-card--bronze">
+        <div className="ed-prize-card__medal">🥉</div>
+        <div className="ed-prize-card__label">3rd Place</div>
+        <div className="ed-prize-card__amount">{event.prizes.third}</div>
+      </div>
+    )}
 
-    </div>
+  </div>
 </section>
+
 
                     {/* Registration */}
                     <section className="ed-section ed-reg-section reveal">

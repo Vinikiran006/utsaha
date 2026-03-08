@@ -113,11 +113,43 @@
 
 select.reg-form__input {
     appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23DC2F02' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    cursor: pointer;
+
+    background-color: rgba(255,255,255,0.06);
+
+    padding-right: 42px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 14 10'%3E%3Cpath d='M2 2l5 5 5-5' stroke='%23FF7849' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 14px center;
-    padding-right: 36px;
+    background-size: 14px;
 }
+
+/* Fix mobile tap size */
+@media (max-width: 768px) {
+  select.reg-form__input {
+    font-size: 16px;
+    padding: 14px 16px;
+  }
+}
+select.reg-form__input:hover {
+    border-color: rgba(220, 47, 2, 0.6);
+    background: rgba(255, 255, 255, 0.09);
+}
+
+/* focus */
+select.reg-form__input:focus {
+    border-color: #DC2F02;
+}
+select.reg-form__input option {
+    background: #140606;
+    color: #ffffff;
+    padding: 10px;
+}
+
 
 .reg-form__field--error .reg-form__input {
     border-color: #ff4444;

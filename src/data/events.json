@@ -1,91 +1,155 @@
 [
-    {
-        "id": "ms-01",
-        "title": "ROAR",
-        "category": "Main Events",
-        "date": "April 10, 2026",
-        "time": "6:00 PM",
-        "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
-        "description": "ROAR is the thrilling bike auto show fest hosted at BMS Institute of Technology and Management (BMSIT&M), renowned for its electrifying competition to find the loudest rev. This high-octane event brings together motorcycle enthusiasts eager to showcase the power, performance, and sound of their machines. Feel the adrenaline as engines thunder across the venue, creating an atmosphere charged with energy and excitement. Celebrating engineering excellence and the spirit of the biking community, ROAR blends fierce revving battles with camaraderie, making it one of the most anticipated highlights of the college’s annual fest.",
-        "rules": [
-            "Only bikes above 300cc are allowed inside the college.",
-    "Participation is limited to 150 spots on a first-come, first-served basis.",
-    "Contestants must assemble 30 minutes prior for on-spot registrations.",
-    "Valid ID proof (Driver’s License/Aadhar Card) must be shown at the entrance.",
-    "If multiple exhaust outlets are present, each will be tested and the highest reading recorded.",
-    "Tests will be conducted with the gearbox in neutral.",
-    "Using kill/ignition switches to create artificial pops and bangs is strictly prohibited.",
-    "Bikes without exhausts are not allowed to participate.",
-    "Pillion riders are not permitted; only one person per vehicle is allowed in the ROAR arena.",
-    "Bikers must strictly follow volunteer guidelines and instructions.",
-    "Only bikes registered for the ROAR event will be granted access to the arena.",
-    "Engines must remain off while another participant is competing.",
-    "Participants are allowed only one opportunity to rev their engine.",
-    "The decibel reading recorded by the Organizing Committee is final.",
-    "Registration stickers must be clearly displayed on the participant's T-shirt.",
-    "Refreshments can be collected from counters upon showing the registration sticker.",
-    "Abusive language, obscenity, smoking, and substance consumption are strictly prohibited.",
-    "The decisions of the Organizing Committee are final and binding."
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹15,000 + Trophy",
-            "second": "₹8,000 + Medal",
-            "third": "₹4,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "GYAN",
-            "phone": "+91 9686676666"
-        },
-        "venue": "Main Stage",
-        "registrationFee": "₹300 onwards (varies by bike category)"
+  {
+    "id": "ms-01",
+    "title": "ROAR",
+    "category": "Main Events",
+    "date": "April 10, 2026",
+    "time": "6:00 PM",
+    "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
+    "description": "ROAR is the thrilling bike auto show fest hosted at BMS Institute of Technology and Management (BMSIT&M), renowned for its electrifying competition to find the loudest rev. This high-octane event brings together motorcycle enthusiasts eager to showcase the power, performance, and sound of their machines. Feel the adrenaline as engines thunder across the venue, creating an atmosphere charged with energy and excitement. Celebrating engineering excellence and the spirit of the biking community, ROAR blends fierce revving battles with camaraderie, making it one of the most anticipated highlights of the college’s annual fest.",
+    "rules": [
+      "Only bikes above 300cc are allowed inside the college.",
+      "Participation is limited to 150 spots on a first-come, first-served basis.",
+      "Contestants must assemble 30 minutes prior for on-spot registrations.",
+      "Valid ID proof (Driver’s License/Aadhar Card) must be shown at the entrance.",
+      "If multiple exhaust outlets are present, each will be tested and the highest reading recorded.",
+      "Tests will be conducted with the gearbox in neutral.",
+      "Using kill/ignition switches to create artificial pops and bangs is strictly prohibited.",
+      "Bikes without exhausts are not allowed to participate.",
+      "Pillion riders are not permitted; only one person per vehicle is allowed in the ROAR arena.",
+      "Bikers must strictly follow volunteer guidelines and instructions.",
+      "Only bikes registered for the ROAR event will be granted access to the arena.",
+      "Engines must remain off while another participant is competing.",
+      "Participants are allowed only one opportunity to rev their engine.",
+      "The decibel reading recorded by the Organizing Committee is final.",
+      "Registration stickers must be clearly displayed on the participant's T-shirt.",
+      "Refreshments can be collected from counters upon showing the registration sticker.",
+      "Abusive language, obscenity, smoking, and substance consumption are strictly prohibited.",
+      "The decisions of the Organizing Committee are final and binding."
+    ],
+    "registrationFee": "₹300 onwards (varies by bike category)",
+    "feeCategories": [
+      {
+        "label": "300cc - 500cc",
+        "value": "300-500",
+        "fee": 300
+      },
+      {
+        "label": "600cc - 900cc",
+        "value": "600-900",
+        "fee": 350
+      },
+      {
+        "label": "900cc and above",
+        "value": "900+",
+        "fee": 400
+      }
+    ],
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "college",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "ccCategory",
+        "label": "Bike CC Category",
+        "type": "select",
+        "required": true,
+        "placeholder": "Select your bike category",
+        "options": [
+          {
+            "label": "300cc - 500cc",
+            "value": "300-500"
+          },
+          {
+            "label": "600cc - 900cc",
+            "value": "600-900"
+          },
+          {
+            "label": "900cc and above",
+            "value": "900+"
+          }
+        ]
+      },
+      {
+        "name": "vehicleNumber",
+        "label": "Vehicle Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your bike registration number"
+      }
+    ]
+  },
+  {
+    "id": "ms-02",
+    "title": "Fashion Show",
+    "poster": "/images/fashion.jpeg",
+    "category": "Main Events",
+    "date": "April 10, 2026",
+    "time": "8:00 PM",
+    "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
+    "description": "Step into a world of elegance and sophistication at the Fashion Show — a premier event of Utsaha Vaibhava. This spectacular showcase promises an evening of glamour, creativity, and artistic expression, designed to captivate the audience and celebrate the true spirit of fashion. Witness stunning ensembles, powerful stage presence, and thematic storytelling as teams bring their concepts to life with confidence and flair. From innovative designs to mesmerizing runway walks, every performance will embody originality and refined style. Join us for an unforgettable celebration where fashion takes center stage — a night of artistry, diversity, and bold creative expression that no fashion enthusiast should miss.",
+    "judgingCriteria": [
+      "Innovation and originality",
+      "Costume creativity",
+      "Walk and on-stage attitude",
+      "Choice of music",
+      "Stage setup and props"
+    ],
+    "rules": [
+      "Fashion show is open to college students only.",
+      "Team size: 16 participants (maximum 14 on stage + 2 backstage crew).",
+      "Stage time: 10 minutes (8 minutes performance + 2 minutes narration and stage setup).",
+      "Exceeding the time limit by 2 minutes or more will result in disqualification.",
+      "All team members must carry a valid college ID on the day of the event.",
+      "Vulgarity of any kind will lead to disqualification; consult organizers regarding stunts or costumes if unsure.",
+      "The decision of the organizer is final in the event of any dispute.",
+      "Teams must inform and consult with organizers regarding all stage props prior to the event.",
+      "Audio tracks must be submitted in MP3 format via CD/pen drive before the event.",
+      "Teams wishing to control light and sound must inform the coordinator one day before the event.",
+      "The decision of the judges is final and cannot be questioned.",
+      "Misbehavior, including influence-related incidents, will lead to instant disqualification and removal from the premises."
+    ],
+    "eligibility": "Open to all college students",
+    "prizes": {
+      "first": "₹12,000 + Best Designer Trophy",
+      "second": "₹7,000 + Medal",
+      "third": "₹3,500 + Certificate"
     },
-    {
-        "id": "ms-02",
-        "title": "Fashion Show",
-        "poster": "/images/fashion.jpeg",
-        "category": "Main Events",
-        "date": "April 10, 2026",
-        "time": "8:00 PM",
-        "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
-        "description": "Step into a world of elegance and sophistication at the Fashion Show — a premier event of Utsaha Vaibhava. This spectacular showcase promises an evening of glamour, creativity, and artistic expression, designed to captivate the audience and celebrate the true spirit of fashion. Witness stunning ensembles, powerful stage presence, and thematic storytelling as teams bring their concepts to life with confidence and flair. From innovative designs to mesmerizing runway walks, every performance will embody originality and refined style. Join us for an unforgettable celebration where fashion takes center stage — a night of artistry, diversity, and bold creative expression that no fashion enthusiast should miss.",
-        "judgingCriteria": [
-  "Innovation and originality",
-  "Costume creativity",
-  "Walk and on-stage attitude",
-  "Choice of music",
-  "Stage setup and props"
-],
-        "rules": [
-           "Fashion show is open to college students only.",
-    "Team size: 16 participants (maximum 14 on stage + 2 backstage crew).",
-    "Stage time: 10 minutes (8 minutes performance + 2 minutes narration and stage setup).",
-    "Exceeding the time limit by 2 minutes or more will result in disqualification.",
-    "All team members must carry a valid college ID on the day of the event.",
-    "Vulgarity of any kind will lead to disqualification; consult organizers regarding stunts or costumes if unsure.",
-    "The decision of the organizer is final in the event of any dispute.",
-    "Teams must inform and consult with organizers regarding all stage props prior to the event.",
-    "Audio tracks must be submitted in MP3 format via CD/pen drive before the event.",
-    "Teams wishing to control light and sound must inform the coordinator one day before the event.",
-    "The decision of the judges is final and cannot be questioned.",
-    "Misbehavior, including influence-related incidents, will lead to instant disqualification and removal from the premises."
-        ],
-        "eligibility": "Open to all college students",
-        "prizes": {
-            "first": "₹12,000 + Best Designer Trophy",
-            "second": "₹7,000 + Medal",
-            "third": "₹3,500 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": "5–15",
-        "venue": "Main Stage",
-        "registrationFee": "₹400 per team"
+    "coordinator": {
+      "name": "Priya Nair",
+      "phone": "+91 87654 32109",
+      "email": "priya.nair@utsaha.ac.in"
     },
-    {
+    "teamSize": "5–15",
+    "venue": "Main Stage",
+    "registrationFee": "₹400 per team"
+  },
+  {
     "id": "cul-01",
     "title": "Battle of Bands",
     "poster": "/images/battle.jpg",
@@ -95,67 +159,84 @@
     "shortDescription": "An electrifying clash of musical talent across genres.",
     "description": "Prepare for an exhilarating clash of musical talent at the Battle of the Bands! Bands representing a spectrum of genres including rock, pop, metal, jazz, and more will take the stage to compete in a thrilling showcase of originality and skill. It's a high-energy event where each band strives to leave a lasting impression on the audience and judges alike.",
     "rules": [
-      "Team size: 5–10 members.",
-    "Duration: 8+3 minutes (8 minutes for performance, 3 minutes for mic setup).",
-    "No recorded tracks allowed; all music must be live.",
-    "Any genre or fusion of multiple genres is permitted.",
-    "Original compositions will receive higher weightage in scoring.",
-    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
-    "A drum kit will be provided at the venue.",
-    "Acapella performances are not allowed.",
-    "The judge's decision will be final and binding."
-    ],
+    "Each band must consist of 5 to 10 members.",
+    "This is a live, instrument-based competition; acapella performances and solo acts are not permitted.",
+    "Musical diversity is celebrated, including Rock, Metal, Jazz, or Fusion (Amalgamation) of multiple genres.",
+    "Each team is allotted a total of 11 minutes on stage: 3 minutes for setup/line check and 8 minutes for performance.",
+    "A professional drum kit will be provided; bands are responsible for their own guitars, processors, cables, and drumsticks.",
+    "The use of recorded tracks, loops, or pre-programmed backing tracks is strictly prohibited; every sound must be produced live.",
+    "While covers are permitted, Original Compositions are highly encouraged and will receive additional weightage in scoring.",
+    "Songs containing demeaning, offensive, or derogatory lyrics will result in immediate disqualification.",
+    "The panel of judges consists of industry professionals; their decision is final and binding.",
+    "Judging criteria includes stage presence, confidence, charisma, energy, and audience engagement."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹5,000", "second": "₹3,000" },
-    "coordinator": { "names": ["Sumakrishna", "Chinmay G"], "phones": [] },
+    "prizes": {
+      "first": "₹5,000",
+      "second": "₹3,000"
+    },
+    "coordinator": {
+      "names": [
+        "Sumakrishna",
+        "Chinmay G"
+      ],
+      "phones": [8095364656,9845952214]
+    },
     "teamSize": "5–10",
     "venue": "Main Stage",
     "registrationFee": "₹650 per team",
+    "whatsappLink": "https://chat.whatsapp.com/HDR58H49BYB1aAJJba8ErR?mode=hq1tcla",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamName",
-"label": "Team Name",
-"type": "text",
-"required": true
-},
-{
-"name": "totalMembers",
-"label": "Total Number of Members",
-"type": "number",
-"required": true
-},
-
-{
-"name": "teamHeadName",
-"label": "Team Head Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamHeadPhone",
-"label": "Team Head WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "teamHeadEmail",
-"label": "Team Head Email",
-"type": "email",
-"required": true
-},
-{
-"name": "teamHeadAltPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "totalMembers",
+        "label": "Total Number of Members",
+        "type": "number",
+        "required": true,
+        "placeholder": "e.g. 5"
+      },
+      {
+        "name": "teamHeadName",
+        "label": "Team Head Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter team leader name"
+      },
+      {
+        "name": "teamHeadPhone",
+        "label": "Team Head WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "teamHeadAltPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional alternate number"
+      }
+    ]
   },
   {
     "id": "cul-02",
@@ -167,59 +248,74 @@
     "shortDescription": "A solo instrumental competition celebrating musical finesse.",
     "description": "Prepare for an exhilarating clash of musical talent at the Battle of Bands! Bands representing a spectrum of genres including rock, pop, metal, jazz, and more will take the stage to compete in a thrilling show case of originality and skill. It's a high-energy event where each band strives to leave a lasting impression on the audience and judges alike.",
     "rules": [
-    "Team size: 5–10 members.",
-    "Duration: 8+3 minutes (8 minutes for performance, 3 minutes for mic setup).",
-    "No recorded tracks allowed; all music must be live.",
-    "Any genre or fusion of multiple genres is permitted.",
-    "Original compositions will receive higher weightage in scoring.",
-    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
-    "A drum kit will be provided at the venue.",
-    "Acapella performances are not allowed.",
-    "The judge's decision will be final and binding."
+    "The event is open to all college students. A valid College ID card is mandatory for participation.",
+    "The competition is open for solo performances.",
+    "Time limit is 5 minutes (3 minutes for performance + 2 minutes for setup). Exceeding the limit will result in a loss of marks.",
+    "Participants may perform using any musical instrument (string, percussion, wind, electronic, etc.).",
+    "Participants must bring their own instruments; basic sound setup (microphones and standard audio input) will be provided.",
+    "Use of pre-recorded backing tracks is allowed only as support; pre-recorded lead instrument tracks are strictly prohibited.",
+    "Performances can be of any genre (classical, western, fusion, contemporary, folk, etc.).",
+    "Vulgar gestures, inappropriate audio samples, or demeaning content will lead to immediate disqualification.",
+    "Participants must report to the venue at least 30 minutes prior to the event for sound check and verification.",
+    "Any damage caused to stage property or sound equipment will lead to disqualification and penalty.",
+    "The judge’s decision will be final and binding.",
+    "Any form of misbehavior, under influence or otherwise, will result in immediate disqualification and removal from the premises."
   ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,000", "second": "₹1,000" },
-    "coordinator": { "names": ["Mahesh Kashyap Yogish", "Rachitha Thunga"], "phones": [] },
-    "teamSize": "Individual",
-    "venue": "TBA",
-    "registrationFee": "₹150" ,  
-    "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Mahesh Kashyap Yogish",
+        "Rachitha Thunga"
+      ],
+      "phones": [6363101649
+,9844055056
 ]
+    },
+    "teamSize": "Individual",
+    "whatsappLink": "https://chat.whatsapp.com/HImt1aTx0Aj4ncSUQECsHJ?mode=gi_t",
+    "venue": "TBA",
+    "registrationFee": "₹150",
+    "registrationFields": [
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-03",
@@ -231,57 +327,70 @@
     "shortDescription": "Classical solo singing competition celebrating Indian music.",
     "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
     "rules": [
-      "Participants can choose from various categories including classical, Bollywood, devotional, or regional folk songs.",
-    "Songs can be in any Indian language or classical form.",
-    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocal performance.",
-    "The track must not contain any singing, chorus, or harmonies.",
-    "Duration: 3+1 minutes.",
-    "Songs must not have any demeaning lyrics; violation results in immediate disqualification.",
-    "Karaoke tracks must be submitted beforehand in MP3 format only."
-    ],
+    "Participants can choose from various categories including Classical (Hindustani or Carnatic), Bollywood film songs, devotional music (bhajans), or regional folk songs. Songs may be performed in any Indian language or in classical form.",
+    "Maximum performance time is 4 minutes.",
+    "Karaoke/backing track is allowed for singing, but no pre-recorded vocals or harmonies are permitted.",
+    "Solo Instrumental participants must perform individually (no accompanying band members).",
+    "Participants must submit their track in MP3 format at least 24 hours before the event and carry a backup.",
+    "Basic sound system will be provided; participants must bring their own instruments if required.",
+    "Vulgar, offensive, or inappropriate content is strictly prohibited.",
+    "Participants must report 30 minutes before the scheduled time.",
+    "Any misconduct or rule violation may lead to disqualification.",
+    "Judges’ decision will be final and binding."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹1,500", "second": "₹1,000" },
-    "coordinator": { "names": ["M D Akhil", "Nischal A"], "phones": [] },
+    "whatsappLink": "https://chat.whatsapp.com/CW8i3ZRxiK8DCzc6MUejGo?mode=gi_t",
+    "prizes": {
+      "first": "₹1,500",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "M D Akhil",
+        "Nischal A"
+      ],
+      "phones": [9849862175,9113858891]
+    },
     "teamSize": "Individual",
     "venue": "TBA",
     "registrationFee": "₹150",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-04",
@@ -293,56 +402,68 @@
     "shortDescription": "Western solo singing competition.",
     "description": "Unleash your vocal prowess and captivate the audience with your favorite Western tunes in the Western Solo Singing Competition! This event celebrates the diverse genres of Western music, welcoming talented singers to showcase their unique style, interpretation, and musical talent.",
     "rules": [
-      "Participants can choose from various Western genres including pop, rock, jazz, blues, country, soul, R&B, and more.",
-    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocal performance.",
-    "The karaoke track must not contain any singing, chorus, or harmonies.",
-    "The track must be submitted beforehand to the event coordinators in MP3 format only.",
-    "Duration: 3+1 minutes.",
-    "Songs must not have any demeaning lyrics; violation results in immediate disqualification."
+      "Participants may perform songs from Western genres such as pop, rock, jazz, blues, country, soul, R&B, and related styles.",
+      "Instrumental accompaniment or karaoke tracks are permitted. However, the backing track must not overpower or dominate the live vocal performance.",
+      "Pre-recorded lead vocals, backing vocals, chorus, or harmonies in the track are strictly prohibited.",
+      "Karaoke/instrumental tracks must be submitted to the event coordinators in MP3 format only one day beforethe event.",
+      "Each participant will be allotted 3 minutes + 2 minute grace time. Exceeding the time limit may result in point deduction at the judges’ discretion.",
+      "Songs containing offensive, inappropriate, or demeaning lyrics will lead to immediate disqualification."
     ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹1,500", "second": "₹1,000" },
-    "coordinator": { "names": ["Mallikarjun Katagi", "Dhivii Suresh"], "phones": [] },
+    "whatsappLink": "https://chat.whatsapp.com/EZ99CpHtsNF3HinnkMMMyQ",
+    "prizes": {
+      "first": "₹1,500",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Mallikarjun Katagi",
+        "Dhivii Suresh"
+      ],
+      "phones": [6363101649
+,9844055056
+]
+    },
     "teamSize": "Individual",
     "venue": "TBA",
-    "registrationFee": "₹150",
+    "registrationFee": "₹180",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-05",
@@ -350,69 +471,89 @@
     "category": "Cultural",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/CFa7HEfkcpiEh3LtmhI53x?mode=gi_t",
     "shortDescription": "An electrifying percussion and rhythm battle.",
     "description": "Get ready for The Ultimate Music Quiz — a thrilling 3-round team challenge that tests your musical knowledge! From identifying tunes and decoding lyrics to cracking exciting trivia, each round brings fresh twists and surprises. Team up, think fast, and prove that you are the ultimate music maestros!",
     "rules": [
-      "Team size: 2–3 members.",
-    "The event consists of 3 rounds, with eliminations at each stage.",
-    "Questions cover music trivia, song identification, lyrics completion, and audio challenges.",
-    "Each team will have a fixed time to answer each question.",
-    "Buzzer rounds included; questions may be multiple-choice or open-ended.",
-    "No mobile phones or external help allowed.",
-    "Any misconduct or rule violation may lead to disqualification.",
-    "The quizmaster's decision is final in case of disputes."
+      "Each team must have 2 to 3 members.",
+      "The event consists of 3 rounds. At the end of 3 rounds, total points will be counted and awarded accordingly.",
+      "Questions will cover music trivia, song identification and lyrics completion.",
+      "Correct answers: +15 points; Wrong answers: -5 points.",
+      "Each round will be a buzzer round.",
+      "No mobile phones or external help allowed.",
+      "Any misconduct or rules violation may lead to disqualification.",
+      "The quiz master's decision is final in case of disputes.",
+      "Each team will have a fixed time to answer each question.",
+      "All members of the team must have a valid ID card."
     ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,000", "second": "₹1,000" },
-    "coordinator": { "names": ["Nikhath Fathima", "Medha Deshpande"], "phones": [] },
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Nikhath Fathima",
+        "Medha Deshpande"
+      ],
+      "phones": [7619292755
+,9902598120
+]
+    },
     "teamSize": "2–8",
     "venue": "TBA",
     "registrationFee": "₹200 per team",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamName",
-"label": "Team Name",
-"type": "text",
-"required": true
-},
-{
-"name": "totalMembers",
-"label": "Total Number of Members",
-"type": "number",
-"required": true
-},
-
-{
-"name": "teamHeadName",
-"label": "Team Head Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamHeadPhone",
-"label": "Team Head WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "teamHeadEmail",
-"label": "Team Head Email",
-"type": "email",
-"required": true
-},
-{
-"name": "teamHeadAltPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "totalMembers",
+        "label": "Total Number of Members",
+        "type": "number",
+        "required": true,
+        "placeholder": "e.g. 3"
+      },
+      {
+        "name": "teamHeadName",
+        "label": "Team Head Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter team leader name"
+      },
+      {
+        "name": "teamHeadPhone",
+        "label": "Team Head WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "teamHeadAltPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-06",
@@ -421,73 +562,99 @@
     "category": "Cultural",
     "date": "April 10, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/HOtQyWw2hbbAGIEYqb5xqv",
     "shortDescription": "A duet dance competition celebrating synchronisation and chemistry.",
     "description": "Join us for an exciting Duet Dance Competition where pairs of dancers showcase their talent and teamwork. Judged on technique, synchronization, musicality, creativity, and expression, this event welcomes participants of all skill levels. Experience stunning lifts, partnered spins, and intricate footwork as each duet delivers a dynamic and captivating performance. Watch dancers move in perfect harmony to create truly unforgettable moments.",
     "rules": [
-      "Time limit: 4+1 minutes; negative points for exceeding the limit.",
-    "Team size: 2 participants (M&M, F&F, or M&F).",
-    "No specific theme or dance forms are required.",
-    "Any form of vulgarity will lead to immediate disqualification.",
-    "The judges' decision will be final."
-    ],
+    "Time limit is 4+1 minutes. Negative points will be given for exceeding the time limit.",
+    "Number of participants: 2 (M&M, F&F, or M&F).",
+    "No particular theme or dance form is required to be followed.",
+    "Any form of vulgarity will lead to direct disqualification.",
+    "Decisions of the judges will be final and binding.",
+    "Participants must submit their song in MP3 format 1 day before the event.",
+    "Teams must report to the venue 30 minutes prior to their performance.",
+    "Participants must carry their college ID cards for verification.",
+    "Props are allowed but must be arranged by the participants; no hazardous materials are permitted.",
+    "Judges may deduct points for lack of coordination, improper stage usage, or incomplete performance.",
+    "Participants must maintain discipline backstage and during other performances.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy.",
+    "Each team must submit valid college ID cards of all players to be eligible for participation."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,500", "second": "₹1,500" },
-    "coordinator": { "names": ["Manal Gupta", "Abhishek N"], "phones": [] },
+    "prizes": {
+      "first": "₹2,500",
+      "second": "₹1,500"
+    },
+    "coordinator": {
+      "names": [
+        "Manal Gupta",
+        "Abhishek N"
+      ],
+      "phones": [7976187389
+,8217595386
+]
+    },
     "teamSize": "2",
     "venue": "TBA",
     "registrationFee": "₹300 per team",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamName",
-"label": "Team Name",
-"type": "text",
-"required": true
-},
-
-{
-"name": "member1Name",
-"label": "Member 1 Name",
-"type": "text",
-"required": true
-},
-{
-"name": "member1Phone",
-"label": "Member 1 WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "member1Email",
-"label": "Member 1 Email",
-"type": "email",
-"required": true
-},
-
-{
-"name": "member2Name",
-"label": "Member 2 Name",
-"type": "text",
-"required": true
-},
-{
-"name": "member2Phone",
-"label": "Member 2 WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "member2Email",
-"label": "Member 2 Email",
-"type": "email",
-"required": true
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "member1Name",
+        "label": "Member 1 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name of first dancer"
+      },
+      {
+        "name": "member1Phone",
+        "label": "Member 1 WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "member2Name",
+        "label": "Member 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name of second dancer"
+      },
+      {
+        "name": "member2Phone",
+        "label": "Member 2 WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "member2Email",
+        "label": "Member 2 Email",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter second participant email"
+      }
+    ]
   },
   {
     "id": "cul-07",
@@ -496,67 +663,88 @@
     "category": "Cultural",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/CTvTpuE230K6pTZDSG4JDG?mode=gi_t",
     "shortDescription": "A vibrant group dance competition.",
     "description": "Unlock the rhythm of innovation and be part of an extraordinary spectacle at the Group Dance Competition. We invite colleges from far and wide to showcase their most innovative choreography, boundless creativity, and unwavering passion on our stage. Bring your energy, coordination, and storytelling to life as your team delivers a performance that captivates the audience and leaves a lasting impression.",
     "rules": [
-      "Team size: 5–15 participants.",
-    "Time limit: 4+1 minutes.",
-    "Any form of vulgarity will lead to disqualification.",
-    "Music can be of any genre, including contemporary, Bollywood, lyrical, or Western.",
-    "Props are allowed, but inflammable or hazardous objects are strictly prohibited on stage.",
-    "The judges' decision will be final and no arguments will be entertained."
-    ],
+    "Each team must consist of a minimum of 4 participants and a maximum of 15 participants.",
+    "The performance duration must not exceed 4 minutes. An additional grace period of 1 minute will be permitted.",
+    "Music of any genre, including Contemporary, Bollywood, Lyrical, and Western styles, is permitted.",
+    "Props are allowed; however, the use of inflammable, hazardous, or dangerous objects on stage is strictly prohibited.",
+    "Any form of vulgarity, inappropriate gestures, or offensive content during the performance will result in immediate disqualification.",
+    "The costume, overall appearance, and theme coordination of the team will be evaluated as part of the judging criteria.",
+    "All participating team members must present valid college ID cards to be eligible for participation.",
+    "The decision of the judges shall be final and binding. No arguments or appeals will be entertained.",
+    "In the event of insufficient entries, the Organizing Committee reserves the right to cancel the trophy or the competition."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹8,000", "second": "₹4,000" },
-    "coordinator": { "names": ["Sushruth Kumar", "Tavish Gowda P"], "phones": [] },
+    "prizes": {
+      "first": "₹8,000",
+      "second": "₹4,000"
+    },
+    "coordinator": {
+      "names": [
+        "Sushruth Kumar",
+        "Tavish Gowda P"
+      ],
+      "phones": [7676479802,7975774256
+
+]
+    },
     "teamSize": "3–15",
     "venue": "TBA",
     "registrationFee": "₹800 per team",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamName",
-"label": "Team Name",
-"type": "text",
-"required": true
-},
-{
-"name": "totalMembers",
-"label": "Total Number of Members",
-"type": "number",
-"required": true
-},
-
-{
-"name": "teamHeadName",
-"label": "Team Head Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamHeadPhone",
-"label": "Team Head WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "teamHeadEmail",
-"label": "Team Head Email",
-"type": "email",
-"required": true
-},
-{
-"name": "teamHeadAltPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "totalMembers",
+        "label": "Total Number of Members",
+        "type": "number",
+        "required": true,
+        "placeholder": "e.g. 10"
+      },
+      {
+        "name": "teamHeadName",
+        "label": "Team Head Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter team leader name"
+      },
+      {
+        "name": "teamHeadPhone",
+        "label": "Team Head WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "teamHeadAltPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-08",
@@ -565,58 +753,73 @@
     "category": "Cultural",
     "date": "April 10, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/I6LpaBqhD6nBaXz36ytO2R?mode=hq1tcli",
     "shortDescription": "Reimagine songs into entirely new musical styles.",
     "description": "This is an on-the-spot dance event that challenges participants to showcase their improvisational skills and move effortlessly with the rhythm of the music. Feel the energy, embrace the beat, and let your creativity flow as you dance your way to victory in this thrilling competition.",
     "rules": [
-      "The event coordinator will play music of any genre.",
-    "Requests to change the music will not be entertained.",
-    "Multiple rounds may be included at the judge's discretion.",
-    "Any form of vulgarity will lead to disqualification.",
-    "The judges' decision will be final; no arguments will be entertained."
-    ],
+    "Music of any genre will be played by the event coordinator; participants must perform to the track provided.",
+    "Requests to replay, skip, or change the music will not be entertained under any circumstances.",
+    "The competition may consist of multiple rounds depending on the number of participants and the judges’ discretion.",
+    "Each participant will be given a fixed time to perform; exceeding the time limit may lead to deduction of marks or disqualification.",
+    "Any form of vulgarity, offensive gestures, inappropriate costumes, or disrespectful behavior will result in immediate disqualification.",
+    "Participants must report at least 30 minutes before the event time.",
+    "The judges’ decision will be final and binding; no disputes or arguments will be entertained.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy.",
+    "Each participant must submit a valid college ID card to be eligible for participation.",
+    "Participants must ensure their performance does not cause harm to themselves, others, or the stage setup."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,000", "second": "₹1,000" },
-    "coordinator": { "names": ["Gagan HS", "Janani Pradeep"], "phones": [] },
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Gagan HS",
+        "Janani Pradeep"
+      ],
+      "phones": [7975959500,8431363241]
+    },
     "teamSize": "1–6",
     "venue": "TBA",
     "registrationFee": "₹200",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-09",
@@ -624,61 +827,74 @@
     "poster": "/images/laasya.jpg",
     "category": "Cultural",
     "date": "April 11, 2026",
+    "whatsappLink" : "https://chat.whatsapp.com/ITXSJU1ks48Kjw8b41hQjr?mode=gi_t",
     "time": "TBA",
     "shortDescription": "A classical solo dance competition celebrating tradition and grace.",
     "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
     "rules": [
-      "Participants can choose from various categories including classical (Hindustani/Carnatic), Bollywood, devotional, or regional folk.",
-    "Songs can be in any Indian language or classical form.",
-    "Instrumental accompaniment or karaoke is allowed but must not overshadow the vocals.",
-    "The track must not contain any backing vocals, chorus, or harmonies.",
-    "Karaoke tracks must be submitted beforehand in MP3 format only.",
-    "Duration: 3+1 minutes.",
-    "Demeaning lyrics are strictly prohibited and will result in immediate disqualification."
-    ],
+    "This is a solo competition. Only one participant is allowed per performance.",
+    "Time limit is 3 + 1 minutes.",
+    "Marks will be deducted if the performance exceeds the allotted time including the grace period.",
+    "Only Indian music is allowed; music must align with the chosen Indian dance form and should not contain dominant Western beats.",
+    "Folk, Classical and Semi-Classical dance forms such as Bhangra, Garba, Ghoomar, Yakshagana, Bharatanatyam, Kuchipudi, etc., are allowed.",
+    "Indian Contemporary, Bollywood and Lyrical dance forms are strictly not allowed.",
+    "Any form of vulgarity, inappropriate gestures, or offensive content will lead to immediate disqualification.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy.",
+    "Participants must submit a valid college ID card to be eligible for participation.",
+    "The decision of the judges will be final and binding."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,000", "second": "₹1,000" },
-    "coordinator": { "names": ["Dharani Krishna Sahithi", "Rohan Jojee"], "phones": [] },
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Dharani Krishna Sahithi",
+        "Rohan Jojee"
+      ],
+      "phones": [8008032980,8884260588]
+    },
     "teamSize": "Individual",
     "venue": "TBA",
     "registrationFee": "₹175",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-10",
@@ -687,58 +903,70 @@
     "category": "Cultural",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/EOklV0T8onBADWC0szKQHG?mode=gi_t",
     "shortDescription": "An urban street-style dance competition.",
     "description": "Dancing is the language of the soul. Set your spirit free, let the music take control, and allow your story to unfold through movement. Bring your high-energy, flashy moves and fierce competitive spirit to the stage. From old-school beats to modern hits, show us who truly has the best moves across the ages of music.",
-    "rules": [
-      "1 vs 1 breaking dance battle.",
-    "The number of rounds will be determined by the judge based on participant turnout.",
-    "Use of vulgar language or gestures will lead to immediate disqualification.",
-    "Dancers must perform to different genres of music as played by the DJ.",
-    "Judges will assess performance quality, musicality, dance technique, and the performer's personality."
-    ],
+   "rules": [
+    "The event will be conducted as a one-on-one (1 vs 1) breaking dance battle.",
+    "The number and format of rounds will be determined by the judges, based on the total number of participants.",
+    "The use of vulgar language, inappropriate gestures, or any form of misconduct will result in immediate disqualification.",
+    "Participants are required to perform to various genres of music played during the competition.",
+    "Performances will be evaluated based on quality of execution, musicality, dance technique, stage presence, and overall personality.",
+    "Any intentional physical contact aimed at harming an opponent will result in immediate disqualification.",
+    "All participants must respect the decisions made by the judges; the judges’ decision shall be final and binding."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹5,000", "second": "₹3,000" },
-    "coordinator": { "names": ["Divyashree G", "Poorvi V Nandargi"], "phones": [] },
+    "prizes": {
+      "first": "₹5,000",
+      "second": "₹3,000"
+    },
+    "coordinator": {
+      "names": [
+        "Divyashree G",
+        "Poorvi V Nandargi"
+      ],
+      "phones": [8073605753,8383066236]
+    },
     "teamSize": "1–8",
     "venue": "TBA",
     "registrationFee": "₹350",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-11",
@@ -747,60 +975,75 @@
     "category": "Cultural",
     "date": "April 10, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/DF2GWPJP8vU1qjmkZ6jgJf?mode=gi_t",
     "shortDescription": "Western solo dance competition.",
     "description": "Get ready to groove at our Solo Western Dance Competition! Showcase your moves in an electrifying celebration of rhythm and style — from high-energy hip-hop to smooth jazz and contemporary beats. Whether you're a seasoned performer or stepping onto the stage for the first time, this is your moment to shine. Lace up your dancing shoes and set the stage on fire!",
     "rules": [
-      "Time limit: 3+1 minutes.",
-    "Dance style must be strictly Western.",
-    "Music can be of any genre.",
-    "Any form of vulgarity will lead to disqualification.",
-    "Props are allowed, but inflammable or hazardous objects are strictly prohibited on stage.",
-    "The judges' decision will be final; no arguments will be entertained.",
-    "Songs must not have any demeaning lyrics; violation results in immediate disqualification."
-    ],
+    "This is a solo dance competition. Only individual participation is allowed.",
+    "Time limit: 3+1 minutes. Negative points will be awarded for exceeding the time limit.",
+    "Only Western / Hip-Hop / Bollywood music is permitted (including Rap, Trap, EDM, etc.).",
+    "Indian classical, semi-classical, or traditional Indian music is strictly not allowed.",
+    "Participants must submit their music track in MP3 format only to the coordinator on the day prior.",
+    "Any form of vulgarity in music, gestures, or choreography will lead to disqualification.",
+    "The decision of the judges will be final; no arguments will be entertained.",
+    "Participants must report to the venue at least 30 minutes before the event begins.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy.",
+    "Each participant must submit a valid college ID card to be eligible for participation."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹2,000", "second": "₹1,000" },
-    "coordinator": { "names": ["Pavan Kumar SR", "Sacheth Kumr P N"], "phones": [] },
+    "prizes": {
+      "first": "₹2,000",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Pavan Kumar SR",
+        "Sacheth Kumr P N"
+      ],
+      "phones": [8139968235,9902077938
+
+]
+    },
     "teamSize": "Individual",
     "venue": "TBA",
     "registrationFee": "₹175",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
   {
     "id": "cul-12",
@@ -809,63 +1052,80 @@
     "category": "Cultural",
     "date": "Before April 11, 2026",
     "time": "Online Submission",
+    "whatsappLink": "https://chat.whatsapp.com/HaL6uTEkh7R3DQ19ZqhH5G?mode=gi_t",
     "shortDescription": "An Instagram reel competition.",
     "description": "Reel Riot is an electrifying dance reel competition where participants create a dynamic short performance based on a surprise theme. Whether performing solo or as a duo (maximum 2 members per team), this is your chance to showcase your rhythm, creativity, and on-camera presence. With limited time to conceptualize, choreograph, shoot, and edit, every beat counts. Precision, expressions, coordination, and originality will take center stage as you battle it out to create the most captivating reel.",
     "rules": [
-      "Participation is open to solo performers and duos only (maximum 2 members per team).",
-    "Reels must strictly follow the announced theme.",
-    "The duration of the reel must be between 30 to 60 seconds.",
-    "Entries must be submitted before the deadline; late submissions will not be accepted.",
-    "The performance must be dance-focused; inappropriate content will lead to disqualification.",
-    "Basic editing is allowed, but excessive effects that overshadow the dance may affect judging.",
-    "Judging criteria: choreography, creativity, expressions, synchronization (for duos), theme relevance, and overall impact.",
-    "The judges' decision will be final and binding."
-    ],
+    "Open for Solo or Duo entries (maximum 2 members).",
+    "Only one reel per participant/team is allowed.",
+    "Song and theme will be announced 48 hours before the event.",
+    "Reel must be conceptualized, shot, and edited only within these 48 hours.",
+    "The given song must be used without any modification.",
+    "Duration: 30-60 seconds in vertical (9:16) format.",
+    "Editing apps are allowed; reel must strictly follow the given theme.",
+    "Original content only (no drafts or reused clips); participants must appear in the reel.",
+    "For duo entries, both members must be visible.",
+    "No offensive, political, or religious content.",
+    "Reel must be submitted before the deadline; late or incorrect submissions will be disqualified.",
+    "Participants must upload their reel on their Instagram account and tag the organizers.",
+    "Judges’ decision will be final.",
+    "Plagiarism or rule violation will lead to immediate disqualification.",
+    "Organizers reserve the right to make final decisions and use reels for promotion."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹1,500", "second": "₹1,000" },
-    "coordinator": { "names": ["Prajwal V", "Rithisha Patil"], "phones": [] },
+    "prizes": {
+      "first": "₹1,500",
+      "second": "₹1,000"
+    },
+    "coordinator": {
+      "names": [
+        "Prajwal V",
+        "Rithisha Patil"
+      ],
+      "phones": [9900161427,9945260742
+
+]
+    },
     "venue": "Online",
     "registrationFee": "₹150",
     "teamSize": "Individual",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true
-},
-{
-"name": "teamName",
-"label": "Team Name",
-"type": "text",
-"required": true
-},
-
-{
-"name": "member1Name",
-"label": "Participant Name",
-"type": "text",
-"required": true
-},
-{
-"name": "member1Phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true
-},
-{
-"name": "member1Email",
-"label": "Email",
-"type": "email",
-"required": true
-},
-{
-"name": "member1AltPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "member1Name",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "cul-13",
@@ -874,695 +1134,704 @@
     "category": "Cultural",
     "date": "April 10, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/BDpHkE4BGeWLugdwMPozQ9?mode=gi_t",
     "shortDescription": "A rapid-fire fashion design challenge.",
     "description": "Unleash your creativity at Runway Rush, where fashion meets spontaneity! Bring your own materials, craft a unique outfit on the spot, and transform your vision into a stunning runway look. With limited time and limitless imagination, design with flair, walk with confidence, and dazzle the audience with your originality and style.",
     "rules": [
-      "Participation is open to individuals or pairs.",
-    "Contestants must bring their own materials; pre-made outfits are strictly prohibited.",
-    "Outfits must be designed and assembled on the spot within the fixed time limit.",
-    "Creations should be innovative, stylish, and wearable; bonus points for theme adherence.",
-    "Participants must showcase their creation on the runway; posture and confidence will be judged.",
-    "Only registered participants are permitted to design and style the outfit.",
-    "Judging criteria: originality, design execution, runway presence, and overall impact.",
-    "Any misconduct or rule violation may lead to disqualification.",
-    "The judge's verdict is final in all cases."
-    ],
+    "Participants may compete individually or in pairs.",
+    "Contestants must bring their own materials to create an outfit on the spot; pre-made or pre-stitched outfits are strictly not allowed.",
+    "Participants will be given 2 hours to design and assemble their outfit.",
+    "Outfits must be innovative, stylish, and wearable; bonus points will be awarded for effectively following a creative theme.",
+    "Participants must walk the runway to showcase their creation; confidence, posture, and stage presence will be considered during judging.",
+    "Any misconduct or violation of the rules may lead to immediate disqualification.",
+    "The judges’ decision will be final and binding in all cases.",
+    "Participants must report to the venue at least 30 minutes prior to the start of the event for verification and briefing.",
+    "All participants must carry their valid college ID cards during the event for verification purposes."
+  ],
     "eligibility": "Open to all college students",
-    "prizes": { "first": "₹3,000", "second": "₹1,500" },
-    "coordinator": { "names": ["Tejas Gowda L", "Nidhi Rajesh Hegde"], "phones": [] },
+    "prizes": {
+      "first": "₹3,000",
+      "second": "₹1,500"
+    },
+    "coordinator": {
+      "names": [
+        "Tejas Gowda L",
+        "Nidhi Rajesh Hegde"
+      ],
+      "phones": [9353374083,9372972570
+
+]
+    },
     "teamSize": "2–4",
     "venue": "TBA",
     "registrationFee": "₹300",
     "registrationFields": [
-{
-"name": "collegeName",
-"label": "College Name",
-"type": "text",
-"required": true,
-"placeholder": "Enter your college name"
-},
-{
-"name": "participantName",
-"label": "Participant Name",
-"type": "text",
-"required": true,
-"placeholder": "Full name"
-},
-{
-"name": "phone",
-"label": "WhatsApp Number",
-"type": "tel",
-"required": true,
-"placeholder": "10 digit WhatsApp number"
-},
-{
-"name": "email",
-"label": "Email ID",
-"type": "email",
-"required": true,
-"placeholder": "Enter email"
-},
-{
-"name": "altPhone",
-"label": "Alternate WhatsApp Number",
-"type": "tel",
-"required": false,
-"placeholder": "Optional"
-}
-]
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter email"
+      },
+      {
+        "name": "altPhone",
+        "label": "Alternate WhatsApp Number",
+        "type": "tel",
+        "required": false,
+        "placeholder": "Optional"
+      }
+    ]
   },
-    {
-        "id": "tech-01",
-        "title": "Valorant",
-        "poster": "/images/valo.jpg",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "5v5 tactical shooter tournament — strategise, aim, and outsmart rival teams for the Day 1 championship.",
-        "description": "Valorant I is the Day 1 tactical shooter showdown at Utsaha Vaibhava. Teams of 5 go head-to-head in bracket matches on the APJ Abdul Kalam Lab LAN setup. Best strategy, sharpest aim, and tightest teamwork wins.",
-        "rules": [
-            "5 players per team",
-            "Own PCs/laptops must be brought",
-            "Tournament bracket format",
-            "All official Valorant agents allowed",
-            "No hacks, mods, or external software",
-            "Internet provided on campus LAN"
-        ],
-        "eligibility": "All college students with valid ID",
-        "prizes": {
-            "first": "₹8,000 per team + Trophy",
-            "second": "₹5,000 per team",
-            "third": "₹2,500 per team"
-        },
-        "coordinator": {
-            "name": "Siddharth Rao",
-            "phone": "+91 43210 98765",
-            "email": "siddharth.rao@utsaha.ac.in"
-        },
-        "teamSize": "5",
-        "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
-        "registrationFee": "₹650 per team",
-        "registrationFields": [
-            {
-                "name": "teamName",
-                "label": "Team Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your team name"
-            },
-            {
-                "name": "leaderName",
-                "label": "Team Leader Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Leader's full name"
-            },
-            {
-                "name": "leaderPhone",
-                "label": "Phone Number",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit phone number"
-            },
-            {
-                "name": "member2Name",
-                "label": "Teammate 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member3Name",
-                "label": "Teammate 3 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member4Name",
-                "label": "Teammate 4 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member5Name",
-                "label": "Teammate 5 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            }
-        ]
+  {
+    "id": "tech-01",
+    "title": "Valorant",
+    "poster": "/images/valo.jpg",
+    "category": "Technical",
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "shortDescription": "5v5 tactical shooter tournament — strategise, aim, and outsmart rival teams for the Day 1 championship.",
+    "description": "Valorant I is the Day 1 tactical shooter showdown at Utsaha Vaibhava. Teams of 5 go head-to-head in bracket matches on the APJ Abdul Kalam Lab LAN setup. Best strategy, sharpest aim, and tightest teamwork wins.",
+    "rules": [
+      "5 players per team",
+      "Own PCs/laptops must be brought",
+      "Tournament bracket format",
+      "All official Valorant agents allowed",
+      "No hacks, mods, or external software",
+      "Internet provided on campus LAN"
+    ],
+    "eligibility": "All college students with valid ID",
+    "prizes": {
+      "first": "₹10,000 per team ",
+      "second": "₹7,500 per team"
     },
-    {
-        "id": "tech-02",
-        "title": "BGMI",
-        "poster": "/images/bgmi.png",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "The BGMI squad tournament — fight for the Chicken Dinner and claim the esports crown!",
-        "description": "BGMI (Battlegrounds Mobile India) Tournament at Utsaha Vaibhava is a 4-player squad competition across multiple rounds. Teams compete on mobile devices for the highest kill count and survival rank to claim glory.",
-        "rules": [
-            "4-player squads",
-            "Own iOS/Android devices must be brought",
-            "Emulators strictly not allowed",
-            "Hacking or mods leads to immediate disqualification",
-            "Stable campus Wi-Fi provided"
-        ],
-        "eligibility": "All college students with valid ID",
-        "prizes": {
-            "first": "₹7,000 per squad + Trophy",
-            "second": "₹4,000 per squad",
-            "third": "₹2,000 per squad"
-        },
-        "coordinator": {
-            "name": "Siddharth Rao",
-            "phone": "+91 43210 98765",
-            "email": "siddharth.rao@utsaha.ac.in"
-        },
-        "teamSize": "4",
-        "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹400 per squad",
-        "registrationFields": [
-            {
-                "name": "teamName",
-                "label": "Team Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your team name"
-            },
-            {
-                "name": "leaderName",
-                "label": "Team Leader Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Leader's full name"
-            },
-            {
-                "name": "leaderPhone",
-                "label": "Team Leader Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "teammate2",
-                "label": "Teammate 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "teammate3",
-                "label": "Teammate 3 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "teammate4",
-                "label": "Teammate 4 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "coordinator": {
+      "name": "Siddharth Rao",
+      "phone": "+91 43210 98765",
+      "email": "siddharth.rao@utsaha.ac.in"
     },
-    {
-        "id": "tech-03",
-        "title": "Smash Karts",
-        "poster": "/images/smash.jpg",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "Race and battle in this browser-based kart arena — up to 10 batches competing on Day 1!",
-        "description": "Smash Karts Day 1 at Utsaha Vaibhava is a browser-based kart battle event held near the Food Stalls. Up to 10 batches will be run through the day. Fast reflexes and smart power-up use are the keys to glory.",
-        "rules": [
-            "Individual participation",
-            "Laptop/PC with a mouse required",
-            "Browser: Chrome or Firefox",
-            "No extensions or plugins allowed during gameplay",
-            "Room link shared before each round",
-            "Maximum 10 batches — first come, first served"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹3,000 + Trophy",
-            "second": "₹2,000 + Medal",
-            "third": "₹1,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Arjun Kapoor",
-            "phone": "+91 65432 10987",
-            "email": "arjun.kapoor@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹50 per person",
-        "registrationFields": [
-            {
-                "name": "participantName",
-                "label": "Participant Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your full name"
-            },
-            {
-                "name": "participantPhone",
-                "label": "Phone Number",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "teamSize": "5",
+    "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
+    "registrationFee": "₹650 per team",
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "leaderName",
+        "label": "Team Leader Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Leader's full name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "member2Name",
+        "label": "Teammate 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member3Name",
+        "label": "Teammate 3 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member4Name",
+        "label": "Teammate 4 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member5Name",
+        "label": "Teammate 5 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      }
+    ]
+  },
+  {
+    "id": "tech-02",
+    "title": "BGMI",
+    "poster": "/images/bgmi.png",
+    "category": "Technical",
+    "date": "April 10, 2026",
+    "time": "11:00 AM",
+    "shortDescription": "The BGMI squad tournament — fight for the Chicken Dinner and claim the esports crown!",
+    "description": "BGMI (Battlegrounds Mobile India) Tournament at Utsaha Vaibhava is a 4-player squad competition across multiple rounds. Teams compete on mobile devices for the highest kill count and survival rank to claim glory.",
+    "rules": [
+      "4-player squads",
+      "Own iOS/Android devices must be brought",
+      "Emulators strictly not allowed",
+      "Hacking or mods leads to immediate disqualification",
+      "Stable campus Wi-Fi provided"
+    ],
+    "eligibility": "All college students with valid ID",
+    "prizes": {
+      "first": "₹5,000 per squad ",
+      "second": "₹2,500 per squad"
     },
-    {
-        "id": "tech-06",
-        "title": "Clash Royale 1V1",
-        "poster": "/images/clash.jpg",
-        "category": "Technical",
-        "date": "April 10, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "One-on-one Clash Royale duels — build your deck, outplay your opponent, and climb to glory!",
-        "description": "Clash Royale 1V1 at Utsaha Vaibhava is a head-to-head mobile strategy tournament. Players face off in single-elimination rounds near the Food Stalls. Deck-building skill, timing, and adaptability are your weapons.",
-        "rules": [
-            "Individual participation",
-            "Own mobile device required",
-            "Standard Clash Royale rules apply",
-            "No hacks or third-party apps",
-            "Tournament room codes shared by coordinators"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹4,000 + Trophy",
-            "second": "₹2,500 + Medal",
-            "third": "₹1,200 + Certificate"
-        },
-        "coordinator": {
-            "name": "Meera Pillai",
-            "phone": "+91 32109 87654",
-            "email": "meera.pillai@utsaha.ac.in"
-        },
-        "teamSize": "1",
-        "venue": "Near Food Stalls, BMSIT&M",
-        "registrationFee": "₹50 per person",
-        "registrationFields": [
-            {
-                "name": "participantName",
-                "label": "Participant Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your full name"
-            },
-            {
-                "name": "participantPhone",
-                "label": "Phone Number",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "coordinator": {
+      "name": "Siddharth Rao",
+      "phone": "+91 43210 98765",
+      "email": "siddharth.rao@utsaha.ac.in"
     },
-    {
-        "id": "tech-07",
-        "title": "Clash Royale 2V2",
-        "poster": "/images/clash.jpg",
-        "category": "Technical",
-        "date": "April 11, 2026",
-        "time": "10:00 AM",
-        "shortDescription": "Two-player Clash Royale team battles — coordinate decks, sync strategies, and dominate the arena!",
-        "description": "Clash Royale 2V2 at Utsaha Vaibhava pairs two players together for coordinated mobile strategy battles. Teams must sync their decks and tactics to outmanoeuvre rival pairs. A test of communication as much as gaming skill.",
-        "rules": [
-            "Teams of 2 players",
-            "Own mobile devices required",
-            "Standard Clash Royale 2V2 rules apply",
-            "No hacks or third-party apps",
-            "Tournament room codes shared by coordinators"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹5,000 per team + Trophy",
-            "second": "₹3,000 per team + Medal",
-            "third": "₹1,500 per team + Certificate"
-        },
-        "coordinator": {
-            "name": "Meera Pillai",
-            "phone": "+91 32109 87654",
-            "email": "meera.pillai@utsaha.ac.in"
-        },
-        "teamSize": "2",
-        "venue": "Classroom",
-        "registrationFee": "₹100 per team",
-        "registrationFields": [
-            {
-                "name": "participant1Name",
-                "label": "Participant 1 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "participant1Phone",
-                "label": "Participant 1 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "participant2Name",
-                "label": "Participant 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "participant2Phone",
-                "label": "Participant 2 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "teamSize": "4",
+    "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
+    "registrationFee": "₹400 per squad",
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "leaderName",
+        "label": "Team Leader Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Leader's full name"
+      },
+      {
+        "name": "phone",
+        "label": "Team Leader Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "teammate2",
+        "label": "Teammate 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "teammate3",
+        "label": "Teammate 3 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "teammate4",
+        "label": "Teammate 4 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      }
+    ]
+  },
+  {
+    "id": "tech-03",
+    "title": "Smash Karts",
+    "poster": "/images/smash.jpg",
+    "category": "Technical",
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "shortDescription": "Race and battle in this browser-based kart arena — up to 10 batches competing on Day 1!",
+    "description": "Smash Karts Day 1 at Utsaha Vaibhava is a browser-based kart battle event held near the Food Stalls. Up to 10 batches will be run through the day. Fast reflexes and smart power-up use are the keys to glory.",
+    "rules": [
+      "Individual participation",
+      "Laptop/PC with a mouse required",
+      "Browser: Chrome or Firefox",
+      "No extensions or plugins allowed during gameplay",
+      "Room link shared before each round",
+      "Maximum 10 batches — first come, first served"
+    ],
+    "eligibility": "All college students",
+    "prizes": {
+      "first": "₹200 per batch"
     },
-    {
-        "id": "tech-09",
-        "title": "TECH TRIALS: MULTIVERSE HEIST",
-        "poster": "/images/tech.jpeg",
-        "category": "Technical",
-        "date": "April 11, 2026",
-        "time": "11:00 AM",
-        "shortDescription": "A cybersecurity CTF challenge — find hidden flags across web, crypto, forensics, and more!",
-        "description": "Capture the Flag (CTF) at Utsaha Vaibhava is a hands-on cybersecurity competition. Teams solve challenges spanning web exploitation, cryptography, reverse engineering, forensics, and OSINT to capture hidden flags and rack up points. The highest score wins.",
-        "rules": [
-            "Teams of 1–3 members",
-            "Duration: 3 hours",
-            "Own laptops required",
-            "No attacking other teams' infrastructure",
-            "All tools must be pre-installed before the event",
-            "Coordinators' decision on flag validity is final"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹6,000 + Trophy",
-            "second": "₹4,000 + Medal",
-            "third": "₹2,000 + Certificate"
-        },
-        "coordinator": {
-            "name": "Priya Nair",
-            "phone": "+91 87654 32109",
-            "email": "priya.nair@utsaha.ac.in"
-        },
-        "teamSize": "4",
-        "venue": "Lab",
-        "registrationFee": "₹400 per team",
-        "registrationFields": [
-            {
-                "name": "teamName",
-                "label": "Team Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your team name"
-            },
-            {
-                "name": "member1Name",
-                "label": "Member 1 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member1Phone",
-                "label": "Member 1 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member2Name",
-                "label": "Member 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member2Phone",
-                "label": "Member 2 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member3Name",
-                "label": "Member 3 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member3Phone",
-                "label": "Member 3 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member4Name",
-                "label": "Member 4 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member4Phone",
-                "label": "Member 4 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "coordinator": {
+      "name": "Arjun Kapoor",
+      "phone": "+91 65432 10987",
+      "email": "arjun.kapoor@utsaha.ac.in"
     },
-    {
-        "id": "tech-10",
-        "title": "Free Fire",
-        "poster": "/images/free.jpg",
-        "category": "Technical",
-        "date": "April 11, 2026",
-        "time": "12:00 PM",
-        "shortDescription": "Battle royale action on mobile — squad up, survive, and be the last team standing!",
-        "description": "Free Fire at Utsaha Vaibhava is a 4-player squad battle royale tournament. Teams fight across multiple rounds on their own devices at the Aryabhatta Lab. High kill count and final standing determine the victors.",
-        "rules": [
-            "4-player squads",
-            "Own mobile devices required",
-            "Emulators not allowed",
-            "No hacks or mods",
-            "Tournament room codes shared by coordinators"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹6,000 per squad + Trophy",
-            "second": "₹3,500 per squad + Medal",
-            "third": "₹1,500 per squad + Certificate"
-        },
-        "coordinator": {
-            "name": "Siddharth Rao",
-            "phone": "+91 43210 98765",
-            "email": "siddharth.rao@utsaha.ac.in"
-        },
-        "teamSize": "4",
-        "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
-        "registrationFee": "₹200 per squad",
-        "registrationFields": [
-            {
-                "name": "teamName",
-                "label": "Team Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your team name"
-            },
-            {
-                "name": "leaderName",
-                "label": "Team Leader Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Leader's full name"
-            },
-            {
-                "name": "leaderPhone",
-                "label": "Team Leader Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "teammate2",
-                "label": "Teammate 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "teammate3",
-                "label": "Teammate 3 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "teammate4",
-                "label": "Teammate 4 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "teamSize": "1",
+    "venue": "Near Food Stalls, BMSIT&M",
+    "registrationFee": "₹50 per person",
+    "registrationFields": [
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
+  },
+  {
+    "id": "tech-04",
+    "title": "Clash Royale 1V1",
+    "poster": "/images/clash.jpg",
+    "category": "Technical",
+    "date": "April 10, 2026",
+    "time": "11:00 AM",
+    "shortDescription": "One-on-one Clash Royale duels — build your deck, outplay your opponent, and climb to glory!",
+    "description": "Clash Royale 1V1 at Utsaha Vaibhava is a head-to-head mobile strategy tournament. Players face off in single-elimination rounds near the Food Stalls. Deck-building skill, timing, and adaptability are your weapons.",
+    "rules": [
+      "Individual participation",
+      "Own mobile device required",
+      "Standard Clash Royale rules apply",
+      "No hacks or third-party apps",
+      "Tournament room codes shared by coordinators"
+    ],
+    "eligibility": "All college students",
+    "whatsappLink": "https://chat.whatsapp.com/your-link-here",
+    "prizes": {
+      "first": "₹200 per batch"
     },
-    {
-        "id": "tech-11",
-        "title": "Tech Treasure Hunt",
-        "poster": "/images/treas.jpg",
-        "category": "Technical",
-        "date": "April 11, 2026",
-        "time": "2:00 PM",
-        "shortDescription": "A campus-wide tech-themed treasure hunt — decode clues, solve puzzles, and race to the finish!",
-        "description": "Tech Treasure Hunt at Utsaha Vaibhava challenges teams to crack a series of technology-themed clues hidden across the campus. Combining logic, teamwork, and speed, teams race to find each checkpoint and ultimately the final treasure. The first team to complete all clues wins.",
-        "rules": [
-            "Teams of 2–4 members",
-            "Clues revealed at the Auditorium at the start",
-            "No tampering with clues left for other teams",
-            "Mobile phones allowed only for clue solving",
-            "Coordinators' decision on clue interpretation is final"
-        ],
-        "eligibility": "All college students",
-        "prizes": {
-            "first": "₹5,000 per team + Trophy",
-            "second": "₹3,000 per team + Medal",
-            "third": "₹1,500 per team + Certificate"
-        },
-        "coordinator": {
-            "name": "Rohan Mehta",
-            "phone": "+91 98765 43210",
-            "email": "rohan.mehta@utsaha.ac.in"
-        },
-        "teamSize": "2–4",
-        "venue": "Auditorium, Lab Block 2nd Floor",
-        "registrationFee": "₹400 per team",
-        "registrationFields": [
-            {
-                "name": "teamName",
-                "label": "Team Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter your team name"
-            },
-            {
-                "name": "member1Name",
-                "label": "Member 1 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member1Phone",
-                "label": "Member 1 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member2Name",
-                "label": "Member 2 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member2Phone",
-                "label": "Member 2 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member3Name",
-                "label": "Member 3 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member3Phone",
-                "label": "Member 3 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "member4Name",
-                "label": "Member 4 Name",
-                "type": "text",
-                "required": true,
-                "placeholder": "Full name"
-            },
-            {
-                "name": "member4Phone",
-                "label": "Member 4 Phone",
-                "type": "tel",
-                "required": true,
-                "placeholder": "10-digit number"
-            },
-            {
-                "name": "utrNumber",
-                "label": "UTR Number (Payment)",
-                "type": "text",
-                "required": true,
-                "placeholder": "Enter UTR / transaction reference"
-            }
-        ]
+    "coordinator": {
+      "name": "Meera Pillai",
+      "phone": "+91 32109 87654",
+      "email": "meera.pillai@utsaha.ac.in"
     },
-    {
+    "teamSize": "1",
+    "venue": "Near Food Stalls, BMSIT&M",
+    "registrationFee": "₹50 per person",
+    "registrationFields": [
+      {
+        "name": "participantName",
+        "label": "Participant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
+  },
+  {
+    "id": "tech-05",
+    "title": "Clash Royale 2V2",
+    "poster": "/images/clash.jpg",
+    "category": "Technical",
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "shortDescription": "Two-player Clash Royale team battles — coordinate decks, sync strategies, and dominate the arena!",
+    "description": "Clash Royale 2V2 at Utsaha Vaibhava pairs two players together for coordinated mobile strategy battles. Teams must sync their decks and tactics to outmanoeuvre rival pairs. A test of communication as much as gaming skill.",
+    "rules": [
+      "Teams of 2 players",
+      "Own mobile devices required",
+      "Standard Clash Royale 2V2 rules apply",
+      "No hacks or third-party apps",
+      "Tournament room codes shared by coordinators"
+    ],
+    "eligibility": "All college students",
+    "prizes": {
+      "first": "₹400 per batch"
+    },
+    "coordinator": {
+      "name": "Meera Pillai",
+      "phone": "+91 32109 87654",
+      "email": "meera.pillai@utsaha.ac.in"
+    },
+    "teamSize": "2",
+    "venue": "Classroom",
+    "registrationFee": "₹100 per team",
+    "registrationFields": [
+      {
+        "name": "participant1Name",
+        "label": "Participant 1 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "Participant 1 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "participant2Name",
+        "label": "Participant 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "participant2Phone",
+        "label": "Participant 2 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      }
+    ]
+  },
+  {
+    "id": "tech-06",
+    "title": "TECH TRIALS: MULTIVERSE HEIST",
+    "poster": "/images/tech.jpeg",
+    "category": "Technical",
+    "date": "April 11, 2026",
+    "time": "11:00 AM",
+    "shortDescription": "A cybersecurity CTF challenge — find hidden flags across web, crypto, forensics, and more!",
+    "description": "Capture the Flag (CTF) at Utsaha Vaibhava is a hands-on cybersecurity competition. Teams solve challenges spanning web exploitation, cryptography, reverse engineering, forensics, and OSINT to capture hidden flags and rack up points. The highest score wins.",
+    "rules": [
+      "Teams of 1–3 members",
+      "Duration: 3 hours",
+      "Own laptops required",
+      "No attacking other teams' infrastructure",
+      "All tools must be pre-installed before the event",
+      "Coordinators' decision on flag validity is final"
+    ],
+    "eligibility": "All college students",
+    "prizes": {
+      "first": "₹3,500",
+      "second": "₹2,000"
+    },
+    "coordinator": {
+      "name": "Priya Nair",
+      "phone": "+91 87654 32109",
+      "email": "priya.nair@utsaha.ac.in"
+    },
+    "teamSize": "4",
+    "venue": "Lab",
+    "registrationFee": "₹400 per team",
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "member1Name",
+        "label": "Member 1 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "Member 1 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "member2Name",
+        "label": "Member 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member2Phone",
+        "label": "Member 2 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "member3Name",
+        "label": "Member 3 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member3Phone",
+        "label": "Member 3 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "member4Name",
+        "label": "Member 4 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member4Phone",
+        "label": "Member 4 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      }
+    ]
+  },
+  {
+    "id": "tech-07",
+    "title": "Free Fire",
+    "poster": "/images/free.jpg",
+    "category": "Technical",
+    "date": "April 11, 2026",
+    "time": "12:00 PM",
+    "shortDescription": "Battle royale action on mobile — squad up, survive, and be the last team standing!",
+    "description": "Free Fire at Utsaha Vaibhava is a 4-player squad battle royale tournament. Teams fight across multiple rounds on their own devices at the Aryabhatta Lab. High kill count and final standing determine the victors.",
+    "rules": [
+      "4-player squads",
+      "Own mobile devices required",
+      "Emulators not allowed",
+      "No hacks or mods",
+      "Tournament room codes shared by coordinators"
+    ],
+    "eligibility": "All college students",
+    "prizes": {
+      "first": "₹2,000 per squad",
+      "second": "₹1,000 per squad"
+    },
+    "coordinator": {
+      "name": "Siddharth Rao",
+      "phone": "+91 43210 98765",
+      "email": "siddharth.rao@utsaha.ac.in"
+    },
+    "teamSize": "4",
+    "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
+    "registrationFee": "₹200 per squad",
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "leaderName",
+        "label": "Team Leader Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Leader's full name"
+      },
+      {
+        "name": "phone",
+        "label": "Team Leader Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "teammate2",
+        "label": "Teammate 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "teammate3",
+        "label": "Teammate 3 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "teammate4",
+        "label": "Teammate 4 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      }
+    ]
+  },
+  {
+    "id": "tech-08",
+    "title": "Tech Treasure Hunt",
+    "poster": "/images/treas.jpg",
+    "category": "Technical",
+    "date": "April 11, 2026",
+    "time": "2:00 PM",
+    "shortDescription": "A campus-wide tech-themed treasure hunt — decode clues, solve puzzles, and race to the finish!",
+    "description": "Tech Treasure Hunt at Utsaha Vaibhava challenges teams to crack a series of technology-themed clues hidden across the campus. Combining logic, teamwork, and speed, teams race to find each checkpoint and ultimately the final treasure. The first team to complete all clues wins.",
+    "rules": [
+      "Teams of 2–4 members",
+      "Clues revealed at the Auditorium at the start",
+      "No tampering with clues left for other teams",
+      "Mobile phones allowed only for clue solving",
+      "Coordinators' decision on clue interpretation is final"
+    ],
+    "eligibility": "All college students",
+    "prizes": {
+      "first": "₹5,000 per team ",
+      "second": "₹3,000 per team "
+    },
+    "coordinator": {
+      "name": "Rohan Mehta",
+      "phone": "+91 98765 43210",
+      "email": "rohan.mehta@utsaha.ac.in"
+    },
+    "teamSize": "2–4",
+    "venue": "Auditorium, Lab Block 2nd Floor",
+    "registrationFee": "₹400 per team",
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "member1Name",
+        "label": "Member 1 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "Member 1 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "member2Name",
+        "label": "Member 2 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member2Phone",
+        "label": "Member 2 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "member3Name",
+        "label": "Member 3 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member3Phone",
+        "label": "Member 3 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      },
+      {
+        "name": "member4Name",
+        "label": "Member 4 Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "member4Phone",
+        "label": "Member 4 Phone",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10-digit phone number"
+      }
+    ]
+  },
+  {
     "id": "lit-01",
     "title": "CineVerse",
     "poster": "/images/reel.jpg",
@@ -1576,7 +1845,8 @@
       "Duration must be minimum 7 minutes and maximum 10 minutes",
       "Any language is allowed; English subtitles are mandatory",
       "Film content must be original; plagiarism leads to disqualification",
-      "No vulgar, offensive, or harmful content allowed"
+      "No vulgar, offensive, or harmful content allowed",
+      "Last day to submit films is April 5th, 2026"
     ],
     "eligibility": "Open to all students",
     "prizes": {
@@ -1584,12 +1854,57 @@
       "second": "₹6,000"
     },
     "coordinator": {
-      "names": ["Sulaiman", "Maneesha", "Deepashree"],
-      "phones": ["9885748474", "8197058255", "+91 63643 22247"]
+      "names": [
+        "Sulaiman",
+        "Maneesha",
+        "Deepashree"
+      ],
+      "phones": [
+        "9885748474",
+        "8197058255",
+        "+91 63643 22247"
+      ]
     },
     "venue": "Sir MV Block",
     "registrationFee": "₹450",
-    "teamSize": "Individual / Team"
+    "teamSize": "Individual / Team",
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your film team name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "lit-02",
@@ -1599,7 +1914,7 @@
     "date": "April 11, 2026",
     "time": "TBA",
     "shortDescription": "A formal intellectual face-off debating clarity, logic and rebuttal skills.",
-    "description": "Verbal Vendetta is a formal intellectual debate where participants argue for or against a given topic. Judgement will be based on clarity of thought, logical reasoning, rebuttal skills, and confidence in public speaking.",
+    "description": "Verbal Vendetta is a formal intellectual debate where participants argue for or against a given topic.",
     "rules": [
       "Topic will be given before the round",
       "Participants must argue respectfully",
@@ -1609,12 +1924,62 @@
     "eligibility": "Open to all college students",
     "prizes": {},
     "coordinator": {
-      "names": ["Palak", "Dhanush"],
-      "phones": ["+91 91625 02254", "+91 63052 62743"]
+      "names": [
+        "Palak",
+        "Dhanush"
+      ],
+      "phones": [
+        "+91 91625 02254",
+        "+91 63052 62743"
+      ]
     },
     "venue": "Sir MV Block",
     "registrationFee": "₹150",
-    "teamSize": "Individual / Team"
+    "teamSize": "2 People per team",
+    "registrationFields": [
+      {
+        "name": "participant1",
+        "label": "Participant Name 1",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter first participant name"
+      },
+      {
+        "name": "participant2",
+        "label": "Participant Name 2",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter second participant name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your debate team name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter contact phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "lit-03",
@@ -1624,13 +1989,13 @@
     "date": "April 11, 2026",
     "time": "TBA",
     "shortDescription": "Rewrite a story into a completely different genre and perform it live.",
-    "description": "Participants are given a familiar story or scenario and must rewrite and perform it in a completely different genre. The challenge evaluates creativity, genre understanding, and narrative innovation.",
+    "description": "Participants rewrite and perform a familiar story in a completely different genre.",
     "rules": [
       "Team size: Minimum 3 and maximum 5",
       "A new genre will be assigned on the spot",
       "10 minutes to compose and 3–5 minutes to perform",
-      "No mobile phones, internet, or external help allowed",
-      "Performance must clearly reflect assigned genre"
+      "No mobile phones or internet allowed",
+      "Performance must reflect assigned genre"
     ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -1638,12 +2003,55 @@
       "second": "₹1,200"
     },
     "coordinator": {
-      "names": ["Mansi", "Sulaiman"],
-      "phones": ["+91 74111 01975", "9885748474"]
+      "names": [
+        "Mansi",
+        "Sulaiman"
+      ],
+      "phones": [
+        "+91 74111 01975",
+        "9885748474"
+      ]
     },
     "venue": "Sir MV Block",
     "registrationFee": "₹150",
-    "teamSize": "3–5"
+    "teamSize": "3–5",
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "lit-04",
@@ -1652,15 +2060,13 @@
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
-    "shortDescription": "A high-energy stand-up comedy event celebrating originality and stage presence.",
-    "description": "LOL Sabha is a stand-up comedy competition where participants perform original solo acts centered on humor, satire, or relatable experiences.",
+    "shortDescription": "A high-energy stand-up comedy event celebrating originality.",
+    "description": "LOL Sabha is a stand-up comedy competition where participants perform original solo acts.",
     "rules": [
       "Solo performance only",
-      "2–5 minutes performance time",
-      "Original content preferred; no copying from famous comedians",
-      "No offensive content related to religion, caste, racism, politics or personal attacks",
-      "Limited or clean comedy preferred",
-      "Background music allowed if provided by participant"
+      "2–5 minutes performance",
+      "Original content preferred",
+      "No offensive content"
     ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -1668,12 +2074,48 @@
       "second": "₹2,500"
     },
     "coordinator": {
-      "names": ["Abrar", "Mariam"],
-      "phones": ["8660493138", "+91 72595 50522"]
+      "names": [
+        "Abrar",
+        "Mariam"
+      ],
+      "phones": [
+        "8660493138",
+        "+91 72595 50522"
+      ]
     },
     "venue": "Sir MV Block",
     "registrationFee": "₹200",
-    "teamSize": "Individual"
+    "teamSize": "Individual",
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "lit-05",
@@ -1682,26 +2124,61 @@
     "category": "Literary",
     "date": "Before April 11, 2026",
     "time": "Online Submission",
-    "shortDescription": "Create and post a themed Instagram reel and compete on creativity and engagement.",
-    "description": "Reel Rush is an online creative challenge where participants produce short Instagram reels based on the theme 'If My Week Was a Film'. Reels must be posted on public Instagram accounts tagging the official fest page.",
+    "shortDescription": "Create and post a themed Instagram reel.",
+    "description": "Reel Rush is an online creative challenge where participants produce short Instagram reels based on the theme 'Nostalgia : Lost in time'. Reels can be in any genre. Reels must be posted on public Instagram accounts tagging the official fest page, using the given hastags by event co-ordinators and adding the given outro at the end.",
     "rules": [
-      "Theme: 'If My Week Was a Film'",
+      "Theme of the content must be 'Nostalgia : Lost in time'",
       "Duration: 15–60 seconds",
-      "Vertical format (9:16)",
+      "Vertical format",
       "Original content only",
       "Must tag official fest page",
-      "Outro provided by organizers must be added",
-      "Must be appropriate for college audience"
+      "Event details and reel posting date will be announced by Event coordinators in the official WhatsApp group"
     ],
     "eligibility": "Open to all college students",
     "prizes": {},
     "coordinator": {
-      "names": ["Nikitha", "Sinchana"],
-      "phones": ["+91 94809 15120", "+91 74838 21824"]
+      "names": [
+        "Nikitha",
+        "Sinchana"
+      ],
+      "phones": [
+        "+91 94809 15120",
+        "+91 74838 21824"
+      ]
     },
     "venue": "Online",
     "registrationFee": "₹200",
-    "teamSize": "Individual / Team"
+    "teamSize": "Individual / Team",
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   },
   {
     "id": "lit-06",
@@ -1710,15 +2187,12 @@
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
-    "shortDescription": "An expressive poetry event celebrating original shayari and powerful stage delivery.",
-    "description": "Rang-e-Shayari is an expressive poetry event where participants present original or self-written shayari on stage.",
+    "shortDescription": "An expressive poetry event celebrating original shayari.",
+    "description": "Participants present original or self-written shayari on stage.",
     "rules": [
-      "Languages allowed: Hindi, Kannada, English or mix",
-      "Topic will be given on the spot",
-      "6 minutes to compose and 2 minutes to present",
-      "No offensive or vulgar content allowed",
-      "Mobile phones not allowed during performance",
-      "Judging based on delivery, creativity, confidence, audience engagement"
+      "Languages allowed: Hindi, Kannada, English",
+      "Topic given on the spot",
+      "6 minutes to compose and 2 minutes to present"
     ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -1726,11 +2200,47 @@
       "second": "₹1,500"
     },
     "coordinator": {
-      "names": ["Likith", "Poorvi"],
-      "phones": ["9059384272", "+91 93805 73794"]
+      "names": [
+        "Likith",
+        "Poorvi"
+      ],
+      "phones": [
+        "9059384272",
+        "+91 93805 73794"
+      ]
     },
     "venue": "Sir MV Block",
     "registrationFee": "₹150",
-    "teamSize": "Individual"
+    "teamSize": "Individual",
+    "registrationFields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      }
+    ]
   }
 ]
