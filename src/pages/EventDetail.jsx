@@ -6,7 +6,7 @@ import eventsData from '../data/events.json'
 import './EventDetail.css'
 
 const CATEGORY_COLORS = {
-    'Main events': { bg: '#3d0a0a', accent: '#FF7849', icon: '🎤' },
+    'Main Events': { bg: '#3d0a0a', accent: '#FF7849', icon: '🎤' },
     Cultural: { bg: '#3d0a0a', accent: '#E85D04', icon: '🎭' },
     Technical: { bg: '#370617', accent: '#F48C06', icon: '💻' },
     Literary: { bg: '#240d0d', accent: '#DC2F02', icon: '📖' },

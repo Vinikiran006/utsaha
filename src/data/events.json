@@ -111,7 +111,8 @@
     "poster": "/images/fashion.jpeg",
     "category": "Main Events",
     "date": "April 10, 2026",
-    "time": "8:00 PM",
+    "time": "7:00 PM",
+    "whatsappLink":"https://chat.whatsapp.com/FEIVFy87FYm2urL77JyGFJ",
     "shortDescription": "Strut your style on the grand runway — a dazzling showcase of fashion, creativity, and confidence.",
     "description": "Step into a world of elegance and sophistication at the Fashion Show — a premier event of Utsaha Vaibhava. This spectacular showcase promises an evening of glamour, creativity, and artistic expression, designed to captivate the audience and celebrate the true spirit of fashion. Witness stunning ensembles, powerful stage presence, and thematic storytelling as teams bring their concepts to life with confidence and flair. From innovative designs to mesmerizing runway walks, every performance will embody originality and refined style. Join us for an unforgettable celebration where fashion takes center stage — a night of artistry, diversity, and bold creative expression that no fashion enthusiast should miss.",
     "judgingCriteria": [
@@ -124,7 +125,7 @@
     "rules": [
       "Fashion show is open to college students only.",
       "Team size: 16 participants (maximum 14 on stage + 2 backstage crew).",
-      "Stage time: 10 minutes (8 minutes performance + 2 minutes narration and stage setup).",
+      "Stage time: 12 minutes (10 minutes performance + 2 minutes for  stage setup).",
       "Exceeding the time limit by 2 minutes or more will result in disqualification.",
       "All team members must carry a valid college ID on the day of the event.",
       "Vulgarity of any kind will lead to disqualification; consult organizers regarding stunts or costumes if unsure.",
@@ -133,22 +134,68 @@
       "Audio tracks must be submitted in MP3 format via CD/pen drive before the event.",
       "Teams wishing to control light and sound must inform the coordinator one day before the event.",
       "The decision of the judges is final and cannot be questioned.",
-      "Misbehavior, including influence-related incidents, will lead to instant disqualification and removal from the premises."
+      "Misbehavior, including influence-related incidents, will lead to instant disqualification and removal from the premises.",
+      "In case of insufficient entries, the Organizing Committee reserves the right to cancel the 2nd place."
     ],
     "eligibility": "Open to all college students",
     "prizes": {
-      "first": "₹12,000 + Best Designer Trophy",
-      "second": "₹7,000 + Medal",
-      "third": "₹3,500 + Certificate"
+      "first": "₹12,000",
+      "second": "₹7,000"
     },
+    "registrationFields": [
+      {
+        "name": "teamName",
+        "label": "Team Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your team name"
+      },
+      {
+        "name": "participantName",
+        "label": "Team Head Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Full name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "10 digit WhatsApp number"
+      },
+      {
+        "name": "email",
+        "label": "Email ID",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email address"
+      },
+      {
+        "name": "Team Size",
+        "label": "Team Size(Team Members + backstage crew)",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter the number of participants in your team"
+      },
+      {
+        "name": "collegeName",
+        "label": "College Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your college name"
+      }],
     "coordinator": {
-      "name": "Priya Nair",
-      "phone": "+91 87654 32109",
-      "email": "priya.nair@utsaha.ac.in"
+      "names": [
+        "Suhas S",
+        "Bhavana G",
+        "Vaishnavi"
+      ],
+      "phones": [6363866650,6363456440,9844889090]
     },
-    "teamSize": "5–15",
+    "teamSize": "10-16",
     "venue": "Main Stage",
-    "registrationFee": "₹400 per team"
+    "registrationFee": "₹4000 per team"
   },
   {
     "id": "cul-01",
@@ -1457,7 +1504,6 @@
       "Tournament room codes shared by coordinators"
     ],
     "eligibility": "All college students",
-    "whatsappLink": "https://chat.whatsapp.com/your-link-here",
     "prizes": {
       "first": "₹200 per batch"
     },
