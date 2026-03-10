@@ -5,7 +5,7 @@ import QRCode from "react-qr-code";
 
 // ── Google Apps Script URL ──────────────────────────────────
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwHosOAAHXZx3KNC9srE3QgOoiN17RjDzpW87mdMa5PD8kfDJ44iLv2Gln0QsoCqD8g/exec";
+  "https://script.google.com/macros/s/AKfycbwMqt6Kh7P2SfqPtofpC640B1Z4tVu5ZA3HxH6-xkDP8IbS8NzNDJi9ZnmrJ-oqlMssnA/exec";
 
 // ── UPI ID ────────────────────────────────────
 const UPI_ID = "utsaha@indianbk";

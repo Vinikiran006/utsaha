@@ -5,6 +5,7 @@
     "category": "Main Events",
     "date": "April 10, 2026",
     "time": "6:00 PM",
+    "poster": "/images/roar.jpeg",
     "shortDescription": "ROAR is a thrilling bike auto show fest at BMSIT&M featuring a competition to find the loudest motorcycle rev.",
     "description": "ROAR is the thrilling bike auto show fest hosted at BMS Institute of Technology and Management (BMSIT&M), renowned for its electrifying competition to find the loudest rev. This high-octane event brings together motorcycle enthusiasts eager to showcase the power, performance, and sound of their machines. Feel the adrenaline as engines thunder across the venue, creating an atmosphere charged with energy and excitement. Celebrating engineering excellence and the spirit of the biking community, ROAR blends fierce revving battles with camaraderie, making it one of the most anticipated highlights of the college’s annual fest.",
     "rules": [
@@ -167,8 +168,9 @@
     "The use of recorded tracks, loops, or pre-programmed backing tracks is strictly prohibited; every sound must be produced live.",
     "While covers are permitted, Original Compositions are highly encouraged and will receive additional weightage in scoring.",
     "Songs containing demeaning, offensive, or derogatory lyrics will result in immediate disqualification.",
-    "The panel of judges consists of industry professionals; their decision is final and binding.",
-    "Judging criteria includes stage presence, confidence, charisma, energy, and audience engagement."
+    "The judges decision is final and binding.",
+    "Judging criteria includes stage presence, confidence, charisma, energy, and audience engagement.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
   ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -246,20 +248,21 @@
     "date": "April 10, 2026",
     "time": "TBA",
     "shortDescription": "A solo instrumental competition celebrating musical finesse.",
-    "description": "Prepare for an exhilarating clash of musical talent at the Battle of Bands! Bands representing a spectrum of genres including rock, pop, metal, jazz, and more will take the stage to compete in a thrilling show case of originality and skill. It's a high-energy event where each band strives to leave a lasting impression on the audience and judges alike.",
+    "description": "Instrumenta is a dynamic musical event that celebrates the art of instrumental performance and creativity. It provides a platform for talented musicians to showcase their skills through captivating instrumental renditions across various genres.",
     "rules": [
-    "The event is open to all college students. A valid College ID card is mandatory for participation.",
-    "The competition is open for solo performances.",
-    "Time limit is 5 minutes (3 minutes for performance + 2 minutes for setup). Exceeding the limit will result in a loss of marks.",
-    "Participants may perform using any musical instrument (string, percussion, wind, electronic, etc.).",
-    "Participants must bring their own instruments; basic sound setup (microphones and standard audio input) will be provided.",
-    "Use of pre-recorded backing tracks is allowed only as support; pre-recorded lead instrument tracks are strictly prohibited.",
+      "The event is open to all college students. A valid College ID card is mandatory for participation.",
+      "The competition is open for solo performances.",
+      "Time limit is 5 minutes (3 minutes for performance + 2 minutes for setup). Exceeding the limit will result in a loss of marks.",
+      "Participants may perform using any musical instrument (string, percussion, wind, electronic, etc.).",
+      "Participants must bring their own instruments; basic sound setup (microphones and standard audio input) will be provided.",
+      "Use of pre-recorded backing tracks is allowed only as support; pre-recorded lead instrument tracks are strictly prohibited.",
     "Performances can be of any genre (classical, western, fusion, contemporary, folk, etc.).",
     "Vulgar gestures, inappropriate audio samples, or demeaning content will lead to immediate disqualification.",
     "Participants must report to the venue at least 30 minutes prior to the event for sound check and verification.",
     "Any damage caused to stage property or sound equipment will lead to disqualification and penalty.",
     "The judge’s decision will be final and binding.",
-    "Any form of misbehavior, under influence or otherwise, will result in immediate disqualification and removal from the premises."
+    "Any form of misbehavior, under influence or otherwise, will result in immediate disqualification and removal from the premises.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
   ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -269,10 +272,10 @@
     "coordinator": {
       "names": [
         "Mahesh Kashyap Yogish",
-        "Rachitha Thunga"
+        "Rachitha T"
       ],
-      "phones": [6363101649
-,9844055056
+      "phones": [9741197362
+,6360382874
 ]
     },
     "teamSize": "Individual",
@@ -324,19 +327,19 @@
     "category": "Cultural",
     "date": "April 10, 2026",
     "time": "TBA",
-    "shortDescription": "Classical solo singing competition celebrating Indian music.",
+    "shortDescription": "A solo singing competition celebrating Indian music.",
     "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
     "rules": [
     "Participants can choose from various categories including Classical (Hindustani or Carnatic), Bollywood film songs, devotional music (bhajans), or regional folk songs. Songs may be performed in any Indian language or in classical form.",
     "Maximum performance time is 4 minutes.",
     "Karaoke/backing track is allowed for singing, but no pre-recorded vocals or harmonies are permitted.",
-    "Solo Instrumental participants must perform individually (no accompanying band members).",
     "Participants must submit their track in MP3 format at least 24 hours before the event and carry a backup.",
     "Basic sound system will be provided; participants must bring their own instruments if required.",
     "Vulgar, offensive, or inappropriate content is strictly prohibited.",
     "Participants must report 30 minutes before the scheduled time.",
     "Any misconduct or rule violation may lead to disqualification.",
-    "Judges’ decision will be final and binding."
+    "Judges’ decision will be final and binding.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
   ],
     "eligibility": "Open to all college students",
     "whatsappLink": "https://chat.whatsapp.com/CW8i3ZRxiK8DCzc6MUejGo?mode=gi_t",
@@ -407,7 +410,9 @@
       "Pre-recorded lead vocals, backing vocals, chorus, or harmonies in the track are strictly prohibited.",
       "Karaoke/instrumental tracks must be submitted to the event coordinators in MP3 format only one day beforethe event.",
       "Each participant will be allotted 3 minutes + 2 minute grace time. Exceeding the time limit may result in point deduction at the judges’ discretion.",
-      "Songs containing offensive, inappropriate, or demeaning lyrics will lead to immediate disqualification."
+      "Songs containing offensive, inappropriate, or demeaning lyrics will lead to immediate disqualification.",
+      "Judges decision will be final and binding.",
+      "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
     ],
     "eligibility": "Open to all college students",
     "whatsappLink": "https://chat.whatsapp.com/EZ99CpHtsNF3HinnkMMMyQ",
@@ -471,6 +476,7 @@
     "category": "Cultural",
     "date": "April 11, 2026",
     "time": "TBA",
+    "poster": "/images/rhythm.jpeg",
     "whatsappLink": "https://chat.whatsapp.com/CFa7HEfkcpiEh3LtmhI53x?mode=gi_t",
     "shortDescription": "An electrifying percussion and rhythm battle.",
     "description": "Get ready for The Ultimate Music Quiz — a thrilling 3-round team challenge that tests your musical knowledge! From identifying tunes and decoding lyrics to cracking exciting trivia, each round brings fresh twists and surprises. Team up, think fast, and prove that you are the ultimate music maestros!",
@@ -484,7 +490,9 @@
       "Any misconduct or rules violation may lead to disqualification.",
       "The quiz master's decision is final in case of disputes.",
       "Each team will have a fixed time to answer each question.",
-      "All members of the team must have a valid ID card."
+      "All members of the team must have a valid ID card.",
+      "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
+
     ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -500,7 +508,7 @@
 ,9902598120
 ]
     },
-    "teamSize": "2–8",
+    "teamSize": "2–3",
     "venue": "TBA",
     "registrationFee": "₹200 per team",
     "registrationFields": [
@@ -578,7 +586,8 @@
     "Judges may deduct points for lack of coordination, improper stage usage, or incomplete performance.",
     "Participants must maintain discipline backstage and during other performances.",
     "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy.",
-    "Each team must submit valid college ID cards of all players to be eligible for participation."
+    "Each team must submit valid college ID cards of all players to be eligible for participation.",
+    "Judges decision will be final and binding."
   ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -829,7 +838,7 @@
     "date": "April 11, 2026",
     "whatsappLink" : "https://chat.whatsapp.com/ITXSJU1ks48Kjw8b41hQjr?mode=gi_t",
     "time": "TBA",
-    "shortDescription": "A classical solo dance competition celebrating tradition and grace.",
+    "shortDescription": "Indian solo dance competition celebrating tradition and grace.",
     "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
     "rules": [
     "This is a solo competition. Only one participant is allowed per performance.",
@@ -913,7 +922,8 @@
     "Participants are required to perform to various genres of music played during the competition.",
     "Performances will be evaluated based on quality of execution, musicality, dance technique, stage presence, and overall personality.",
     "Any intentional physical contact aimed at harming an opponent will result in immediate disqualification.",
-    "All participants must respect the decisions made by the judges; the judges’ decision shall be final and binding."
+    "All participants must respect the decisions made by the judges; the judges’ decision shall be final and binding.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
   ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -1067,7 +1077,6 @@
     "For duo entries, both members must be visible.",
     "No offensive, political, or religious content.",
     "Reel must be submitted before the deadline; late or incorrect submissions will be disqualified.",
-    "Participants must upload their reel on their Instagram account and tag the organizers.",
     "Judges’ decision will be final.",
     "Plagiarism or rule violation will lead to immediate disqualification.",
     "Organizers reserve the right to make final decisions and use reels for promotion."
@@ -1146,7 +1155,8 @@
     "Any misconduct or violation of the rules may lead to immediate disqualification.",
     "The judges’ decision will be final and binding in all cases.",
     "Participants must report to the venue at least 30 minutes prior to the start of the event for verification and briefing.",
-    "All participants must carry their valid college ID cards during the event for verification purposes."
+    "All participants must carry their valid college ID cards during the event for verification purposes.",
+    "In case of insufficient entries, the Organizing Committee reserves the right to cancel the trophy."
   ],
     "eligibility": "Open to all college students",
     "prizes": {
@@ -1210,6 +1220,7 @@
     "category": "Technical",
     "date": "April 10, 2026",
     "time": "10:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/BGsyKDuhjul11yPlzFC998?mode=gi_t",
     "shortDescription": "5v5 tactical shooter tournament — strategise, aim, and outsmart rival teams for the Day 1 championship.",
     "description": "Valorant I is the Day 1 tactical shooter showdown at Utsaha Vaibhava. Teams of 5 go head-to-head in bracket matches on the APJ Abdul Kalam Lab LAN setup. Best strategy, sharpest aim, and tightest teamwork wins.",
     "rules": [
@@ -1299,6 +1310,7 @@
     "category": "Technical",
     "date": "April 10, 2026",
     "time": "11:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/Hzo837aSpLzEx8HWD4qhMJ?mode=hqctswa",
     "shortDescription": "The BGMI squad tournament — fight for the Chicken Dinner and claim the esports crown!",
     "description": "BGMI (Battlegrounds Mobile India) Tournament at Utsaha Vaibhava is a 4-player squad competition across multiple rounds. Teams compete on mobile devices for the highest kill count and survival rank to claim glory.",
     "rules": [
@@ -1380,6 +1392,7 @@
     "category": "Technical",
     "date": "April 10, 2026",
     "time": "10:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/Lj3lFBZrYiJ4lFEOy2yMXR?mode=gi_t",
     "shortDescription": "Race and battle in this browser-based kart arena — up to 10 batches competing on Day 1!",
     "description": "Smash Karts Day 1 at Utsaha Vaibhava is a browser-based kart battle event held near the Food Stalls. Up to 10 batches will be run through the day. Fast reflexes and smart power-up use are the keys to glory.",
     "rules": [
@@ -1433,6 +1446,7 @@
     "category": "Technical",
     "date": "April 10, 2026",
     "time": "11:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/DTEoxatuD6k9iQcfPE4aWg?mode=gi_t",
     "shortDescription": "One-on-one Clash Royale duels — build your deck, outplay your opponent, and climb to glory!",
     "description": "Clash Royale 1V1 at Utsaha Vaibhava is a head-to-head mobile strategy tournament. Players face off in single-elimination rounds near the Food Stalls. Deck-building skill, timing, and adaptability are your weapons.",
     "rules": [
@@ -1486,6 +1500,7 @@
     "category": "Technical",
     "date": "April 11, 2026",
     "time": "10:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/CPORQ93aGz5BFRJjgdh63V?mode=gi_t",
     "shortDescription": "Two-player Clash Royale team battles — coordinate decks, sync strategies, and dominate the arena!",
     "description": "Clash Royale 2V2 at Utsaha Vaibhava pairs two players together for coordinated mobile strategy battles. Teams must sync their decks and tactics to outmanoeuvre rival pairs. A test of communication as much as gaming skill.",
     "rules": [
@@ -1552,6 +1567,7 @@
     "category": "Technical",
     "date": "April 11, 2026",
     "time": "11:00 AM",
+    "whatsappLink": "https://chat.whatsapp.com/HQpnHgDLZd2DBmPEChATeQ?mode=gi_t",
     "shortDescription": "A cybersecurity CTF challenge — find hidden flags across web, crypto, forensics, and more!",
     "description": "Capture the Flag (CTF) at Utsaha Vaibhava is a hands-on cybersecurity competition. Teams solve challenges spanning web exploitation, cryptography, reverse engineering, forensics, and OSINT to capture hidden flags and rack up points. The highest score wins.",
     "rules": [
@@ -1655,6 +1671,7 @@
     "category": "Technical",
     "date": "April 11, 2026",
     "time": "12:00 PM",
+    "whatsappLink": "https://chat.whatsapp.com/FDgtMjsPn0Y8JcvwT5EInq?mode=gi_t",
     "shortDescription": "Battle royale action on mobile — squad up, survive, and be the last team standing!",
     "description": "Free Fire at Utsaha Vaibhava is a 4-player squad battle royale tournament. Teams fight across multiple rounds on their own devices at the Aryabhatta Lab. High kill count and final standing determine the victors.",
     "rules": [
@@ -1736,6 +1753,7 @@
     "category": "Technical",
     "date": "April 11, 2026",
     "time": "2:00 PM",
+    "whatsappLink":"https://chat.whatsapp.com/EB1i372W2DgGC3c6A1CoGb?mode=gi_t",
     "shortDescription": "A campus-wide tech-themed treasure hunt — decode clues, solve puzzles, and race to the finish!",
     "description": "Tech Treasure Hunt at Utsaha Vaibhava challenges teams to crack a series of technology-themed clues hidden across the campus. Combining logic, teamwork, and speed, teams race to find each checkpoint and ultimately the final treasure. The first team to complete all clues wins.",
     "rules": [
@@ -1838,6 +1856,7 @@
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/BgWqRWc3N4z7kEUlcgwaBF?mode=gi_t",
     "shortDescription": "A short film competition showcasing storytelling, direction and cinematic excellence.",
     "description": "CineVerse is a contest for filmmakers to showcase their storytelling and cinematic skills through original short films. Films will be judged on story, direction, performances, technical quality, and overall impact.",
     "rules": [
@@ -1909,6 +1928,7 @@
   {
     "id": "lit-02",
     "title": "Verbal Vendetta",
+    "whatsappLink": "https://chat.whatsapp.com/G7PysZ23cXaCmtXXoAY131",
     "poster": "/images/debate.jpg",
     "category": "Literary",
     "date": "April 11, 2026",
@@ -1988,6 +2008,7 @@
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/FD2ysR8zouqBqQs8URvwhV?mode=gi_t",
     "shortDescription": "Rewrite a story into a completely different genre and perform it live.",
     "description": "Participants rewrite and perform a familiar story in a completely different genre.",
     "rules": [
@@ -2056,10 +2077,11 @@
   {
     "id": "lit-04",
     "title": "LOL Sabha",
-    "poster": "/images/stand.jpg",
+    "poster": "/images/lol.jpeg",
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/CUbu7oqG0hMCkxU6jpRtNL?mode=gi_t",
     "shortDescription": "A high-energy stand-up comedy event celebrating originality.",
     "description": "LOL Sabha is a stand-up comedy competition where participants perform original solo acts.",
     "rules": [
@@ -2120,14 +2142,16 @@
   {
     "id": "lit-05",
     "title": "Reel Rush",
-    "poster": "/images/reel.jpg",
+    "poster": "/images/reel.jpeg",
     "category": "Literary",
     "date": "Before April 11, 2026",
     "time": "Online Submission",
+    "whatsappLink": "https://chat.whatsapp.com/GzTbGnVxqA7K9F9FRszR0K",
     "shortDescription": "Create and post a themed Instagram reel.",
     "description": "Reel Rush is an online creative challenge where participants produce short Instagram reels based on the theme 'Nostalgia : Lost in time'. Reels can be in any genre. Reels must be posted on public Instagram accounts tagging the official fest page, using the given hastags by event co-ordinators and adding the given outro at the end.",
     "rules": [
       "Theme of the content must be 'Nostalgia : Lost in time'",
+      "Last day to register is April 1st, 2026",
       "Duration: 15–60 seconds",
       "Vertical format",
       "Original content only",
@@ -2187,6 +2211,7 @@
     "category": "Literary",
     "date": "April 11, 2026",
     "time": "TBA",
+    "whatsappLink": "https://chat.whatsapp.com/JnLidnadIzvGn89zYEwms1?mode=gi_t",
     "shortDescription": "An expressive poetry event celebrating original shayari.",
     "description": "Participants present original or self-written shayari on stage.",
     "rules": [
