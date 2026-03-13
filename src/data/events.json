@@ -1990,7 +1990,8 @@
       "Judges' decision will be final"
     ],
     "eligibility": "Open to all college students",
-    "prizes": {},
+    "prizes": {"first": "₹2,500",
+      "second": "₹1,800"},
     "coordinator": {
       "names": [
         "Palak",
