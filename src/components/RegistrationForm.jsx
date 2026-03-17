@@ -8,7 +8,7 @@ const GOOGLE_SCRIPT_URL =
   "https://script.google.com/macros/s/AKfycbwMqt6Kh7P2SfqPtofpC640B1Z4tVu5ZA3HxH6-xkDP8IbS8NzNDJi9ZnmrJ-oqlMssnA/exec";
 
 // ── UPI ID ────────────────────────────────────
-const UPI_ID = "utsaha@indianbk";
+const UPI_ID = "bmsitutsaha@indianbk";
 
 const YEARS = ["1st Year", "2nd Year", "3rd Year", "4th Year"];
 
