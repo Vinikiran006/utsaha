@@ -828,7 +828,7 @@
 
 ]
     },
-    "teamSize": "3–15",
+    "teamSize": "4–15",
     "venue": "Main Stage",
     "registrationFee": "₹1200 per team",
     "registrationFields": [
@@ -1119,7 +1119,7 @@
     "title": "Reel Riot",
     "poster": "/images/reel.jpg",
     "category": "Cultural",
-    "date": "Before April 11, 2026",
+    "date": "Before April 10, 2026",
     "time": "Online Submission",
     "whatsappLink": "https://chat.whatsapp.com/HaL6uTEkh7R3DQ19ZqhH5G?mode=gi_t",
     "shortDescription": "An Instagram reel competition.",
@@ -1157,7 +1157,7 @@
     },
     "venue": "Online",
     "registrationFee": "₹200",
-    "teamSize": "2-3",
+    "teamSize": "1-2",
     "registrationFields": [
       {
         "name": "collegeName",
@@ -1298,9 +1298,8 @@
       "second": "₹7,500 per team"
     },
     "coordinator": {
-      "name": "Siddharth Rao",
-      "phone": "+91 43210 98765",
-      "email": "siddharth.rao@utsaha.ac.in"
+      "name": "Shreyas Joshi",
+      "phone": "+91 7892055781"
     },
     "teamSize": "5",
     "venue": "APJ Abdul Kalam Lab, Lab Block (4th Floor)",
@@ -1387,9 +1386,8 @@
       "second": "₹2,500 per squad"
     },
     "coordinator": {
-      "name": "Siddharth Rao",
-      "phone": "+91 43210 98765",
-      "email": "siddharth.rao@utsaha.ac.in"
+      "name": "Milind",
+      "phone": "+91 8050553761"
     },
     "teamSize": "4",
     "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
@@ -1469,9 +1467,8 @@
       "first": "₹200 per batch"
     },
     "coordinator": {
-      "name": "Arjun Kapoor",
-      "phone": "+91 65432 10987",
-      "email": "arjun.kapoor@utsaha.ac.in"
+      "name": "Vinith",
+      "phone": "+91 9845394750"
     },
     "teamSize": "1",
     "venue": "Near Food Stalls, BMSIT&M",
@@ -1522,9 +1519,8 @@
       "first": "₹200 per batch"
     },
     "coordinator": {
-      "name": "Meera Pillai",
-      "phone": "+91 32109 87654",
-      "email": "meera.pillai@utsaha.ac.in"
+      "name": "Harsha",
+      "phone": "+91 9945667870"
     },
     "teamSize": "1",
     "venue": "Lab Block-413",
@@ -1575,9 +1571,8 @@
       "first": "₹400 per batch"
     },
     "coordinator": {
-      "name": "Meera Pillai",
-      "phone": "+91 32109 87654",
-      "email": "meera.pillai@utsaha.ac.in"
+      "name": "Chiranth",
+      "phone": "+91 9738052355"
     },
     "teamSize": "2",
     "venue": "Lab Block-413",
@@ -1644,9 +1639,8 @@
       "second": "₹2,000"
     },
     "coordinator": {
-      "name": "Priya Nair",
-      "phone": "+91 87654 32109",
-      "email": "priya.nair@utsaha.ac.in"
+      "name": "Adarsh",
+      "phone": "+91 7892765930"
     },
     "teamSize": "4",
     "venue": "Academic Block, Seminar Hall 2",
@@ -1747,9 +1741,8 @@
       "second": "₹1,000 per squad"
     },
     "coordinator": {
-      "name": "Siddharth Rao",
-      "phone": "+91 43210 98765",
-      "email": "siddharth.rao@utsaha.ac.in"
+      "name": "Jayanth",
+      "phone": "+91 9901334334"
     },
     "teamSize": "4",
     "venue": "Aryabhatta Lab, Lab Block (3rd Floor)",
@@ -1829,9 +1822,8 @@
       "second": "₹3,000 per team "
     },
     "coordinator": {
-      "name": "Rohan Mehta",
-      "phone": "+91 98765 43210",
-      "email": "rohan.mehta@utsaha.ac.in"
+      "name": "Rashmi",
+      "phone": "+91 6360497795"
     },
     "teamSize": "2–4",
     "venue": "Academic Block, Seminar Hall 2",
@@ -1916,7 +1908,7 @@
     "category": "Literary",
     "date": "April 10, 2026",
     "time": "9:00 AM",
-    "whatsappLink": "https://chat.whatsapp.com/BgWqRWc3N4z7kEUlcgwaBF?mode=gi_t",
+    "whatsappLink": "https://chat.whatsapp.com/IfdQUylks672PpCpKkErGr?mode=gi_t",
     "shortDescription": "A short film competition showcasing storytelling, direction and cinematic excellence.",
     "description": "CineVerse is a contest for filmmakers to showcase their storytelling and cinematic skills through original short films. Films will be judged on story, direction, performances, technical quality, and overall impact.",
     "rules": [

@@ -32,6 +32,7 @@ export default function SuccessModal({ eventTitle, name, onClose }) {
                 <p className="modal__message">
                     has been recorded successfully. We'll reach out with further details.
                     Stay tuned and get ready for an amazing experience!
+                    📩 You will receive a confirmation email along with a WhatsApp group link within 2–3 working days.
                 </p>
 
                 <div className="modal__tips">
