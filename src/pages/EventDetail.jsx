@@ -44,7 +44,7 @@ export default function EventDetail() {
         )
     }
 
-    const catMeta = CATEGORY_COLORS[event.category] || CATEGORY_COLORS['Main Stage']
+    const catMeta = CATEGORY_COLORS[event.category] || CATEGORY_COLORS['Main Events']
 
     return (
         <div className="event-detail">
@@ -77,11 +77,7 @@ export default function EventDetail() {
                                 {event.date && <span>📅 {event.date}</span>}
                                 {event.time && <span>⏰ {event.time}</span>}
                                 {event.venue && <span>📍 {event.venue}</span>}
-                                {event.teamSize && (
-                                    <span>
-                                        👥 Team: {event.teamSize}
-                                    </span>
-                                )}
+                                {event.teamSize && <span>👥 Team: {event.teamSize}</span>}
                             </div>
                         </div>
                     </div>
@@ -115,42 +111,67 @@ export default function EventDetail() {
 
                     {/* Prizes */}
                     <section className="ed-section reveal">
-  <h2 className="ed-section__title">🏆 Prize Details</h2>
+                        <h2 className="ed-section__title">🏆 Prize Details</h2>
 
-  <div className="ed-prizes">
+                        <div className="ed-prizes">
+                            {event.prizes?.first && (
+                                <div className="ed-prize-card ed-prize-card--gold">
+                                    <div className="ed-prize-card__medal">🥇</div>
+                                    <div className="ed-prize-card__label">1st Place</div>
+                                    <div className="ed-prize-card__amount">{event.prizes.first}</div>
+                                </div>
+                            )}
 
-    {event.prizes?.first && (
-      <div className="ed-prize-card ed-prize-card--gold">
-        <div className="ed-prize-card__medal">🥇</div>
-        <div className="ed-prize-card__label">1st Place</div>
-        <div className="ed-prize-card__amount">{event.prizes.first}</div>
-      </div>
-    )}
+                            {event.prizes?.second && (
+                                <div className="ed-prize-card ed-prize-card--silver">
+                                    <div className="ed-prize-card__medal">🥈</div>
+                                    <div className="ed-prize-card__label">2nd Place</div>
+                                    <div className="ed-prize-card__amount">{event.prizes.second}</div>
+                                </div>
+                            )}
 
-    {event.prizes?.second && (
-      <div className="ed-prize-card ed-prize-card--silver">
-        <div className="ed-prize-card__medal">🥈</div>
-        <div className="ed-prize-card__label">2nd Place</div>
-        <div className="ed-prize-card__amount">{event.prizes.second}</div>
-      </div>
-    )}
-
-    {event.prizes?.third && (
-      <div className="ed-prize-card ed-prize-card--bronze">
-        <div className="ed-prize-card__medal">🥉</div>
-        <div className="ed-prize-card__label">3rd Place</div>
-        <div className="ed-prize-card__amount">{event.prizes.third}</div>
-      </div>
-    )}
-
-  </div>
-</section>
-
+                            {event.prizes?.third && (
+                                <div className="ed-prize-card ed-prize-card--bronze">
+                                    <div className="ed-prize-card__medal">🥉</div>
+                                    <div className="ed-prize-card__label">3rd Place</div>
+                                    <div className="ed-prize-card__amount">{event.prizes.third}</div>
+                                </div>
+                            )}
+                        </div>
+                    </section>
 
                     {/* Registration */}
                     <section className="ed-section ed-reg-section reveal">
-                        <h2 className="ed-section__title">✍️ Register for This Event</h2>
-                        <RegistrationForm event={event} />
+                        <h2 className="ed-section__title">✍️ Registration</h2>
+
+                        {event.id === "ms-01" ? (
+                            <div className="ed-contact-box">
+                                <h3>📢 Offline Registration Only</h3>
+                                <p>Secure your slot by contacting the event coordinator.</p>
+
+                                {event.coordinator?.phones?.[0] && (
+                                    <div className="ed-contact-actions">
+                                        <a
+                                            href={`tel:${event.coordinator.phones[0]}`}
+                                            className="btn btn-primary"
+                                        >
+                                            📞 Call Now
+                                        </a>
+
+                                        <a
+                                            href={`https://wa.me/${event.coordinator.phones[0]}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="btn btn-secondary"
+                                        >
+                                            💬 WhatsApp
+                                        </a>
+                                    </div>
+                                )}
+                            </div>
+                        ) : (
+                            <RegistrationForm event={event} />
+                        )}
                     </section>
                 </div>
 

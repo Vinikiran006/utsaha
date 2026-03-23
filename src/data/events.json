@@ -29,6 +29,10 @@
       "Abusive language, obscenity, smoking, and substance consumption are strictly prohibited.",
       "The decisions of the Organizing Committee are final and binding."
     ],
+    "prizes": {
+      "first": "₹25,000",
+      "second": "15,000"
+    },
     "registrationFee": "₹300 onwards (varies by bike category)",
     "feeCategories": [
       {
@@ -104,7 +108,13 @@
         "required": true,
         "placeholder": "Enter your bike registration number"
       }
-    ]
+    ],
+    "coordinator": {
+      "names": [
+        "Gyan"
+      ],
+      "phones": [9686676666]
+    }
   },
   {
     "id": "ms-02",
