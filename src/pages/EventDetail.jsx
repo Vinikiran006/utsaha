@@ -114,30 +114,42 @@ export default function EventDetail() {
                         <h2 className="ed-section__title">🏆 Prize Details</h2>
 
                         <div className="ed-prizes">
-                            {event.prizes?.first && (
-                                <div className="ed-prize-card ed-prize-card--gold">
-                                    <div className="ed-prize-card__medal">🥇</div>
-                                    <div className="ed-prize-card__label">1st Place</div>
-                                    <div className="ed-prize-card__amount">{event.prizes.first}</div>
-                                </div>
-                            )}
+  {Array.isArray(event.prizes) ? (
+    event.prizes.map((prize, index) => (
+      <div key={index} className="ed-prize-card ed-prize-card--cc">
+        <div className="ed-prize-card__medal">🏍️</div>
+        <div className="ed-prize-card__label">{prize.label}</div>
+        <div className="ed-prize-card__amount">{prize.amount}</div>
+      </div>
+    ))
+  ) : (
+    <>
+      {event.prizes?.first && (
+        <div className="ed-prize-card ed-prize-card--gold">
+          <div className="ed-prize-card__medal">🥇</div>
+          <div className="ed-prize-card__label">1st Place</div>
+          <div className="ed-prize-card__amount">{event.prizes.first}</div>
+        </div>
+      )}
 
-                            {event.prizes?.second && (
-                                <div className="ed-prize-card ed-prize-card--silver">
-                                    <div className="ed-prize-card__medal">🥈</div>
-                                    <div className="ed-prize-card__label">2nd Place</div>
-                                    <div className="ed-prize-card__amount">{event.prizes.second}</div>
-                                </div>
-                            )}
+      {event.prizes?.second && (
+        <div className="ed-prize-card ed-prize-card--silver">
+          <div className="ed-prize-card__medal">🥈</div>
+          <div className="ed-prize-card__label">2nd Place</div>
+          <div className="ed-prize-card__amount">{event.prizes.second}</div>
+        </div>
+      )}
 
-                            {event.prizes?.third && (
-                                <div className="ed-prize-card ed-prize-card--bronze">
-                                    <div className="ed-prize-card__medal">🥉</div>
-                                    <div className="ed-prize-card__label">3rd Place</div>
-                                    <div className="ed-prize-card__amount">{event.prizes.third}</div>
-                                </div>
-                            )}
-                        </div>
+      {event.prizes?.third && (
+        <div className="ed-prize-card ed-prize-card--bronze">
+          <div className="ed-prize-card__medal">🥉</div>
+          <div className="ed-prize-card__label">3rd Place</div>
+          <div className="ed-prize-card__amount">{event.prizes.third}</div>
+        </div>
+      )}
+    </>
+  )}
+</div>
                     </section>
 
                     {/* Registration */}

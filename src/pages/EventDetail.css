@@ -153,6 +153,14 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.ed-prize-card--cc {
+  border: 1px solid rgba(255, 120, 73, 0.3);
+  background: linear-gradient(135deg, #2b0a0a, #1a0505);
+}
+
+.ed-prize-card--cc .ed-prize-card__medal {
+  font-size: 1.8rem;
+}
 .ed-section__title {
     font-size: 1.3rem;
     font-weight: 800;

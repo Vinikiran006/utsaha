@@ -92,43 +92,86 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-<section className="headliners">
+<section className="artists section">
   <div className="container">
 
-    <div className="headliners__intro">
-      <h2 className="headliners__title">
-        Something <span className="gradient-text">Massive</span> Is Coming
-      </h2>
-      <p className="headliners__subtitle">
-        Two days. Two icons. The reveal is near.
-      </p>
-    </div>
+    <h2 className="artists__title">
+      Meet The <span className="gradient-text">Artists</span>
+    </h2>
 
-    <div className="headliners__grid">
+    <div className="artists__list">
 
-      {/* DAY 1 */}
-      <div className="headliner-card headliner-card--day1">
-        <div className="headliner-card__glow" />
-        <div className="headliner-card__content">
-          <span className="headliner-card__day">DAY 1 • April 10</span>
-          <h3 className="headliner-card__mystery">???</h3>
-          <p className="headliner-card__tagline">
-            The energy will shake the stage.
-          </p>
-          <span className="headliner-card__reveal">Artist Reveal Soon</span>
-        </div>
+      {/* Jordindian */}
+      <div className="artist-row">
+        <img
+          src="/images/Jordindian.jpg"
+          alt="Jordindian"
+          className="artist-row__image"
+        />
+
+        <div className="artist-row__content">
+
+  <div className="artist-meta">
+    <span className="artist-badge">🔥 Day 1 Headliner</span>
+    <span className="artist-date">📅 April 10 • 5:30 PM</span>
+  </div>
+
+  <h3>Jordindian</h3>
+
+  <p>
+    Get ready for a high-energy performance by Jordindian — the duo that blends
+    comedy, music, and viral storytelling. Known for their electrifying stage
+    presence, they promise a night full of laughter, beats, and unforgettable moments.
+  </p>
+
+  <div className="artist-info">
+    <div>📍 BMSIT Main Stage</div>
+    <div>🎟️ Entry via Fest Pass</div>
+  </div>
+
+  <button
+    className="register-btn"
+    onClick={() => window.open("https://luma.com/f9w7xuue", "_blank")}
+  >
+    Register now
+  </button>
+
+</div>
       </div>
 
-      {/* DAY 2 */}
-      <div className="headliner-card headliner-card--day2">
-        <div className="headliner-card__glow" />
-        <div className="headliner-card__content">
-          <span className="headliner-card__day">DAY 2 • April 11</span>
-          <h3 className="headliner-card__mystery">???</h3>
-          <p className="headliner-card__tagline">
-            A night that will echo forever.
-          </p>
-          <span className="headliner-card__reveal">Stay Tuned</span>
+      {/* Vasuki Vaibhav */}
+      <div className="artist-row reverse">
+        <img
+          src="/images/vasuki.jpg"
+          alt="Vasuki Vaibhav"
+          className="artist-row__image"
+        />
+
+        <div className="artist-row__content">
+          <div className="artist-meta">
+  <span className="artist-badge">⚡ Day 2 Finale</span>
+  <span className="artist-date">📅 April 11 • 4:30 PM</span>
+</div>
+
+<h3>Vasuki Vaibhav</h3>
+
+<p>
+  Experience the magic of Vasuki Vaibhav — a musical sensation known for
+  soulful compositions and powerful live performances. Get ready for a night
+  that resonates with energy, rhythm, and emotion.
+</p>
+
+<div className="artist-info">
+  <div>📍 BMSIT Main Stage</div>
+  <div>🎟️ Entry via Fest Pass</div>
+</div>
+
+          <button
+            className="register-btn"
+            onClick={() => window.open("https://luma.com/rughweht", "_blank")}
+          >
+            Register now
+          </button>
         </div>
       </div>
 

@@ -29,10 +29,20 @@
       "Abusive language, obscenity, smoking, and substance consumption are strictly prohibited.",
       "The decisions of the Organizing Committee are final and binding."
     ],
-    "prizes": {
-      "first": "₹25,000",
-      "second": "15,000"
-    },
+    "prizes": [
+  {
+    "label": "300 – 500cc",
+    "amount": "₹4,000"
+  },
+  {
+    "label": "501 – 900cc",
+    "amount": "₹6,000"
+  },
+  {
+    "label": "901cc+",
+    "amount": "₹9,000"
+  }
+],
     "registrationFee": "₹300 onwards (varies by bike category)",
     "feeCategories": [
       {
@@ -1654,7 +1664,7 @@
     },
     "teamSize": "4",
     "venue": "Academic Block, Seminar Hall 2",
-    "registrationFee": "₹400 per team",
+    "registrationFee": "₹299 per team",
     "registrationFields": [
       {
         "name": "teamName",
@@ -1837,7 +1847,7 @@
     },
     "teamSize": "2–4",
     "venue": "Academic Block, Seminar Hall 2",
-    "registrationFee": "₹400 per team",
+    "registrationFee": "₹299 per team",
     "registrationFields": [
       {
         "name": "teamName",
