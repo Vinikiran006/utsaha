@@ -2222,7 +2222,8 @@
       "Event details and reel posting date will be announced by Event coordinators in the official WhatsApp group"
     ],
     "eligibility": "Open to all college students",
-    "prizes": {},
+    "prizes": {"first": "₹2,000",
+      "second": "₹1,200"},
     "coordinator": {
       "names": [
         "Nikitha",
