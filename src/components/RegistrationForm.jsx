@@ -1,7 +1,8 @@
 import { useState } from "react";
 import SuccessModal from "./SuccessModal";
 import "./RegistrationForm.css";
-import QRCode from "react-qr-code";
+// import QRCode from "react-qr-code";
+import qrImage from "../assets/qr.jpeg";
 
 // ── Google Apps Script URL ──────────────────────────────────
 const GOOGLE_SCRIPT_URL =
@@ -330,9 +331,16 @@ export default function RegistrationForm({ event }) {
           <div className="reg-payment">
             <h3>Scan to Pay</h3>
 
-            <div className="qr-box">
+            {/* <div className="qr-box">
               <QRCode value={upiLink} size={180} />
-            </div>
+            </div> */}
+            <div className="qr-box">
+  <img
+    src={qrImage}
+    alt="UPI QR Code"
+    className="qr-image"
+  />
+</div>
 
             <p>Amount: ₹{paymentAmount}</p>
             <p>

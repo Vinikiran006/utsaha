@@ -47,13 +47,19 @@
   position: sticky;
   top: 120px;
 }
-
-.qr-box {
+.qr-image {
+  width: 260px;     /* increase size */
+  height: 260px;
+  object-fit: contain;
   background: white;
   padding: 16px;
-  border-radius: 12px;
-  display: inline-block;
-  margin: 16px 0;
+  border-radius: 16px;
+}
+.qr-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .pay-button {
@@ -127,7 +133,14 @@ select.reg-form__input {
     background-position: right 14px center;
     background-size: 14px;
 }
-
+.qr-image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
 /* Fix mobile tap size */
 @media (max-width: 768px) {
   select.reg-form__input {
