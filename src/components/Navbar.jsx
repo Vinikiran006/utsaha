@@ -5,6 +5,7 @@ import './Navbar.css'
 const navLinks = [
     { label: 'Home', to: '/' },
     { label: 'Events', to: '/events' },
+    { label: 'Alumni', to: '/alumni' },
     { label: 'About', to: '/#about' },
     { label: 'Sponsors', to: '/#sponsors' },
 ]
@@ -37,7 +38,6 @@ export default function Navbar() {
             } else {
                 document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
             }
-            setMenuOpen(false)
         }
     }
 
@@ -47,24 +47,19 @@ export default function Navbar() {
     return (
         <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''} ${hideNavbar ? 'navbar--hidden' : ''}`}>
             <div className="navbar__inner container">
+
                 {/* Logo */}
                 <Link to="/" className="navbar__logo">
-                    <img src="/images/logo.png" alt="Main Logo" className="navbar__logo-img" />
-
+                    <img src="/images/logo.png" alt="logo" className="navbar__logo-img" />
                 </Link>
 
-<span className="navbar__center-title">UV'26</span>
+                <span className="navbar__center-title">UV'26</span>
 
-                {/* Desktop Nav */}
+                {/* Links */}
                 <nav className="navbar__links hide-mobile">
                     {navLinks.map((link) =>
                         link.to.startsWith('/#') ? (
-                            <a
-                                key={link.label}
-                                href={link.to}
-                                className="navbar__link"
-                                onClick={(e) => handleHashLink(e, link.to)}
-                            >
+                            <a key={link.label} href={link.to} className="navbar__link" onClick={(e) => handleHashLink(e, link.to)}>
                                 {link.label}
                             </a>
                         ) : (
@@ -82,10 +77,14 @@ export default function Navbar() {
                     )}
                 </nav>
 
-                {/* CTA */}
+                {/* ACTION BUTTONS */}
                 <div className="navbar__actions hide-mobile">
                     <Link to="/events" className="btn-register">
                         Register Now
+                    </Link>
+
+                    <Link to="/alumni" className="btn-alumni">
+                        🎓 Alumni
                     </Link>
                 </div>
 
@@ -93,7 +92,6 @@ export default function Navbar() {
                 <button
                     className={`navbar__hamburger ${menuOpen ? 'open' : ''}`}
                     onClick={() => setMenuOpen(!menuOpen)}
-                    aria-label="Toggle menu"
                 >
                     <span />
                     <span />
@@ -101,31 +99,26 @@ export default function Navbar() {
                 </button>
             </div>
 
-            {/* Mobile Menu */}
+            {/* Mobile */}
             <div className={`navbar__mobile ${menuOpen ? 'navbar__mobile--open' : ''}`}>
                 {navLinks.map((link) =>
                     link.to.startsWith('/#') ? (
-                        <a
-                            key={link.label}
-                            href={link.to}
-                            className="navbar__mobile-link"
-                            onClick={(e) => handleHashLink(e, link.to)}
-                        >
+                        <a key={link.label} href={link.to} className="navbar__mobile-link">
                             {link.label}
                         </a>
                     ) : (
-                        <NavLink
-                            key={link.label}
-                            to={link.to}
-                            className="navbar__mobile-link"
-                            end
-                        >
+                        <NavLink key={link.label} to={link.to} className="navbar__mobile-link">
                             {link.label}
                         </NavLink>
                     )
                 )}
-                <Link to="/events" className="btn btn-primary" style={{ marginTop: '8px', width: '100%' }}>
+
+                <Link to="/events" className="btn btn-primary" style={{ width: '100%', marginTop: '10px' }}>
                     Register Now
+                </Link>
+
+                <Link to="/alumni" className="btn btn-outline" style={{ width: '100%', marginTop: '10px' }}>
+                    🎓 Alumni Registration
                 </Link>
             </div>
         </header>

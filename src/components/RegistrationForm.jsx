@@ -358,6 +358,7 @@ export default function RegistrationForm({ event }) {
         <SuccessModal
   eventTitle={event.title}
   name={hasCustomFields ? Object.values(form)[0] : form.fullName}
+  whatsappLink={event.whatsappLink}
   onClose={() => {
     setSubmitted(false);
     resetForm();

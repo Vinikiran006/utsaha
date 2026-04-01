@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import './SuccessModal.css'
 
-export default function SuccessModal({ eventTitle, name, onClose }) {
-    // Close on Escape key
+export default function SuccessModal({ eventTitle, name, whatsappLink, onClose }) {
+
     useEffect(() => {
         const handler = (e) => { if (e.key === 'Escape') onClose() }
         document.addEventListener('keydown', handler)
@@ -16,7 +16,8 @@ export default function SuccessModal({ eventTitle, name, onClose }) {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-box" onClick={(e) => e.stopPropagation()}>
-                {/* Confetti decoration */}
+
+                {/* Confetti */}
                 <div className="modal__confetti">
                     {['🎉', '🎊', '✨', '🏆', '🎈'].map((e, i) => (
                         <span key={i} className="confetti-piece" style={{ '--ci': i }}>{e}</span>
@@ -25,15 +26,28 @@ export default function SuccessModal({ eventTitle, name, onClose }) {
 
                 <div className="modal__icon">✅</div>
                 <h2 className="modal__title">You're Registered!</h2>
+
                 <p className="modal__subtitle">
                     Hey <strong>{name}</strong>! Your registration for
                 </p>
+
                 <div className="modal__event-badge">🎪 {eventTitle}</div>
+
                 <p className="modal__message">
-                    has been recorded successfully. We'll reach out with further details.
-                    Stay tuned and get ready for an amazing experience!
-                    📩 You will receive a confirmation email along with a WhatsApp group link within 2–3 working days.
+                    has been recorded successfully.
                 </p>
+
+                {/* 🔥 Show only if link exists */}
+                {whatsappLink && (
+                    <a
+                        href={whatsappLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-whatsapp modal__whatsapp-btn"
+                    >
+                        💬 Join WhatsApp Group
+                    </a>
+                )}
 
                 <div className="modal__tips">
                     <div className="modal__tip">📅 Save the dates: April 10 & 11, 2026</div>

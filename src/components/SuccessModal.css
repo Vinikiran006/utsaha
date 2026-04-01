@@ -11,7 +11,22 @@
     padding: 20px;
     animation: fadeIn 0.25s ease both;
 }
+.modal__whatsapp-btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 12px 18px;
+    background: #25D366;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
 
+.modal__whatsapp-btn:hover {
+    background: #1ebe5d;
+    transform: scale(1.05);
+}
 .modal-box {
     /* Heavy glass */
     background: rgba(255, 255, 255, 0.07);

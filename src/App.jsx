@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Events from './pages/Events'
 import EventDetail from './pages/EventDetail'
 import ScrollToTop from './components/ScrollToTop'
+import Alumni from './components/Alumini'
+
 
 function App() {
     return (
@@ -17,6 +19,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/events" element={<Events />} />
                         <Route path="/events/:id" element={<EventDetail />} />
+                        <Route path="/alumni" element={<Alumni />} />
                     </Routes>
                 </main>
                 <Footer />
