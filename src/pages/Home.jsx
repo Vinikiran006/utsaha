@@ -92,7 +92,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-<section className="artists section">
+<section className="artists section" id="artists">
   <div className="container">
 
     <h2 className="artists__title">
