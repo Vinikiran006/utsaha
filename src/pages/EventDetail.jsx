@@ -181,7 +181,14 @@ export default function EventDetail() {
                                     </div>
                                 )}
                             </div>
-                        ) : (
+                        ) : event.id === "cul-05" ? (   // 👉 Rhythm Riot ID here
+    // 🟡 Rhythm Riot CLOSED
+    <div className="ed-contact-box">
+        <h3>🚫 Registrations Closed</h3>
+        <p>Registrations are now closed as we have reached the maximum number of entries. Thank you for your interest!</p>
+    </div>
+
+) : (
                             <RegistrationForm event={event} />
                         )}
                     </section>
