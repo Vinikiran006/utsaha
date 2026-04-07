@@ -114,44 +114,89 @@ export default function EventDetail() {
                         <h2 className="ed-section__title">🏆 Prize Details</h2>
 
                         <div className="ed-prizes">
-  {Array.isArray(event.prizes) ? (
-    event.prizes.map((prize, index) => (
-      <div key={index} className="ed-prize-card ed-prize-card--cc">
-        <div className="ed-prize-card__medal">🏍️</div>
-        <div className="ed-prize-card__label">{prize.label}</div>
-        <div className="ed-prize-card__amount">{prize.amount}</div>
-      </div>
-    ))
-  ) : (
-    <>
-      {event.prizes?.first && (
-        <div className="ed-prize-card ed-prize-card--gold">
-          <div className="ed-prize-card__medal">🥇</div>
-          <div className="ed-prize-card__label">1st Place</div>
-          <div className="ed-prize-card__amount">{event.prizes.first}</div>
-        </div>
-      )}
+                            {Array.isArray(event.prizes) ? (
+                                event.prizes.map((prize, index) => (
+                                    <div key={index} className="ed-prize-card ed-prize-card--cc">
+                                        <div className="ed-prize-card__medal">🏍️</div>
+                                        <div className="ed-prize-card__label">{prize.label}</div>
+                                        <div className="ed-prize-card__amount">{prize.amount}</div>
+                                    </div>
+                                ))
+                            ) : (
+                                <>
+                                    {event.prizes?.first && (
+                                        <div className="ed-prize-card ed-prize-card--gold">
+                                            <div className="ed-prize-card__medal">🥇</div>
+                                            <div className="ed-prize-card__label">1st Place</div>
+                                            <div className="ed-prize-card__amount">{event.prizes.first}</div>
+                                        </div>
+                                    )}
 
-      {event.prizes?.second && (
-        <div className="ed-prize-card ed-prize-card--silver">
-          <div className="ed-prize-card__medal">🥈</div>
-          <div className="ed-prize-card__label">2nd Place</div>
-          <div className="ed-prize-card__amount">{event.prizes.second}</div>
-        </div>
-      )}
+                                    {event.prizes?.second && (
+                                        <div className="ed-prize-card ed-prize-card--silver">
+                                            <div className="ed-prize-card__medal">🥈</div>
+                                            <div className="ed-prize-card__label">2nd Place</div>
+                                            <div className="ed-prize-card__amount">{event.prizes.second}</div>
+                                        </div>
+                                    )}
 
-      {event.prizes?.third && (
-        <div className="ed-prize-card ed-prize-card--bronze">
-          <div className="ed-prize-card__medal">🥉</div>
-          <div className="ed-prize-card__label">3rd Place</div>
-          <div className="ed-prize-card__amount">{event.prizes.third}</div>
-        </div>
-      )}
-    </>
-  )}
-</div>
+                                    {event.prizes?.third && (
+                                        <div className="ed-prize-card ed-prize-card--bronze">
+                                            <div className="ed-prize-card__medal">🥉</div>
+                                            <div className="ed-prize-card__label">3rd Place</div>
+                                            <div className="ed-prize-card__amount">{event.prizes.third}</div>
+                                        </div>
+                                    )}
+                                </>
+                            )}
+                        </div>
                     </section>
 
+                    {/* ✅ Sponsorship Section */}
+                    {/* Sponsorship */}
+{event.sponsorship && (
+    <section className="ed-section reveal">
+        <h2 className="ed-section__title">
+            🤝 {event.sponsorship.title || "Sponsors"}
+        </h2>
+
+        <div className="ed-sponsors">
+            {event.sponsorship.sponsors.map((sponsor, index) => (
+                <div key={index} className="ed-sponsor-card">
+
+                    {/* Logo */}
+                    {sponsor.logo && (
+                        <img
+                            src={sponsor.logo}
+                            alt={sponsor.name}
+                            className="ed-sponsor-logo"
+                        />
+                    )}
+
+                    {/* Company Name */}
+                    <div className="ed-sponsor-name">
+                        {sponsor.name}
+                    </div>
+
+                    {/* Person */}
+                    {sponsor.person && (
+                        <div className="ed-sponsor-person">
+                            {sponsor.person}
+                        </div>
+                    )}
+
+                    {/* Description */}
+                    {sponsor.description && (
+                        <p className="ed-sponsor-desc">
+                            {sponsor.description}
+                        </p>
+                    )}
+
+                </div>
+            ))}
+        </div>
+    </section>
+)}
                     {/* Registration */}
                     <section className="ed-section ed-reg-section reveal">
                         <h2 className="ed-section__title">✍️ Registration</h2>
@@ -163,10 +208,7 @@ export default function EventDetail() {
 
                                 {event.coordinator?.phones?.[0] && (
                                     <div className="ed-contact-actions">
-                                        <a
-                                            href={`tel:${event.coordinator.phones[0]}`}
-                                            className="btn btn-primary"
-                                        >
+                                        <a href={`tel:${event.coordinator.phones[0]}`} className="btn btn-primary">
                                             📞 Call Now
                                         </a>
 
@@ -181,23 +223,25 @@ export default function EventDetail() {
                                     </div>
                                 )}
                             </div>
-                        ) : event.id === "cul-05" ? (   // 👉 Rhythm Riot ID here
-    // 🟡 Rhythm Riot CLOSED
-    <div className="ed-contact-box">
-        <h3>🚫 Registrations Closed</h3>
-        <p>Registrations are now closed as we have reached the maximum number of entries. Thank you for your interest!</p>
-    </div>
-
-) : (
+                        ) : event.id === "cul-05" ? (
+                            <div className="ed-contact-box">
+                                <h3>🚫 Registrations Closed</h3>
+                                <p>Registrations are now closed as we have reached the maximum number of entries.</p>
+                            </div>
+                        ) : event.id === "lit-02" ? (
+                            <div className="ed-contact-box">
+                                <h3>🚫 Registrations Closed</h3>
+                                <p>Registrations are now closed as we have reached the maximum number of entries.</p>
+                            </div>
+                        ) : (
                             <RegistrationForm event={event} />
                         )}
                     </section>
                 </div>
 
-                {/* Sidebar */}
+                {/* Sidebar (unchanged) */}
                 <aside className="event-detail__sidebar">
-
-                    {/* Quick Info */}
+                    {/* existing sidebar code unchanged */}
                     <div className="ed-sidebar-card reveal-right">
                         <h3 className="ed-sidebar-card__title">📌 Quick Info</h3>
 

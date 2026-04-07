@@ -471,7 +471,7 @@
     "date": "April 11, 2026",
     "time": "9:00 AM",
     "shortDescription": "A solo singing competition celebrating Indian music.",
-    "description": "Step onto the stage and showcase your vocal prowess in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
+    "description": "Step onto the stage and showcase your moves in the Indian Solo Song Competition! This event celebrates the rich musical heritage of India, inviting talented singers to perform captivating solo renditions of traditional or contemporary Indian songs. Whether you excel in classical ragas, soulful Bollywood melodies, or regional folk tunes, this competition is your platform to shine.",
     "rules": [
     "Participants can choose from various categories including Classical (Hindustani or Carnatic), Bollywood film songs, devotional music (bhajans), or regional folk songs. Songs may be performed in any Indian language or in classical form.",
     "Maximum performance time is 4 minutes.",
@@ -1313,6 +1313,16 @@
       "Internet provided on campus LAN"
     ],
     "eligibility": "All college students with valid ID",
+    "sponsorship": {
+  "title": "Sponsored By",
+  "sponsors": [
+    {
+      "name": "DeepCognix AI Labs Pvt. Ltd.",
+      "logo": "/images/deep.png",
+      "description": "DeepCognix AI Labs is a Bangalore-based DeepTech research and development company specializing in advanced artificial intelligence, machine learning, and next-generation communication technologies. The company focuses on building scalable, high-impact solutions across healthcare, agriculture, education, IoT, and intelligent networks."
+    }
+  ]
+},
     "prizes": {
       "first": "₹10,000 per team ",
       "second": "₹7,500 per team"
@@ -1848,6 +1858,17 @@
     "teamSize": "2–4",
     "venue": "Academic Block, Seminar Hall 2",
     "registrationFee": "₹299 per team",
+    "sponsorship": {
+  "title": "Sponsored By",
+  "sponsors": [
+    {
+      "name": "Care 4 Edu Solutions Pvt Ltd",
+      "person": "Charanya Vanditha",
+      "logo": "/images/care4edu.jpeg",
+      "description": "Care 4 Edu Solutions Pvt Ltd is a technology-driven organization focused on building scalable digital platforms for educational institutions, training centers, and enterprises. We specialize in secure, role-based, and multi-organization software systems that address real operational challenges and support long-term digital transformation."
+    }
+  ]
+},
     "registrationFields": [
       {
         "name": "teamName",

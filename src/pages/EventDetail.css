@@ -157,7 +157,48 @@
   border: 1px solid rgba(255, 120, 73, 0.3);
   background: linear-gradient(135deg, #2b0a0a, #1a0505);
 }
+.ed-sponsors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.ed-sponsor-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: transform 0.3s ease;
+}
+
+.ed-sponsor-card:hover {
+    transform: translateY(-5px);
+}
+
+.ed-sponsor-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.ed-sponsor-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.ed-sponsor-person {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.ed-sponsor-desc {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
 .ed-prize-card--cc .ed-prize-card__medal {
   font-size: 1.8rem;
 }
