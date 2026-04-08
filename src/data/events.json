@@ -1318,6 +1318,7 @@
   "sponsors": [
     {
       "name": "DeepCognix AI Labs Pvt. Ltd.",
+      "person": "Mr. Sumit Gupta (CEO)", 
       "logo": "/images/deep.png",
       "description": "DeepCognix AI Labs is a Bangalore-based DeepTech research and development company specializing in advanced artificial intelligence, machine learning, and next-generation communication technologies. The company focuses on building scalable, high-impact solutions across healthcare, agriculture, education, IoT, and intelligent networks."
     }
@@ -1863,7 +1864,7 @@
   "sponsors": [
     {
       "name": "Care 4 Edu Solutions Pvt Ltd",
-      "person": "Charanya Vanditha",
+      "person": "Charanya Vanditha (CEO)",
       "logo": "/images/care4edu.jpeg",
       "description": "Care 4 Edu Solutions Pvt Ltd is a technology-driven organization focused on building scalable digital platforms for educational institutions, training centers, and enterprises. We specialize in secure, role-based, and multi-organization software systems that address real operational challenges and support long-term digital transformation."
     }
