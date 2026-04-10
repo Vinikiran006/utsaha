@@ -253,7 +253,12 @@ export default function EventDetail() {
                                 <h3>🚫 Registrations Closed</h3>
                                 <p>Registrations are now closed as we have reached the maximum number of entries.</p>
                             </div>
-                        ) :  (
+                        ) : event.id === "tech-07" ? (
+                            <div className="ed-contact-box">
+                                <h3>🚫 Registrations Closed</h3>
+                                <p>Registrations are now closed as we have reached the maximum number of entries.</p>
+                            </div>
+                        ) : (
                             <RegistrationForm event={event} />
                         )}
                     </section>
