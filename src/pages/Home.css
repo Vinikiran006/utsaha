@@ -552,3 +552,8 @@
         grid-template-columns: 1fr;
     }
 }
+.registration-closed-text {
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 18px;
+}

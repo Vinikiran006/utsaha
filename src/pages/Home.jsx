@@ -129,12 +129,9 @@ export default function Home() {
     <div>🎟️ Entry via Fest Pass</div>
   </div>
 
-  <button
-    className="register-btn"
-    onClick={() => window.open("https://luma.com/f9w7xuue", "_blank")}
-  >
-    Register now
-  </button>
+  <p className="registration-closed-text">
+  🚫 Registrations Closed
+</p>
 
 </div>
       </div>
